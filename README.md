@@ -1,10 +1,10 @@
-# TÍTULO DO PROJETO
+# Uaitomóveis
 
-`CURSO`
+`Sistema de Informação`
 
-`DISCIPLINA`
+`Trabalho Interdiciplinar: Processos de Negócios`
 
-`SEMESTRE`
+`3 semestre`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
