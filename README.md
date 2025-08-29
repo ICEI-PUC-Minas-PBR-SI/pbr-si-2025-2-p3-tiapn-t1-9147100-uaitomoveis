@@ -10,14 +10,14 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
+* Caio Gabriel Duarte Costa
+* Guilherme
 * Kaio César dos Santos Vidigal
-* Guilherme Caçuci 
-* 
-* Nome completo do aluno 4
+* Paulo Henrique Xavier Lopes
 
 ## Orientador
 
-* Nome completo do professor 1
+* Cleia Marcia Gomes Amaral
 
 ## Instruções de utilização
 
