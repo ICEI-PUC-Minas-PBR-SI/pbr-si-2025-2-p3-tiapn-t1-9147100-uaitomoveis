@@ -4,15 +4,15 @@
 
 `Trabalho Interdiciplinar: Processos de Negócios`
 
-`3 semestre`
+`3° semestre`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
+* Kaio César dos Santos Vidigal
+* Guilherme Caçuci 
+* 
 * Nome completo do aluno 4
 
 ## Orientador
