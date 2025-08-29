@@ -13,7 +13,9 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Caio Gabriel Duarte Costa
 * Guilherme
 * Kaio César dos Santos Vidigal
+* Paulo Gabriel de Souza Lopes 
 * Paulo Henrique Xavier Lopes
+  
 
 ## Orientador
 
