@@ -2,7 +2,7 @@
 
 `Sistema de Informação`
 
-`Trabalho Interdiciplinar: Processos de Negócios`
+`Trabalho Interdisciplinar: Aplicações para Processos de Negócios`
 
 `3° semestre`
 
