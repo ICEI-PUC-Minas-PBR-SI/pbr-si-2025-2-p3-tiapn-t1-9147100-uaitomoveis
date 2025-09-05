@@ -6,19 +6,20 @@ Nesta seção, o foco é apresentar o problema identificado no contexto de uma l
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Persona 1 – Felipe Martins
+Felipe Martins tem 29 anos, é consultor de TI e mora em Belo Horizonte. É solteiro, viaja frequentemente a trabalho e procura praticidade na hora de alugar veículos. Possui conhecimentos intermediários em informática e prefere soluções digitais que economizem tempo. Felipe está buscando uma locadora que ofereça um sistema web eficiente, onde possa verificar rapidamente a disponibilidade de veículos, realizar reservas online, receber confirmações imediatas e acessar o histórico de locações de forma simples e segura.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Persona 2 – Camila Rocha
+Camila Rocha tem 24 anos, é estudante universitária e mora em Belo Horizonte. É solteira e aluga veículos principalmente para viagens de lazer ou passeios de fim de semana. Possui conhecimentos básicos de informática e prefere interfaces intuitivas e diretas. Camila busca uma locadora que permita comparar veículos disponíveis, efetuar reservas rápidas, visualizar preços de forma transparente e receber lembretes automáticos sobre devolução do veículo.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Persona 3 – Larissa Souza
+Larissa Souza tem 35 anos, é supervisora administrativa em uma locadora de médio porte. É casada e responsável por organizar a frota, controlar reservas e supervisionar relatórios de desempenho da empresa. Possui experiência intermediária em informática e valoriza sistemas que centralizam informações e reduzem falhas operacionais. Larissa busca uma solução que permita gerenciar veículos, aprovar reservas, emitir relatórios gerenciais e garantir que todos os processos da locadora ocorram de forma organizada, sem retrabalho ou perda de informações.
+
+Persona 4 – Ricardo Almeida
+Ricardo Almeida tem 42 anos, é gerente geral da locadora e mora em Belo Horizonte. É casado e foca em otimizar os processos da empresa e aumentar a rentabilidade da frota. Possui conhecimentos avançados em informática e gestão de dados. Ricardo busca um sistema que forneça dashboards completos sobre utilização da frota, indicadores de desempenho, métricas de reservas e relatórios detalhados, permitindo tomar decisões estratégicas mais rápidas e seguras.
+
+Persona 5 – Roberto Mendes
+Roberto Mendes tem 38 anos, é dono de uma empresa de consultoria em Belo Horizonte. É casado e aluga veículos regularmente para uso corporativo, como transporte de funcionários e visitas a clientes. Possui conhecimentos intermediários em informática e busca soluções digitais que facilitem o gerenciamento de múltiplas reservas simultaneamente. Roberto procura uma locadora que ofereça sistema web com dashboards claros, controle de reservas corporativas, alertas automáticos de devolução e relatórios detalhados para gestão financeira da empresa.
 
 ## Histórias de Usuários
 
