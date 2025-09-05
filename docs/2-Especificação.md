@@ -2,9 +2,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="01-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Nesta seção, o foco é apresentar o problema identificado no contexto de uma locadora de veículos e propor soluções a partir da perspectiva dos usuários finais do sistema. Serão detalhados os principais perfis de usuários, suas necessidades, objetivos e expectativas, com base em técnicas de análise centrada no usuário, garantindo que o sistema atenda de maneira eficiente tanto aos clientes quanto aos administradores da locadora.
 
 ## Personas
 
