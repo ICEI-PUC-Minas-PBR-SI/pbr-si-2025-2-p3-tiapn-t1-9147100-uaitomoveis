@@ -4,7 +4,7 @@
 
 `Trabalho Interdisciplinar: Aplicações para Processos de Negócios`
 
-`3° semestre`
+`2.2025`
 
 O projeto consiste no desenvolvimento de um sistema web para automação de processos de uma locadora de veículos. A solução busca centralizar informações de clientes, frota e reservas, reduzindo falhas manuais e aumentando a eficiência operacional. O sistema foi pensado para atender tanto clientes — que poderão realizar cadastros, reservas e acompanhar locações — quanto administradores, responsáveis pelo controle da frota, aprovações e geração de relatórios gerenciais.
 
