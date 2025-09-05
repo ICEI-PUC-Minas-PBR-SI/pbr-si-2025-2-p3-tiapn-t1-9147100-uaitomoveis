@@ -2,10 +2,51 @@
 
 ### 3.1. Modelagem da situação atual (Modelagem AS IS)
 
-_Apresente uma descrição textual de como os sistemas atuais resolvem o problema que se propõe a resolver.  Caso sua proposta seja inovadora e não existam processos claramente definidos, **apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente**, mesmo que não se utilize tecnologia computacional._
+Atualmente, os processos de uma locadora de veículos são realizados de forma manual, sem integração entre setores, o que resulta em ineficiências operacionais e riscos operacionais. A seguir, descrevem-se os principais processos:
 
-Com o tema do projeto definido, escolham alguns processos neste contexto de negócios. Para ilustrar potenciais ganhos com a automatização, imaginem processos manuais, ineficientes e/ou com muitas idas e vindas, gerando, assim, retrabalho.
-Colem aqui os modelos dos processos atuais (modelo AS-IS), elaborados com o apoio da ferramenta baseada em BPMN utilizada na disciplina.
+1. Cadastro de Clientes
+
+Como é feito: Funcionários registram manualmente dados de clientes (nome, CPF, CNH, telefone, endereço e e-mail) em planilhas ou cadernos.
+
+Problemas: Duplicidade de registros, perda de informações e necessidade de conferência constante.
+
+Ganho potencial: Cadastro centralizado com validação automática, eliminando erros e retrabalho.
+
+2. Cadastro e Gerenciamento de Veículos
+
+Como é feito: Informações de veículos (placa, modelo, marca, ano, status e quilometragem) são anotadas manualmente. Alterações de status não ocorrem em tempo real.
+
+Problemas: Dados inconsistentes, dificuldade em localizar veículos disponíveis e atrasos na atualização.
+
+Ganho potencial: Atualização instantânea do status e integração entre setores.
+
+3. Reserva de Veículos
+
+Como é feito: Clientes solicitam reservas por telefone, presencialmente ou via mensagens, e funcionários conferem a disponibilidade manualmente.
+
+Problemas: Conflitos de agendamento, atendimento lento e ausência de rastreabilidade.
+
+Ganho potencial: Reservas online em tempo real, evitando conflitos e facilitando acompanhamento.
+
+4. Controle de Locação e Devolução
+
+Como é feito: Retirada e devolução do veículo, registro de quilometragem e danos são feitos manualmente.
+
+Problemas: Falta de integração, risco de erros e atrasos em ajustes ou cobranças.
+
+Ganho potencial: Registros automáticos e integrados, com histórico completo acessível rapidamente.
+
+5. Geração de Relatórios
+
+Como é feito: Relatórios gerenciais montados manualmente a partir de planilhas.
+
+Problemas: Processo demorado, sujeito a falhas e difícil de consolidar dados.
+
+Ganho potencial: Relatórios automáticos e confiáveis, permitindo decisões rápidas e baseadas em dados.
+
+Resumo AS IS
+
+A operação atual da locadora depende de registros manuais, múltiplas planilhas e comunicação fragmentada, resultando em retrabalho, baixa confiabilidade dos dados e lentidão no atendimento. A automatização desses processos, por meio de um sistema informatizado, traria agilidade, precisão e integração, melhorando a eficiência e a experiência do cliente.
 
 ### 3.2. Descrição geral da proposta (Modelagem TO BE)
 
