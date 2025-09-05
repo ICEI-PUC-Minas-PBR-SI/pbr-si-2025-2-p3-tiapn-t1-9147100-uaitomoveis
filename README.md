@@ -11,7 +11,7 @@ O projeto consiste no desenvolvimento de um sistema web para automação de proc
 ## Integrantes
 
 * Caio Gabriel Duarte Costa
-* Guilherme
+* Guilherme Caçuci Ladislau
 * Kaio César dos Santos Vidigal
 * Paulo Gabriel de Souza Lopes 
 * Paulo Henrique Xavier Lopes
