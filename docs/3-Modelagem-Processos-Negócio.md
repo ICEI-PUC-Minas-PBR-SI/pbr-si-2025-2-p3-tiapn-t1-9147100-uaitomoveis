@@ -18,7 +18,7 @@ Após analisar o processo atual, busca-se, com este projeto, desenvolver um ambi
 - Controle de locação e devolução: no momento da retirada e da devolução, o administrador registrará todas as informações no sistema, incluindo observações sobre quilometragem, estado do veículo, atrasos ou danos. O sistema recalculará valores adicionais, se necessário.
 - Relatórios gerenciais: os administradores terão acesso a relatórios instantâneos sobre veículos disponíveis, reservas em andamento, histórico de clientes e locações por período, auxiliando na tomada de decisões.
 
-_Assim, espera-se que o processo da locadora seja transformado em uma operação moderna e eficiente, com benefícios diretos como a automação de tarefas administrativas, a redução de falhas humanas, a segurança das informações e a agilidade no atendimento ao cliente. Além disso, a solução proporcionará uma gestão otimizada e estratégica, garantindo controle completo da frota e fortalecendo a competitividade da empresa no mercado de locação de veículos._
+Assim, espera-se que o processo da locadora seja transformado em uma operação moderna e eficiente, com benefícios diretos como a automação de tarefas administrativas, a redução de falhas humanas, a segurança das informações e a agilidade no atendimento ao cliente. Além disso, a solução proporcionará uma gestão otimizada e estratégica, garantindo controle completo da frota e fortalecendo a competitividade da empresa no mercado de locação de veículos.
 
 ### 3.3. Modelagem dos processos
 
