@@ -6,7 +6,8 @@
 
 `3° semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto consiste no desenvolvimento de um sistema web para automação de processos de uma locadora de veículos. A solução busca centralizar informações de clientes, frota e reservas, reduzindo falhas manuais e aumentando a eficiência operacional. O sistema foi pensado para atender tanto clientes — que poderão realizar cadastros, reservas e acompanhar locações — quanto administradores, responsáveis pelo controle da frota, aprovações e geração de relatórios gerenciais.
+Com base em princípios de Programação Orientada a Objetos, modelagem de dados e integração entre front-end e back-end, o sistema contempla funcionalidades como cadastro de clientes e veículos, reserva e controle de locações, devoluções e emissão de relatórios. Além de modernizar as operações das locadoras, o projeto serve como aplicação prática de conceitos acadêmicos, podendo futuramente ser expandido para incluir pagamentos online e integração com aplicativos móveis
 
 ## Integrantes
 
