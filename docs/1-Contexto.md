@@ -1,46 +1,43 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Este trabalho propõe o desenvolvimento de um sistema web destinado à automação dos processos de uma locadora de veículos, visando maior controle operacional, redução de falhas humanas e melhoria na experiência do cliente. O projeto se fundamenta nos princípios da Programação Orientada a Objetos (POO), modelagem de dados, banco de dados e integração entre as camadas de front-end e back-end, simulando um cenário real de desenvolvimento de software aplicado ao setor de mobilidade.
+
+## Contextualização
+
+O setor de locação de veículos no Brasil tem se expandido de maneira constante, impulsionado por tendências como o crescimento do turismo, o aumento do trabalho remoto e a busca por soluções de mobilidade mais econômicas e flexíveis. De acordo com a Associação Brasileira das Locadoras de Automóveis (ABLA), entre 2019 e 2023, a frota de veículos locados aumentou **33,6%**, evidenciando a relevância e a robustez desse mercado.
+
+No entanto, muitas locadoras de pequeno e médio porte ainda operam com controles manuais ou planilhas, o que compromete a eficiência do atendimento, a organização interna e a confiabilidade das informações. Diante desse cenário, a aplicação de soluções tecnológicas se torna não apenas vantajosa, mas essencial para a sobrevivência e o crescimento dessas empresas.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+A ausência de um sistema informatizado para o controle de veículos, clientes e reservas em locadoras ocasiona falhas recorrentes como perda de informações, dados duplicados, dificuldades de comunicação entre setores e baixa eficiência operacional. Empresas que dependem exclusivamente de métodos manuais enfrentam limitações que impactam diretamente na qualidade do serviço e na satisfação dos clientes.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Assim, surge a necessidade de um sistema que integre os diversos processos envolvidos na operação de uma locadora, centralizando as informações e promovendo a automatização de tarefas administrativas e operacionais.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+## Objetivo Geral
 
-## Objetivos
+Desenvolver um sistema web para a automação e gestão de processos de uma locadora de veículos, integrando funcionalidades de cadastro, consulta, reserva e controle de frota, com interface amigável e acesso seguro para clientes e administradores.
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+## Objetivos Específicos
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+- Modelar um banco de dados relacional que armazene informações de veículos, clientes e reservas.
+- Desenvolver uma interface web intuitiva e responsiva para os perfis de cliente e administrador.
+- Implementar mecanismos de autenticação e controle de acesso para garantir a segurança da aplicação.
+- Automatizar os principais processos operacionais da locadora.
+- Integrar front-end e back-end seguindo boas práticas de desenvolvimento.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A proposta deste sistema justifica-se pela demanda crescente por soluções digitais no setor de locação de veículos, com o objetivo de otimizar processos, aumentar a confiabilidade dos dados e melhorar a experiência do usuário.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Além de atender a uma necessidade do mercado, o projeto tem forte valor educacional ao aplicar na prática conceitos fundamentais do desenvolvimento de sistemas, como modelagem de dados, POO, autenticação de usuários e integração entre camadas de software.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+O sistema contribuirá para a modernização das operações e poderá servir como base para futuras expansões, como inclusão de pagamento online e integração com aplicativos móveis.
 
-## Público-Alvo
+## Público-Alvo  
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+A aplicação contará com dois perfis principais de usuários, que possuem necessidades e funções distintas no sistema:
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+- **Clientes:** Usuários adultos, com nível básico ou intermediário em informática e acesso à internet, que procuram alugar veículos para fins pessoais ou profissionais. No sistema, poderão realizar cadastro, buscar veículos disponíveis, efetuar reservas, acompanhar o status de locações e visualizar seu histórico de transações.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+- **Administradores (Funcionários da Locadora):** Funcionários com conhecimentos intermediários em informática, responsáveis pelo atendimento ao cliente e pela gestão dos processos operacionais. Terão acesso às funcionalidades de gerenciamento de frota, cadastro e edição de veículos, controle de reservas, aprovação de solicitações e emissão de relatórios gerenciais.
