@@ -39,52 +39,46 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 > - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
 > - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
-
-
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
+As tabelas a seguir apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, foi aplicada a técnica **MoSCoW**, que classifica os requisitos em quatro níveis:
+- **MUST HAVE (ALTA)**: requisitos obrigatórios para o funcionamento mínimo do sistema.
+- **SHOULD HAVE (MÉDIA)**: requisitos importantes, mas que não inviabilizam o sistema caso não sejam implementados na primeira versão.
+- **COULD HAVE (BAIXA)**: requisitos desejáveis, agregam valor, mas podem ser adiados.
+- **WON’T HAVE (fora do escopo atual)**: requisitos que não serão tratados no momento.
+
+A técnica foi aplicada discutindo cada processo de negócio identificado e relacionando-o à necessidade imediata para atender o cliente e o administrador da locadora.
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+| ID     | Descrição do Requisito                                                                 | Prioridade |
+|--------|-----------------------------------------------------------------------------------------|------------|
+| RF-001 | Permitir que o cliente realize cadastro no sistema, incluindo dados pessoais e CNH.     | ALTA       |
+| RF-002 | Permitir cadastro, edição, consulta e exclusão de veículos pelo administrador.           | ALTA       |
+| RF-003 | Realizar reserva de veículos disponíveis, com definição de período pelo cliente.         | ALTA       |
+| RF-004 | Controlar a locação e devolução, registrando quilometragem, atrasos e danos.             | ALTA       |
+| RF-005 | Emitir relatórios gerenciais (frota disponível, reservas, histórico de clientes, etc.).  | MÉDIA      |
+| RF-006 | Permitir que o cliente consulte o status de suas locações e histórico de reservas.       | MÉDIA      |
+| RF-007 | Implementar autenticação e login com controle de acesso por perfil (cliente/admin).      | ALTA       |
 
-### Requisitos não Funcionais
+### Requisitos Não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+| ID      | Descrição do Requisito                                                               | Prioridade |
+|---------|---------------------------------------------------------------------------------------|------------|
+| RNF-001 | O sistema deve ser responsivo e acessível em dispositivos móveis e desktops.          | MÉDIA      |
+| RNF-002 | Deve processar requisições do usuário em até 3 segundos.                              | BAIXA      |
+| RNF-003 | Deve utilizar banco de dados relacional (SQL Server) para armazenar dados.            | ALTA       |
+| RNF-004 | O sistema deve garantir segurança por meio de autenticação e autorização.             | ALTA       |
+| RNF-005 | A interface deve ser amigável e intuitiva para usuários de diferentes perfis.         | MÉDIA      |
+| RNF-006 | O sistema deve ser desenvolvido em C# com boas práticas de POO e integração em camadas.| MÉDIA     |
 
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+| ID | Restrição                                                                 |
+|----|---------------------------------------------------------------------------|
+| 01 | O projeto deverá ser entregue até o final do semestre.                    |
+| 02 | Não pode ser desenvolvido um módulo de backend externo (tudo será simulado localmente). |
+| 03 | O desenvolvimento deve ser feito em C# integrado a SQL Server, conforme especificado. |
+| 04 | O sistema não terá integração com meios de pagamento online nesta versão. |
