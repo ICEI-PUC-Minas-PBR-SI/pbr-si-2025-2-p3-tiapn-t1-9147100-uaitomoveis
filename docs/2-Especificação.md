@@ -23,21 +23,65 @@ Roberto Mendes tem 38 anos, é dono de uma empresa de consultoria em Belo Horizo
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Gestão de Veículos
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+EU COMO Administrador Operacional (Larissa Souza)
+QUERO cadastrar novos veículos na frota
+PARA garantir que todas as opções disponíveis estejam registradas corretamente e acessíveis aos clientes.
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+EU COMO Administrador Operacional (Larissa Souza)
+QUERO atualizar informações de veículos, incluindo status, manutenção e características
+PARA manter os dados precisos e confiáveis, assegurando decisões baseadas em informações corretas.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+EU COMO Administrador Estratégico (Ricardo Almeida)
+QUERO consultar relatórios de utilização da frota
+PARA analisar o desempenho dos veículos, otimizar a operação e apoiar decisões estratégicas da locadora.
+
+Reservas e Aluguéis
+
+EU COMO Cliente Frequente (Felipe Martins)
+QUERO consultar veículos disponíveis em datas específicas
+PARA selecionar rapidamente o carro que melhor atende às minhas necessidades pessoais ou profissionais.
+
+EU COMO Cliente Ocasional (Camila Rocha)
+QUERO efetuar reservas online de forma intuitiva
+PARA garantir que o veículo desejado esteja disponível sem precisar ir presencialmente à locadora.
+
+EU COMO Cliente Corporativo (Roberto Mendes)
+QUERO realizar múltiplas reservas simultâneas para minha equipe
+PARA organizar eficientemente o transporte corporativo, garantindo veículos disponíveis quando necessário.
+
+EU COMO Administrador Operacional (Larissa Souza)
+QUERO aprovar, cancelar ou alterar reservas
+PARA manter a disponibilidade da frota sob controle e atender clientes de forma rápida e eficiente.
+
+Histórico e Monitoramento
+
+EU COMO Cliente Frequente (Felipe Martins)
+QUERO acessar meu histórico de locações
+PARA planejar futuras reservas e acompanhar viagens anteriores.
+
+EU COMO Administrador Estratégico (Ricardo Almeida)
+QUERO gerar relatórios detalhados de reservas e utilização da frota
+PARA tomar decisões estratégicas baseadas em dados confiáveis e indicadores de desempenho.
+
+EU COMO Cliente Corporativo (Roberto Mendes)
+QUERO receber alertas sobre devolução de veículos e status das reservas
+PARA garantir que a frota da empresa esteja sempre disponível e organizada.
+
+Segurança e Acesso
+
+EU COMO Administrador Operacional (Larissa Souza)
+QUERO gerenciar permissões e perfis de usuários do sistema
+PARA controlar quem pode acessar ou alterar informações críticas, garantindo segurança e integridade dos dados.
+
+EU COMO Cliente (todos os perfis)
+QUERO criar e acessar minha conta de forma segura
+PARA proteger meus dados pessoais, histórico de reservas e informações financeiras, garantindo confiança no sistema.
+
+EU COMO Administrador Estratégico (Ricardo Almeida)
+QUERO auditar atividades e registros do sistema
+PARA detectar falhas, prevenir abusos e manter a confiabilidade das operações da locadora.
 
 ## Requisitos
 
