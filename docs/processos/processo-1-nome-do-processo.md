@@ -4,7 +4,6 @@ O processo de **Login e Cadastro de Usuários** é responsável por registrar cl
 
 <img width="1379" height="1241" alt="image" src="https://github.com/user-attachments/assets/4286b621-7de4-427b-9566-4bc8542231ff" />
 
----
 
 #### Detalhamento das atividades
 
@@ -34,7 +33,6 @@ _* **Link** - campo que armazena uma URL_
 
 _* **Tabela** - campo formado por uma matriz de valores_
 
----
 
 **Atividade 1 – Acessar Plataforma (Usuário)**
 
