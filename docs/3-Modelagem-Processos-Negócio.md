@@ -22,6 +22,6 @@ Assim, espera-se que o processo da locadora seja transformado em uma operação 
 
 ### 3.3. Modelagem dos processos
 
-[PROCESSO 1 - Nome do Processo](./processos/processo-1-nome-do-processo.md "Detalhamento do Processo 1.")
+[Processo de Cadastro de Autencicação](./processos/processo-1-nome-do-processo.md "Detalhamento do Processo 1.")
 
-[PROCESSO 2 - Nome do Processo](./processos/processo-2-nome-do-processo.md "Detalhamento do Processo 2.")
+[Processo de Aluguel de Veiculos](./processos/processo-2-nome-do-processo.md "Detalhamento do Processo 2.")
