@@ -63,14 +63,28 @@ O processo de **Login e Cadastro de Usuários** é responsável por registrar cl
 |-----------------------|----------|-------------------------------------------------------|-------------------|
 | validação cadastro    | Tabela   | cruzar CPF, CNH e e-mail com banco de dados           |                   |
 
-| **Comandos**   | **Destino**                     | **Tipo**   |
-|----------------|---------------------------------|------------|
-| dados corretos | Consultar tipo de usuário       | default    |
-| dados incorretos | Preencher formulário de dados | cancel     |
+| **Comandos**     | **Destino**               | **Tipo**   |
+|------------------|---------------------------|------------|
+| dados corretos   | Consultar tipo de usuário | default    |
+| dados incorretos | Notificar Usuário         | cancel     |
 
 ---
 
-**Atividade 5 – Consultar Tipo de Usuário (Sistema)**
+**Atividade 5 – Notificar Usuário (Sistema)**
+
+| **Campo**              | **Tipo**       | **Restrições**                          | **Valor default** |
+|-------------------------|----------------|-----------------------------------------|-------------------|
+| mensagem de erro        | Área de Texto  | obrigatório, clara e objetiva            |                   |
+| tipo de notificação     | Seleção única  | alerta em tela, e-mail, SMS              | alerta em tela    |
+
+| **Comandos**      | **Destino**                  | **Tipo**   |
+|-------------------|------------------------------|------------|
+| tentar novamente  | Preencher formulário de dados| default    |
+| cancelar          | Início do processo           | cancel     |
+
+---
+
+**Atividade 6 – Consultar Tipo de Usuário (Sistema)**
 
 | **Campo**      | **Tipo**        | **Restrições**                                 | **Valor default** |
 |----------------|-----------------|------------------------------------------------|-------------------|
@@ -82,7 +96,7 @@ O processo de **Login e Cadastro de Usuários** é responsável por registrar cl
 
 ---
 
-**Atividade 6 – Conceder Permissões (Sistema)**
+**Atividade 7 – Conceder Permissões (Sistema)**
 
 | **Campo**              | **Tipo**        | **Restrições**                                                        | **Valor default** |
 |------------------------|-----------------|-----------------------------------------------------------------------|-------------------|
@@ -90,7 +104,21 @@ O processo de **Login e Cadastro de Usuários** é responsável por registrar cl
 
 | **Comandos**   | **Destino**           | **Tipo**   |
 |----------------|-----------------------|------------|
-| acesso liberado| Fim do processo       | default    |
+| acesso liberado| Acesso Liberado       | default    |
+
+---
+
+**Atividade 8 – Acesso Liberado (Sistema/Usuário)**
+
+| **Campo**              | **Tipo**       | **Restrições**                          | **Valor default** |
+|-------------------------|----------------|-----------------------------------------|-------------------|
+| mensagem de sucesso     | Área de Texto  | obrigatório, clara e objetiva            |                   |
+| resumo permissões       | Tabela         | exibir permissões concedidas conforme perfil |                   |
+
+| **Comandos**     | **Destino**         | **Tipo**   |
+|------------------|---------------------|------------|
+| acessar sistema  | Início da sessão    | default    |
+| sair             | Encerrar processo   | cancel     |
 
 ---
 
