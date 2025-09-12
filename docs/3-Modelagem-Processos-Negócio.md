@@ -1,12 +1,12 @@
 ## 3. Modelagem dos Processos de Negócio
 
-### 3.1. Modelagem da situação atual (Modelagem AS IS)
+## 3.1. Modelagem da situação atual (Modelagem AS IS)
 
 Atualmente, os processos da locadora são realizados de forma manual e pouco integrada. O cadastro de clientes e o gerenciamento de veículos acontecem em planilhas ou arquivos físicos, sem validação automática, o que gera risco de perda de dados e inconsistências. As reservas dependem de contato telefônico ou presencial, verificadas manualmente, o que pode causar conflitos de agendamento. O controle de locação e devolução também é registrado em planilhas, dificultando ajustes e cobranças. Por fim, a geração de relatórios é trabalhosa, demorada e sujeita a erros.
 
 Esse cenário evidencia um processo vulnerável a falhas humanas, com baixa confiabilidade e lentidão no atendimento, reforçando a necessidade de um sistema informatizado que centralize e automatize as operações.
 
-### 3.2. Descrição geral da proposta (Modelagem TO BE)
+## 3.2. Descrição geral da proposta (Modelagem TO BE)
 
 Após analisar o processo atual, busca-se, com este projeto, desenvolver um ambiente digital seguro, ágil e confiável para a automação dos processos de uma locadora de veículos. A proposta consiste em substituir os métodos manuais e controles fragmentados por uma solução web integrada, construída em C# e apoiada por um banco de dados SQL Server, que permitirá maior eficiência operacional e melhor experiência para clientes e administradores.
 
@@ -18,7 +18,7 @@ Após analisar o processo atual, busca-se, com este projeto, desenvolver um ambi
 
 Assim, espera-se que o processo da locadora seja transformado em uma operação moderna e eficiente, com benefícios diretos como a automação de tarefas administrativas, a redução de falhas humanas, a segurança das informações e a agilidade no atendimento ao cliente. Além disso, a solução proporcionará uma gestão otimizada e estratégica, garantindo controle completo da frota e fortalecendo a competitividade da empresa no mercado de locação de veículos.
 
-### 3.3. Modelagem dos processos
+## 3.3. Modelagem dos processos
 
 [Login e Cadastro de Usuários](./processos/processo-1-nome-do-processo.md "Detalhamento do Processo 1.")
 
