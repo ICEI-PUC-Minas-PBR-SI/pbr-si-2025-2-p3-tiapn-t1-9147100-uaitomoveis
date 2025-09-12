@@ -1,48 +1,53 @@
 # 5. Planejamento do Projeto
 
-> Aqui será feito o gerenciamento das tarefas de implementação do projeto.
+O projeto em desenvolvimento pelos alunos de Sistemas de Informação da PUC Minas Barreiro, no período 2.2025, consiste na criação de uma plataforma digital para a locadora de veículos Uaitomóveis, com foco em modernizar o processo de aluguel de carros e oferecer mais praticidade, segurança e confiabilidade. Diferente de sistemas genéricos, a solução abrangerá toda a gestão da locadora, incluindo cadastro de veículos, clientes, reservas, manutenção e relatórios gerenciais.
+
+Além disso, o sistema contará com um módulo de avaliação, no qual os clientes serão avaliados na devolução do veículo (considerando pontualidade, conservação e eventuais infrações) e os carros poderão ser avaliados pelos usuários quanto a conforto, limpeza e estado de conservação. Essa funcionalidade permitirá gerar vistorias automáticas e manutenções preventivas quando necessário, garantindo maior transparência e boas práticas no uso do serviço.
 
 ## 5.1. Divisão de Papéis
 
-> Apresente a divisão de papéis entre os membros do grupo em cada sprint. O desejável é que, em cada sprint, o aluno assuma papéis diferentes na disciplina. Siga o modelo do exemplo abaixo:
-
 ### Sprint 1
-- _Scrum master_: AlunaX
-- Protótipos: AlunoY
-- Testes: AlunoK
-- Documentação: AlunaZ
+- Project Owner: Guilherme Caçuci Ladislau
+- _Scrum master_: Paulo Henrique Xavier Lopes
+- Protótipos: Caio Gabriel Duarte Costa
+- Testes: Paulo Gabriel de Souza Lopes
+- Documentação: Kaio César dos Santos Vidigal
 
 ### Sprint 2
-- _Scrum master_: AlunaY
-- Desenvolvedor _front-end_: AlunoX
-- Desenvolvedor _back-end_: AlunoK
-- Testes: AlunaZ
+- Project Owner: Guilherme Caçuci Ladislau
+- _Scrum master_: Paulo Henrique Xavier Lopes
+- Desenvolvedor _front-end_: Caio Gabriel Duarte Costa, Paulo Gabriel de Souza Lopes
+- Desenvolvedor _back-end_: Guilherme Caçuci Ladislau, Kaio César dos Santos Vidigal, Paulo Henrique Xavier Lopes
+- Testes: Paulo Gabriel de Souza Lopes, Kaio César dos Santos Vidigal
 
 ## 5.1. Quadro de tarefas
 
-> Apresente a divisão de tarefas entre os membros do grupo e o acompanhamento da execução, conforme exemplo abaixo.
-
 ## Sprint 1
 
-Atualizado em: 21/04/2024
+Atualizado em: 12/09/2025
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| AlunaX        | Introdução | 01/02/2024     | 07/02/2024 | ✔️    | 05/01/2005      |
-| AlunaZ        | Objetivos    | 03/02/2024     | 10/02/2024 | 📝    |                 |
-| AlunoY        | Histórias de usuário  | 01/01/2024     | 07/01/2005 | ⌛     |                 |
-| AlunoK        | Personas 1  |    01/01/2024        | 12/02/2005 | ❌    |       |
+| Guilherme Caçuci Ladislau        | Introdução | 08/08/2025     | 22/08/2025 | ✔️    | 22/08/2025      |
+| Caio Gabriel Duarte Costa     | Contextualização    | 08/08/2025     | 22/08/2025 | ✔️    |  22/08/2025        |
+| Kaio César dos Santos Vidigal        | Definir o problema  | 08/08/2025    | 22/08/2025 | ✔️     |  22/08/2025          |
+| Paulo Gabriel de Souza Lopes     | Estabelecer objetivo geral  |    08/08/2025        | 22/08/2025 | ✔️    | 22/08/2025      |
+| Paulo Gabriel de Souza Lopes        |    Definir objetivos específicos         |      08/08/2025   | 22/08/2025     | ✔️ | 22/08/2025  |
+| Paulo Henrique Xavier Lopes         |    Elaborar justificativa         |      08/08/2025    | 22/08/2025     | ✔️ | 22/08/2025        |
+| Paulo Gabriel de Souza Lopes        |    Mapear perfis dos usuários         |      08/08/2025    | 22/08/2025     | ✔️ | 22/08/2025    |
+| Caio Gabriel Duarte Costa        |    Listar processos de negócios         |      08/08/2025   | 22/08/2025     | ✔️ | 22/08/2025      |
 
 ## Sprint 2
 
-Atualizado em: 21/04/2024
+Atualizado em: 12/09/2025
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| AlunaX        | Home-Page        | 01/02/2024     | 07/03/2024 | ✔️    | 05/01/2005      |
-| AlunaZ        | CSS Unificado    | 03/02/2024     | 10/03/2024 | 📝    |                 |
-| AlunoY        | Página de login  | 01/02/2024     | 07/03/2024 | ⌛     |                 |
-| AlunoK        | Script de login  |  01/01/2024    | 12/03/2024 | ❌    |       |
+| Paulo Henrique Xavier Lopes        | Definir processos atuais (as is)        | 29/08/2025     | 05/09/2025 | ✔️    | 05/09/2025      |
+| Kaio César dos Santos Vidigal        | Definir processos futuros (to be)     | 29/08/2025     | 05/09/2025 | ✔️    | 05/09/2025      |
+| Caio Gabriel Duarte Costa, Paulo Gabriel de Souza Lopes        | Diagrama BPMN  | 29/08/2025    | 05/09/2025 | ✔️     | 05/09/2025 |
+| Kaio César dos Santos Vidigal        | Atualizar documentação  |  29/08/2025    | 05/09/2025 | ✔️    | 05/09/2025       |
+| :----         |    Especificar funcionalidade iniciais do sistema         |      :----:    | :----:     | ❌ | :----:          |
 
 
 Legenda:
