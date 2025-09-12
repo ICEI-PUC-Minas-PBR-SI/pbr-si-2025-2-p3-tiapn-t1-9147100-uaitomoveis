@@ -48,8 +48,6 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | entrar         | Fim da Atividade 1 (se login válido)      | default    |
 | cadastrar      | Ir para formulário de cadastro de usuário |            |
 
----
-
 **Atividade 2 – Preencher Formulário de Dados (Usuário)**
 
 | **Campo**          | **Tipo**        | **Restrições**                           | **Valor default** |
@@ -68,8 +66,6 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | salvar         | Validar dados preenchidos        | default    |
 | cancelar       | Início do processo               | cancel     |
 
----
-
 **Atividade 3 – Aceitar Termos e Políticas (Usuário)**
 
 | **Campo**            | **Tipo**        | **Restrições**           | **Valor default** |
@@ -82,7 +78,6 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | continuar      | Validar dados preenchidos       | default    |
 | voltar         | Preencher formulário de dados   | cancel     |
 
----
 
 **Atividade 4 – Validar Dados (Sistema)**
 
@@ -95,7 +90,6 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | dados corretos   | Consultar tipo de usuário | default    |
 | dados incorretos | Notificar Usuário         | cancel     |
 
----
 
 **Atividade 5 – Notificar Usuário (Sistema)**
 
@@ -109,7 +103,6 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | tentar novamente  | Preencher formulário de dados| default    |
 | cancelar          | Início do processo           | cancel     |
 
----
 
 **Atividade 6 – Consultar Tipo de Usuário (Sistema)**
 
@@ -121,7 +114,6 @@ _* **Tabela** - campo formado por uma matriz de valores_
 |----------------|---------------------------------------|------------|
 | atribuir perfil| Conceder acesso com permissões atribuídas | default    |
 
----
 
 **Atividade 7 – Conceder Permissões (Sistema)**
 
@@ -133,7 +125,6 @@ _* **Tabela** - campo formado por uma matriz de valores_
 |----------------|-----------------------|------------|
 | acesso liberado| Acesso Liberado       | default    |
 
----
 
 **Atividade 8 – Acesso Liberado (Sistema/Usuário)**
 
@@ -146,5 +137,3 @@ _* **Tabela** - campo formado por uma matriz de valores_
 |------------------|---------------------|------------|
 | acessar sistema  | Início da sessão    | default    |
 | sair             | Encerrar processo   | cancel     |
-
----
