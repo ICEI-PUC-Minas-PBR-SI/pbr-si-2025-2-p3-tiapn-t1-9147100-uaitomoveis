@@ -1,7 +1,5 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="01-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
 Nesta seção, o foco é apresentar o problema identificado no contexto de uma locadora de veículos e propor soluções a partir da perspectiva dos usuários finais do sistema. Serão detalhados os principais perfis de usuários, suas necessidades, objetivos e expectativas, com base em técnicas de análise centrada no usuário, garantindo que o sistema atenda de maneira eficiente tanto aos clientes quanto aos administradores da locadora.
 
 ## Personas
