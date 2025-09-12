@@ -47,7 +47,7 @@ Atualizado em: 12/09/2025
 | Kaio César dos Santos Vidigal        | Definir processos futuros (TO BE)     | 29/08/2025     | 05/09/2025 | ✔️    | 05/09/2025      |
 | Caio Gabriel Duarte Costa, Paulo Gabriel de Souza Lopes        | Diagrama BPMN  | 29/08/2025    | 05/09/2025 | ✔️     | 05/09/2025 |
 | Kaio César dos Santos Vidigal        | Atualizar documentação  |  29/08/2025    | 05/09/2025 | ✔️    | 05/09/2025       |
-| :----         |    Especificar funcionalidade iniciais do sistema         |      :----:    | :----:     | ❌ | :----:          |
+| Kaio César dos Santos Vidigal, Paulo Henrique Xavier Lopes         |    Especificar funcionalidade iniciais do sistema         |      29/08/2025    | 05/09/2025     | ✔️ | 05/09/2025          |
 
 
 Legenda:
