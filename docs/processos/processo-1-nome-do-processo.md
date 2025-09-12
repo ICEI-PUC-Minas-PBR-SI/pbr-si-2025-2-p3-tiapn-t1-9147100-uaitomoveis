@@ -57,7 +57,7 @@ O processo de **Login e Cadastro de Usuários** é responsável por registrar cl
 
 ---
 
-**Atividade 4 – Validar Dados Preenchidos (Sistema)**
+**Atividade 4 – Validar Dados (Sistema)**
 
 | **Campo**             | **Tipo** | **Restrições**                                        | **Valor default** |
 |-----------------------|----------|-------------------------------------------------------|-------------------|
@@ -82,7 +82,7 @@ O processo de **Login e Cadastro de Usuários** é responsável por registrar cl
 
 ---
 
-**Atividade 6 – Conceder Acesso com Permissões Atribuídas**
+**Atividade 6 – Conceder Permissões**
 
 | **Campo**              | **Tipo**        | **Restrições**                                                        | **Valor default** |
 |------------------------|-----------------|-----------------------------------------------------------------------|-------------------|
