@@ -2,8 +2,6 @@
 
 ### 3.1. Modelagem da situação atual (Modelagem AS IS)
 
-3.1. Modelagem da situação atual (Modelagem AS IS)
-
 Atualmente, os processos da locadora são realizados de forma manual e pouco integrada. O cadastro de clientes e o gerenciamento de veículos acontecem em planilhas ou arquivos físicos, sem validação automática, o que gera risco de perda de dados e inconsistências. As reservas dependem de contato telefônico ou presencial, verificadas manualmente, o que pode causar conflitos de agendamento. O controle de locação e devolução também é registrado em planilhas, dificultando ajustes e cobranças. Por fim, a geração de relatórios é trabalhosa, demorada e sujeita a erros.
 
 Esse cenário evidencia um processo vulnerável a falhas humanas, com baixa confiabilidade e lentidão no atendimento, reforçando a necessidade de um sistema informatizado que centralize e automatize as operações.
