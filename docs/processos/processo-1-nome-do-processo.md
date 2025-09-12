@@ -9,7 +9,7 @@ O processo de **Login e Cadastro de Usuários** é responsável por registrar cl
 
 #### Detalhamento das atividades
 
-**Atividade 1 – Acessar Plataforma**
+**Atividade 1 – Acessar Plataforma (Usuário)**
 
 | **Campo** | **Tipo**       | **Restrições**                                                         | **Valor default** |
 |-----------|----------------|------------------------------------------------------------------------|-------------------|
@@ -23,7 +23,7 @@ O processo de **Login e Cadastro de Usuários** é responsável por registrar cl
 
 ---
 
-**Atividade 2 – Preencher Formulário de Dados**
+**Atividade 2 – Preencher Formulário de Dados (Usuário)**
 
 | **Campo**          | **Tipo**        | **Restrições**                           | **Valor default** |
 |--------------------|-----------------|------------------------------------------|-------------------|
@@ -43,7 +43,7 @@ O processo de **Login e Cadastro de Usuários** é responsável por registrar cl
 
 ---
 
-**Atividade 3 – Aceitar Termos e Políticas**
+**Atividade 3 – Aceitar Termos e Políticas (Usuário)**
 
 | **Campo**            | **Tipo**        | **Restrições**           | **Valor default** |
 |----------------------|-----------------|--------------------------|-------------------|
@@ -70,7 +70,7 @@ O processo de **Login e Cadastro de Usuários** é responsável por registrar cl
 
 ---
 
-**Atividade 5 – Consultar Tipo de Usuário**
+**Atividade 5 – Consultar Tipo de Usuário (Sistema)**
 
 | **Campo**      | **Tipo**        | **Restrições**                                 | **Valor default** |
 |----------------|-----------------|------------------------------------------------|-------------------|
@@ -82,7 +82,7 @@ O processo de **Login e Cadastro de Usuários** é responsável por registrar cl
 
 ---
 
-**Atividade 6 – Conceder Permissões**
+**Atividade 6 – Conceder Permissões (Sistema)**
 
 | **Campo**              | **Tipo**        | **Restrições**                                                        | **Valor default** |
 |------------------------|-----------------|-----------------------------------------------------------------------|-------------------|
