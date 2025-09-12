@@ -2,11 +2,6 @@
 
 Este trabalho propõe o desenvolvimento de um sistema web destinado à automação dos processos de uma locadora de veículos, visando maior controle operacional, redução de falhas humanas e melhoria na experiência do cliente. O projeto se fundamenta nos princípios da Programação Orientada a Objetos (POO), modelagem de dados, banco de dados e integração entre as camadas de front-end e back-end, simulando um cenário real de desenvolvimento de software aplicado ao setor de mobilidade.
 
-## Contextualização
-
-O setor de locação de veículos no Brasil tem se expandido de maneira constante, impulsionado por tendências como o crescimento do turismo, o aumento do trabalho remoto e a busca por soluções de mobilidade mais econômicas e flexíveis. De acordo com a Associação Brasileira das Locadoras de Automóveis (ABLA), entre 2019 e 2023, a frota de veículos locados aumentou **33,6%**, evidenciando a relevância e a robustez desse mercado.
-
-No entanto, muitas locadoras de pequeno e médio porte ainda operam com controles manuais ou planilhas, o que compromete a eficiência do atendimento, a organização interna e a confiabilidade das informações. Diante desse cenário, a aplicação de soluções tecnológicas se torna não apenas vantajosa, mas essencial para a sobrevivência e o crescimento dessas empresas.
 
 ## Problema
 
@@ -14,11 +9,19 @@ A ausência de um sistema informatizado para o controle de veículos, clientes e
 
 Assim, surge a necessidade de um sistema que integre os diversos processos envolvidos na operação de uma locadora, centralizando as informações e promovendo a automatização de tarefas administrativas e operacionais.
 
-## Objetivo Geral
+## Contextualização
+
+O setor de locação de veículos no Brasil tem se expandido de maneira constante, impulsionado por tendências como o crescimento do turismo, o aumento do trabalho remoto e a busca por soluções de mobilidade mais econômicas e flexíveis. De acordo com a Associação Brasileira das Locadoras de Automóveis (ABLA), entre 2019 e 2023, a frota de veículos locados aumentou **33,6%**, evidenciando a relevância e a robustez desse mercado.
+
+No entanto, muitas locadoras de pequeno e médio porte ainda operam com controles manuais ou planilhas, o que compromete a eficiência do atendimento, a organização interna e a confiabilidade das informações. Diante desse cenário, a aplicação de soluções tecnológicas se torna não apenas vantajosa, mas essencial para a sobrevivência e o crescimento dessas empresas.
+
+## Obejetivo
+
+### Objetivo Geral
 
 Desenvolver um sistema web para a automação e gestão de processos de uma locadora de veículos, integrando funcionalidades de cadastro, consulta, reserva e controle de frota, com interface amigável e acesso seguro para clientes e administradores.
 
-## Objetivos Específicos
+### Objetivos Específicos
 
 - Modelar um banco de dados relacional que armazene informações de veículos, clientes e reservas.
 - Desenvolver uma interface web intuitiva e responsiva para os perfis de cliente e administrador.
