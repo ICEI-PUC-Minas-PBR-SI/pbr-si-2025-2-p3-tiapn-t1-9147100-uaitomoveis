@@ -15,13 +15,9 @@ O setor de locação de veículos no Brasil tem se expandido de maneira constant
 
 No entanto, muitas locadoras de pequeno e médio porte ainda operam com controles manuais ou planilhas, o que compromete a eficiência do atendimento, a organização interna e a confiabilidade das informações. Diante desse cenário, a aplicação de soluções tecnológicas se torna não apenas vantajosa, mas essencial para a sobrevivência e o crescimento dessas empresas.
 
-## Obejetivo
-
-### Objetivo Geral
+## Objetivo
 
 Desenvolver um sistema web para a automação e gestão de processos de uma locadora de veículos, integrando funcionalidades de cadastro, consulta, reserva e controle de frota, com interface amigável e acesso seguro para clientes e administradores.
-
-### Objetivos Específicos
 
 - Modelar um banco de dados relacional que armazene informações de veículos, clientes e reservas.
 - Desenvolver uma interface web intuitiva e responsiva para os perfis de cliente e administrador.
