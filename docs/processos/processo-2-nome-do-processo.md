@@ -5,7 +5,6 @@ Ele envolve interação do cliente, validações do sistema e processamento do p
 
 <img width="999" height="680" alt="image2" src="https://github.com/user-attachments/assets/7f673fda-b8b7-4c6f-a296-2b89e3c5f3a5" />
 
----
 
 #### Detalhamento das atividades
 
@@ -35,7 +34,6 @@ _* **Link** - campo que armazena uma URL_
 
 _* **Tabela** - campo formado por uma matriz de valores_
 
----
 
 **Atividade 1 – Selecionar Grupo de Veículo e Modelo (Cliente)**
 
