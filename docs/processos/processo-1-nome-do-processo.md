@@ -44,7 +44,7 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | acessar login | Ir para **Acessar Área de Login** | default    |
 | sair          | Encerrar processo            | cancel     |
 
-## Atividade 2 – Acessar Área de Login (Usuário)
+### Atividade 2 – Acessar Área de Login (Usuário)
 
 | **Campo** | **Tipo**       | **Restrições**                                                         | **Valor default** |
 |-----------|----------------|------------------------------------------------------------------------|-------------------|
@@ -56,7 +56,7 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | entrar         | Fim da Atividade 2 (se login válido)      | default    |
 | cadastrar      | Ir para formulário de cadastro de usuário |            |
 
-## Atividade 3 – Preencher Formulário de Dados (Usuário)
+### Atividade 3 – Preencher Formulário de Dados (Usuário)
 
 | **Campo**          | **Tipo**        | **Restrições**                           | **Valor default** |
 |--------------------|-----------------|------------------------------------------|-------------------|
@@ -74,7 +74,7 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | salvar         | Validar dados preenchidos        | default    |
 | cancelar       | Início do processo               | cancel     |
 
-## Atividade 4 – Aceitar Termos e Políticas (Usuário)
+### Atividade 4 – Aceitar Termos e Políticas (Usuário)
 
 | **Campo**            | **Tipo**        | **Restrições**           | **Valor default** |
 |----------------------|-----------------|--------------------------|-------------------|
@@ -86,7 +86,7 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | continuar      | Validar dados preenchidos       | default    |
 | voltar         | Preencher formulário de dados   | cancel     |
 
-## Atividade 5 – Validar Dados (Sistema)
+### Atividade 5 – Validar Dados (Sistema)
 
 | **Campo**             | **Tipo** | **Restrições**                                        | **Valor default** |
 |-----------------------|----------|-------------------------------------------------------|-------------------|
@@ -97,7 +97,7 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | dados corretos   | Consultar tipo de usuário | default    |
 | dados incorretos | Notificar Usuário         | cancel     |
 
-## Atividade 6 – Notificar Usuário (Sistema)
+### Atividade 6 – Notificar Usuário (Sistema)
 
 | **Campo**              | **Tipo**       | **Restrições**                          | **Valor default** |
 |-------------------------|----------------|-----------------------------------------|-------------------|
@@ -109,7 +109,7 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | tentar novamente  | Preencher formulário de dados| default    |
 | cancelar          | Início do processo           | cancel     |
 
-## Atividade 7 – Consultar Tipo de Usuário (Sistema)
+### Atividade 7 – Consultar Tipo de Usuário (Sistema)
 
 | **Campo**      | **Tipo**        | **Restrições**                                 | **Valor default** |
 |----------------|-----------------|------------------------------------------------|-------------------|
@@ -119,7 +119,7 @@ _* **Tabela** - campo formado por uma matriz de valores_
 |----------------|---------------------------------------|------------|
 | atribuir perfil| Conceder acesso com permissões atribuídas | default    |
 
-## Atividade 8 – Conceder Permissões (Sistema)
+### Atividade 8 – Conceder Permissões (Sistema)
 
 | **Campo**              | **Tipo**        | **Restrições**                                                        | **Valor default** |
 |------------------------|-----------------|-----------------------------------------------------------------------|-------------------|
@@ -129,7 +129,7 @@ _* **Tabela** - campo formado por uma matriz de valores_
 |----------------|-----------------------|------------|
 | acesso liberado| Acesso Liberado       | default    |
 
-## Atividade 9 – Acesso Liberado (Sistema/Usuário)
+### Atividade 9 – Acesso Liberado (Sistema/Usuário)
 
 | **Campo**              | **Tipo**       | **Restrições**                          | **Valor default** |
 |-------------------------|----------------|-----------------------------------------|-------------------|
