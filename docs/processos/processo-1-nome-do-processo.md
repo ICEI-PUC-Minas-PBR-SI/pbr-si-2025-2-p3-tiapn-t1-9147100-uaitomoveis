@@ -2,7 +2,8 @@
 
 O processo de **Login e Cadastro de Usuários** é responsável por registrar clientes no sistema e garantir o acesso seguro à plataforma de serviços (aluguel de veículos). Ele assegura a integridade dos dados, evita duplicidade de registros e define permissões de acesso conforme o tipo de usuário.
 
-<img width="1104" height="1038" alt="image" src="https://github.com/user-attachments/assets/eb57f5a3-9f03-43cc-b553-a13258adc480" />
+<img width="1091" height="1024" alt="image" src="https://github.com/user-attachments/assets/db8a7ff7-bb7f-4964-836a-5f2c27304f49" />
+
 
 
 
