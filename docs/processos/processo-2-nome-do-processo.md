@@ -3,8 +3,7 @@
 O processo de **Aluguel de Veículos** descreve as etapas que o cliente percorre desde a seleção do veículo até a confirmação da reserva.  
 Ele envolve interação do cliente, validações do sistema e processamento do pagamento.
 
-<img width="1585" height="1081" alt="aluguel_de_veiculos" src="https://github.com/user-attachments/assets/717e7c73-d1d4-4360-81c2-e4081f966bac" />
-
+<img width="1047" height="693" alt="Captura de tela 2025-09-26 162725" src="https://github.com/user-attachments/assets/beaf33c0-8319-46bc-b2f2-fb9fc17bba94" />
 
 #### Detalhamento das atividades
 
@@ -35,7 +34,7 @@ _* **Link** - campo que armazena uma URL_
 _* **Tabela** - campo formado por uma matriz de valores_
 
 
-## Atividade 1 – Acessar Plataforma (Cliente)
+**Atividade 1 – Acessar Plataforma (Cliente)**
 
 **Descrição:** Usuário acessa a *Home Page* da plataforma, onde pode navegar pelas opções iniciais e decidir se vai para login ou cadastro.
 
@@ -44,9 +43,8 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | acessar login | Ir para **Acessar Área de Login** | default    |
 | sair          | Encerrar processo            | cancel     |
 
----
 
-## Atividade 2 – Acessar Área de Login (Cliente)
+**Atividade 2 – Acessar Área de Login (Cliente)**
 
 | **Campo** | **Tipo**       | **Restrições**                                                         | **Valor default** |
 |-----------|----------------|------------------------------------------------------------------------|-------------------|
@@ -58,9 +56,8 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | entrar         | Fim da Atividade 2 (se login válido)      | default    |
 | cadastrar      | Ir para formulário de cadastro de usuário |            |
 
----
 
-## Atividade 3 – Realizar o Cadastro (Cliente)
+**Atividade 3 – Realizar o Cadastro (Cliente)**
 
 | **Campo**              | **Tipo**         | **Restrições**                                           | **Valor default** |
 |------------------------|------------------|----------------------------------------------------------|-------------------|
@@ -81,9 +78,8 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | salvar         | Validar dados de cadastro| default    |
 | cancelar       | Início do processo       | cancel     |
 
----
 
-## Atividade 4 – Selecionar grupo de veículo e modelo (Cliente)
+**Atividade 4 – Selecionar grupo de veículo e modelo (Cliente)**
 
 | **Campo**         | **Tipo**        | **Restrições**                     | **Valor default** |
 |-------------------|-----------------|------------------------------------|-------------------|
@@ -95,9 +91,8 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | selecionar      | Validar seleção     | default    |
 | cancelar        | Início do processo  | cancel     |
 
----
 
-## Atividade 5 – Validar seleção (Sistema)
+**Atividade 5 – Validar seleção (Sistema)**
 
 | **Campo**           | **Tipo**  | **Restrições**                                | **Valor default** |
 |---------------------|-----------|-----------------------------------------------|-------------------|
@@ -108,9 +103,8 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | válido              | Entregar lista de modelos      | default    |
 | inválido            | Direcionar para homepage       | cancel     |
 
----
 
-## Atividade 6 – Entregar lista de modelos disponíveis (Sistema)
+**Atividade 6 – Entregar lista de modelos disponíveis (Sistema)**
 
 | **Campo**             | **Tipo**   | **Restrições**                                | **Valor default** |
 |-----------------------|------------|-----------------------------------------------|-------------------|
@@ -120,9 +114,8 @@ _* **Tabela** - campo formado por uma matriz de valores_
 |----------------|---------------------|------------|
 | exibir lista   | Selecionar veículo  | default    |
 
----
 
-## Atividade 7 – Visualizar informações do veículo (Cliente)
+**Atividade 7 – Visualizar informações do veículo (Cliente)**
 
 | **Campo**          | **Tipo**      | **Restrições**         | **Valor default** |
 |--------------------|---------------|------------------------|-------------------|
@@ -134,9 +127,8 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | confirmar      | Confirmar veículo   | default    |
 | cancelar       | Selecionar veículo  | cancel     |
 
----
 
-## Atividade 8 – Confirmar veículo (Cliente)
+**Atividade 8 – Confirmar veículo (Cliente)**
 
 | **Campo**       | **Tipo**        | **Restrições**  | **Valor default** |
 |-----------------|-----------------|-----------------|-------------------|
@@ -147,9 +139,8 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | continuar      | Informar data/seguro       | default    |
 | cancelar       | Selecionar veículo         | cancel     |
 
----
 
-## Atividade 9 – Informar data/seguro (Cliente)
+**Atividade 9 – Informar data/seguro (Cliente)**
 
 | **Campo**           | **Tipo**        | **Restrições**                          | **Valor default** |
 |---------------------|-----------------|-----------------------------------------|-------------------|
@@ -163,9 +154,8 @@ _* **Tabela** - campo formado por uma matriz de valores_
 |----------------|---------------------|------------|
 | continuar      | Calcular valores    | default    |
 
----
 
-## Atividade 10 – Calcular valores (Sistema)
+**Atividade 10 – Calcular valores (Sistema)**
 
 | **Campo**        | **Tipo**     | **Restrições**                      | **Valor default** |
 |------------------|--------------|-------------------------------------|-------------------|
@@ -176,9 +166,8 @@ _* **Tabela** - campo formado por uma matriz de valores_
 |----------------|------------------------------|------------|
 | exibir valores | Escolher forma de pagamento  | default    |
 
----
 
-## Atividade 11 – Escolher forma de pagamento (Cliente)
+**Atividade 11 – Escolher forma de pagamento (Cliente)**
 
 | **Campo**          | **Tipo**       | **Restrições**                  | **Valor default** |
 |--------------------|----------------|---------------------------------|-------------------|
@@ -189,9 +178,8 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | confirmar      | Processar pagamento | default    |
 | cancelar       | Início do processo  | cancel     |
 
----
 
-## Atividade 12 – Processar pagamento (Sistema)
+**Atividade 12 – Processar pagamento (Sistema)**
 
 | **Campo**             | **Tipo**   | **Restrições**                              | **Valor default** |
 |-----------------------|------------|---------------------------------------------|-------------------|
@@ -201,9 +189,8 @@ _* **Tabela** - campo formado por uma matriz de valores_
 |----------------|-----------------------|------------|
 | enviar dados   | Validar pagamento     | default    |
 
----
 
-## Atividade 13 – Validar pagamento (Sistema)
+**Atividade 13 – Validar pagamento (Sistema)**
 
 | **Campo**          | **Tipo**     | **Restrições**                  | **Valor default** |
 |--------------------|--------------|---------------------------------|-------------------|
@@ -214,9 +201,8 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | aprovado       | Registrar reserva              | default    |
 | recusado       | Notificar usuário              | cancel     |
 
----
 
-## Atividade 14 – Notificar usuário (Sistema)
+**Atividade 14 – Notificar usuário (Sistema)**
 
 | **Campo**              | **Tipo**      | **Restrições**                      | **Valor default** |
 |-------------------------|---------------|-------------------------------------|-------------------|
@@ -228,9 +214,8 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | tentar novamente  | Escolher forma de pagamento   | default    |
 | cancelar          | Início do processo            | cancel     |
 
----
 
-## Atividade 15 – Registrar reserva (Sistema)
+**Atividade 15 – Registrar reserva (Sistema)**
 
 | **Campo**            | **Tipo**   | **Restrições**                         | **Valor default** |
 |----------------------|------------|----------------------------------------|-------------------|
@@ -240,9 +225,8 @@ _* **Tabela** - campo formado por uma matriz de valores_
 |----------------|-------------------------------|------------|
 | confirmar      | Gerar confirmação de reserva  | default    |
 
----
 
-## Atividade 16 – Gerar confirmação de reserva (Sistema)
+**Atividade 16 – Gerar confirmação de reserva (Sistema)**
 
 | **Campo**               | **Tipo**   | **Restrições**                           | **Valor default** |
 |-------------------------|------------|------------------------------------------|-------------------|
@@ -253,9 +237,8 @@ _* **Tabela** - campo formado por uma matriz de valores_
 |----------------|-------------------------------|------------|
 | exibir resumo  | Exibir confirmação de reserva | default    |
 
----
 
-## Atividade 17 – Exibir confirmação de reserva (Sistema/Cliente)
+**Atividade 17 – Exibir confirmação de reserva (Sistema/Cliente)**
 
 | **Campo**              | **Tipo**      | **Restrições**                           | **Valor default** |
 |------------------------|---------------|------------------------------------------|-------------------|
