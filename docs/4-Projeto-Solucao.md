@@ -24,9 +24,6 @@ O objetivo é garantir que os requisitos funcionais e não funcionais sejam aten
 ## Processo 1 – Login e Cadastro de Usuários
 
 As telas propostas contemplam a navegação do usuário desde a homepage até a tela de cadastro, caso ele ainda não possua login.
-- **Homepage:** ponto inicial de acesso à plataforma.  
-- **Login:** autenticação de usuários já registrados.  
-- **Cadastro:** registro de novos usuários quando não possuem conta.  
 
 #### Homepage
 <img width="1116" height="526" alt="HomePage" src="https://github.com/user-attachments/assets/3bf182e9-3ebb-4d0f-9486-b496ac6cce84" />
@@ -59,43 +56,25 @@ Mostra os veículos disponíveis dentro de uma categoria, exibindo informações
 #### Detalhes do Veículo  
 <img width="1296" height="605" alt="image" src="https://github.com/user-attachments/assets/aa7c9ebd-d56e-4ee7-ae16-403b58e0fde6" />
 
-Apresenta informações detalhadas de um veículo, incluindo:  
-- **Preço por dia**  
-- **Status de disponibilidade**  
-- **Especificações técnicas** (motor, assentos, consumo médio etc.)  
-- Opção para **reservar o veículo**  
+Apresenta informações detalhadas do veículo, incluindo preço da diária, status de disponibilidade, especificações técnicas (motor, número de assentos, consumo médio etc.) e a opção “Reservar agora”.
 
 #### Finalizar Reserva  
 <img width="1312" height="607" alt="image" src="https://github.com/user-attachments/assets/cd845489-0ba1-4b29-be0e-69f492d87210" />
 
-Formulário para definir os detalhes da reserva, incluindo:  
-- Data de retirada e devolução  
-- Seleção de seguro  
-- Exibição do **preço final calculado**  
-- Opção de **confirmar a reserva**  
+Formulário para definir os detalhes da reserva, incluindo data de retirada e devolução, seleção de seguro, exibição do preço final calculado e a opção “Confirmar reserva”.
 
-#### Inserir Método de Pagamento  
+#### Inserir Método de Pagamento (Cartão) 
 <img width="1293" height="605" alt="image" src="https://github.com/user-attachments/assets/ef3e7ef3-3b0d-4658-b49f-7153fc92b803" />
 
-O usuário seleciona a forma de pagamento desejada (**cartão de crédito, débito ou PIX**).  
-Caso escolha cartão, deve preencher:  
-- Número no cartão  
-- Número do Cartão
-- Data de validade  
-- CVV  
-
-No caso de PIX, será exibido um **QR Code ou chave PIX**.  
+O usuário seleciona a forma de pagamento desejada (cartão de crédito, débito ou PIX).
+Se optar por cartão, deve preencher: nome no cartão, número do cartão, data de validade e CVV.
+No caso do PIX, será exibido um QR Code ou a chave PIX.
 
 #### Confirmação do Pagamento  
 <img width="1293" height="605" alt="image" src="https://github.com/user-attachments/assets/deb1a404-05a6-44ca-a336-652847a59120" />
 
-Antes de concluir, o sistema exibe o **resumo da reserva** com:  
-- Veículo selecionado  
-- Datas de retirada e devolução  
-- Valor total  
-- Forma de pagamento escolhida  
-
-Após a confirmação, é gerado o **comprovante digital da reserva**.
+Antes de concluir, o sistema exibe o resumo da reserva, contendo: veículo selecionado, datas de retirada e devolução, valor total e forma de pagamento escolhida.
+Após a confirmação, é gerado o comprovante digital da reserva.
 
 ## Processo 3 – Pagamento (a ser detalhado)
 
