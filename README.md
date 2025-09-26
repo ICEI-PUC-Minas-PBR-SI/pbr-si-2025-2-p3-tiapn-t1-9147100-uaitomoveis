@@ -15,7 +15,7 @@ O projeto consiste no desenvolvimento de um sistema web para automação de proc
 * Kaio César dos Santos Vidigal
 * Paulo Gabriel de Souza Lopes 
 * Paulo Henrique Xavier Lopes
-  
+* Gabriel Gomes Ferreira Aranda Lima
 
 ## Orientador
 
