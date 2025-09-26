@@ -35,170 +35,233 @@ _* **Link** - campo que armazena uma URL_
 _* **Tabela** - campo formado por uma matriz de valores_
 
 
-**Atividade 1 – Selecionar Grupo de Veículo e Modelo (Cliente)**
+## Atividade 1 – Acessar Plataforma (Cliente)
 
-| **Campo**           | **Tipo**        | **Restrições**                     | **Valor default** |
-|---------------------|-----------------|------------------------------------|-------------------|
-| grupo de veículo    | Seleção única   | obrigatório                        |                   |
-| modelo de veículo   | Seleção única   | obrigatório                        |                   |
+**Descrição:** Usuário acessa a *Home Page* da plataforma, onde pode navegar pelas opções iniciais e decidir se vai para login ou cadastro.
+
+| **Comando**   | **Destino**                 | **Tipo**   |
+|---------------|------------------------------|------------|
+| acessar login | Ir para **Acessar Área de Login** | default    |
+| sair          | Encerrar processo            | cancel     |
+
+---
+
+## Atividade 2 – Acessar Área de Login (Cliente)
+
+| **Campo** | **Tipo**       | **Restrições**                                                         | **Valor default** |
+|-----------|----------------|------------------------------------------------------------------------|-------------------|
+| E-mail    | Texto (e-mail) | Obrigatório, formato válido                                            |                   |
+| Senha     | Senha          | Obrigatório, mínimo 8 caracteres                                      |                   |
+
+| **Comandos**   | **Destino**                               | **Tipo**   |
+|----------------|-------------------------------------------|------------|
+| entrar         | Fim da Atividade 2 (se login válido)      | default    |
+| cadastrar      | Ir para formulário de cadastro de usuário |            |
+
+---
+
+## Atividade 3 – Realizar o Cadastro (Cliente)
+
+| **Campo**              | **Tipo**         | **Restrições**                                           | **Valor default** |
+|------------------------|------------------|----------------------------------------------------------|-------------------|
+| Nome completo          | Texto            | Obrigatório, mínimo 3 caracteres                         |                   |
+| Tipo de pessoa         | Seleção única    | Física / Jurídica                                        | Física            |
+| Número de CNH          | Numérico         | Obrigatório se pessoa Física, 11 dígitos                 |                   |
+| Categoria CNH          | Seleção única    | A, B, C, D, E (obrigatório se pessoa Física)             |                   |
+| Data de nascimento     | Data             | Obrigatório, deve ser maior de 18 anos                   |                   |
+| Telefone               | Numérico         | Obrigatório, formato (XX) XXXXX-XXXX                     |                   |
+| CEP                    | Numérico         | 8 dígitos, obrigatório                                   |                   |
+| Número da casa         | Numérico         | Obrigatório                                              |                   |
+| E-mail                 | Texto (e-mail)   | Obrigatório, formato válido                              |                   |
+| Senha                  | Senha            | Obrigatório, mínimo 8 caracteres, pelo menos 1 número    |                   |
+| Confirmar senha        | Senha            | Obrigatório, deve ser igual ao campo "Senha"             |                   |
+
+| **Comandos**   | **Destino**              | **Tipo**   |
+|----------------|--------------------------|------------|
+| salvar         | Validar dados de cadastro| default    |
+| cancelar       | Início do processo       | cancel     |
+
+---
+
+## Atividade 4 – Selecionar grupo de veículo e modelo (Cliente)
+
+| **Campo**         | **Tipo**        | **Restrições**                     | **Valor default** |
+|-------------------|-----------------|------------------------------------|-------------------|
+| Grupo de veículo  | Seleção única   | Obrigatório (ex: Econômico, SUV)   |                   |
+| Modelo de veículo | Seleção única   | Obrigatório                        |                   |
+
+| **Comandos**    | **Destino**         | **Tipo**   |
+|-----------------|---------------------|------------|
+| selecionar      | Validar seleção     | default    |
+| cancelar        | Início do processo  | cancel     |
+
+---
+
+## Atividade 5 – Validar seleção (Sistema)
+
+| **Campo**           | **Tipo**  | **Restrições**                                | **Valor default** |
+|---------------------|-----------|-----------------------------------------------|-------------------|
+| validação modelo    | Tabela    | cruzar grupo e modelo com disponibilidade     |                   |
+
+| **Comandos**        | **Destino**                   | **Tipo**   |
+|---------------------|--------------------------------|------------|
+| válido              | Entregar lista de modelos      | default    |
+| inválido            | Direcionar para homepage       | cancel     |
+
+---
+
+## Atividade 6 – Entregar lista de modelos disponíveis (Sistema)
+
+| **Campo**             | **Tipo**   | **Restrições**                                | **Valor default** |
+|-----------------------|------------|-----------------------------------------------|-------------------|
+| modelos disponíveis   | Tabela     | listar apenas veículos ativos e não reservados|                   |
 
 | **Comandos**   | **Destino**         | **Tipo**   |
 |----------------|---------------------|------------|
-| selecionar     | Validar seleção     | default    |
-| cancelar       | Encerrar processo   | cancel     |
+| exibir lista   | Selecionar veículo  | default    |
 
+---
 
-**Atividade 2 – Validar Seleção (Sistema)**
+## Atividade 7 – Visualizar informações do veículo (Cliente)
 
-| **Campo**             | **Tipo**  | **Restrições**                           | **Valor default** |
-|-----------------------|-----------|------------------------------------------|-------------------|
-| validação de veículo  | Tabela    | verificar disponibilidade no estoque     |                   |
-
-| **Comandos**     | **Destino**                      | **Tipo**   |
-|------------------|----------------------------------|------------|
-| válido           | Carregar lista de modelos        | default    |
-| inválido         | Notificar usuário                | cancel     |
-
-
-**Atividade 3 – Carregar Lista de Modelos Disponíveis (Sistema)**
-
-| **Campo**            | **Tipo**     | **Restrições**                       | **Valor default** |
-|----------------------|--------------|--------------------------------------|-------------------|
-| lista de modelos     | Tabela       | deve apresentar apenas disponíveis   |                   |
-
-| **Comandos**   | **Destino**                   | **Tipo**   |
-|----------------|-------------------------------|------------|
-| exibir lista   | Visualizar informações veículo| default    |
-
-
-**Atividade 4 – Visualizar Informações do Veículo (Cliente)**
-
-| **Campo**              | **Tipo**       | **Restrições**                 | **Valor default** |
-|------------------------|----------------|--------------------------------|-------------------|
-| informações do veículo | Área de Texto  | obrigatório exibir detalhes     |                   |
+| **Campo**          | **Tipo**      | **Restrições**         | **Valor default** |
+|--------------------|---------------|------------------------|-------------------|
+| descrição veículo  | Área de texto | exibir dados completos |                   |
+| imagem veículo     | Imagem        | obrigatório            |                   |
 
 | **Comandos**   | **Destino**         | **Tipo**   |
 |----------------|---------------------|------------|
 | confirmar      | Confirmar veículo   | default    |
-| voltar         | Selecionar veículo  | cancel     |
+| cancelar       | Selecionar veículo  | cancel     |
 
+---
 
-**Atividade 5 – Confirmar Veículo (Cliente)**
+## Atividade 8 – Confirmar veículo (Cliente)
 
-| **Campo** | **Tipo** | **Restrições**          | **Valor default** |
-|-----------|----------|-------------------------|-------------------|
-| veículo   | Registro | obrigatório confirmar   |                   |
+| **Campo**       | **Tipo**        | **Restrições**  | **Valor default** |
+|-----------------|-----------------|-----------------|-------------------|
+| confirmação     | Seleção única   | obrigatório     |                   |
 
-| **Comandos**   | **Destino**            | **Tipo**   |
-|----------------|------------------------|------------|
-| prosseguir     | Informar Data/Seguro   | default    |
-| cancelar       | Encerrar processo      | cancel     |
+| **Comandos**   | **Destino**                | **Tipo**   |
+|----------------|----------------------------|------------|
+| continuar      | Informar data/seguro       | default    |
+| cancelar       | Selecionar veículo         | cancel     |
 
+---
 
-**Atividade 6 – Informar Data/Seguro (Cliente)**
+## Atividade 9 – Informar data/seguro (Cliente)
 
-| **Campo**          | **Tipo**       | **Restrições**                    | **Valor default** |
-|--------------------|----------------|-----------------------------------|-------------------|
-| data da reserva    | Data           | obrigatório, formato dd-mm-aaaa   |                   |
-| seguro             | Seleção única  | obrigatório (sim/não)             |                   |
-
-| **Comandos**   | **Destino**              | **Tipo**   |
-|----------------|--------------------------|------------|
-| prosseguir     | Escolher forma de pagamento | default |
-| cancelar       | Encerrar processo        | cancel     |
-
-
-**Atividade 7 – Escolher Forma de Pagamento (Cliente)**
-
-| **Campo**         | **Tipo**       | **Restrições**                     | **Valor default** |
-|-------------------|----------------|------------------------------------|-------------------|
-| forma de pagamento| Seleção única  | cartão crédito/débito, PIX, boleto |                   |
+| **Campo**           | **Tipo**        | **Restrições**                          | **Valor default** |
+|---------------------|-----------------|-----------------------------------------|-------------------|
+| Data retirada       | Data            | obrigatório, formato dd-mm-aaaa          |                   |
+| Hora retirada       | Hora            | obrigatório                             |                   |
+| Data devolução      | Data            | obrigatório, ≥ data de retirada         |                   |
+| Hora devolução      | Hora            | obrigatório                             |                   |
+| Seguro              | Seleção única   | básico / completo / premium             | básico            |
 
 | **Comandos**   | **Destino**         | **Tipo**   |
 |----------------|---------------------|------------|
-| selecionar     | Realizar pagamento  | default    |
-| voltar         | Informar Data/Seguro| cancel     |
+| continuar      | Calcular valores    | default    |
 
+---
 
-**Atividade 8 – Realizar Pagamento (Cliente)**
+## Atividade 10 – Calcular valores (Sistema)
 
-| **Campo**          | **Tipo**       | **Restrições**            | **Valor default** |
-|--------------------|----------------|---------------------------|-------------------|
-| valor total        | Número         | obrigatório, >= 0         |                   |
-| dados de pagamento | Caixa de Texto | conforme forma escolhida   |                   |
+| **Campo**        | **Tipo**     | **Restrições**                      | **Valor default** |
+|------------------|--------------|-------------------------------------|-------------------|
+| valor total      | Número       | calcular diária + seguro + taxas    |                   |
+| prazo            | Data/Hora    | validar disponibilidade             |                   |
+
+| **Comandos**   | **Destino**                  | **Tipo**   |
+|----------------|------------------------------|------------|
+| exibir valores | Escolher forma de pagamento  | default    |
+
+---
+
+## Atividade 11 – Escolher forma de pagamento (Cliente)
+
+| **Campo**          | **Tipo**       | **Restrições**                  | **Valor default** |
+|--------------------|----------------|---------------------------------|-------------------|
+| Forma de pagamento | Seleção única  | cartão, pix, boleto             |                   |
+
+| **Comandos**   | **Destino**         | **Tipo**   |
+|----------------|---------------------|------------|
+| confirmar      | Processar pagamento | default    |
+| cancelar       | Início do processo  | cancel     |
+
+---
+
+## Atividade 12 – Processar pagamento (Sistema)
+
+| **Campo**             | **Tipo**   | **Restrições**                              | **Valor default** |
+|-----------------------|------------|---------------------------------------------|-------------------|
+| dados do pagamento    | Tabela     | criptografia de dados, validação antifraude |                   |
 
 | **Comandos**   | **Destino**           | **Tipo**   |
 |----------------|-----------------------|------------|
-| pagar          | Processar pagamento   | default    |
-| cancelar       | Encerrar processo     | cancel     |
+| enviar dados   | Validar pagamento     | default    |
 
+---
 
-**Atividade 9 – Processar Pagamento (Sistema/Pagamento)**
+## Atividade 13 – Validar pagamento (Sistema)
 
-| **Campo**              | **Tipo**  | **Restrições**                       | **Valor default** |
-|------------------------|-----------|--------------------------------------|-------------------|
-| transação              | Registro  | obrigatório                          |                   |
+| **Campo**          | **Tipo**     | **Restrições**                  | **Valor default** |
+|--------------------|--------------|---------------------------------|-------------------|
+| status pagamento   | Seleção única| aprovado / recusado             |                   |
 
-| **Comandos**   | **Destino**        | **Tipo**   |
-|----------------|--------------------|------------|
-| processado     | Validar pagamento  | default    |
-| falha          | Notificar usuário  | cancel     |
+| **Comandos**   | **Destino**                    | **Tipo**   |
+|----------------|--------------------------------|------------|
+| aprovado       | Registrar reserva              | default    |
+| recusado       | Notificar usuário              | cancel     |
 
+---
 
-**Atividade 10 – Validar Pagamento (Sistema/Pagamento)**
+## Atividade 14 – Notificar usuário (Sistema)
 
-| **Campo**            | **Tipo**  | **Restrições**                   | **Valor default** |
-|----------------------|-----------|----------------------------------|-------------------|
-| status pagamento     | Registro  | aprovado ou recusado             |                   |
+| **Campo**              | **Tipo**      | **Restrições**                      | **Valor default** |
+|-------------------------|---------------|-------------------------------------|-------------------|
+| mensagem de erro        | Área de texto | obrigatório, clara e objetiva        |                   |
+| tipo de notificação     | Seleção única | alerta em tela, e-mail, SMS          | alerta em tela    |
 
-| **Comandos**     | **Destino**        | **Tipo**   |
-|------------------|--------------------|------------|
-| válido           | Registrar reserva  | default    |
-| inválido         | Notificar usuário  | cancel     |
+| **Comandos**      | **Destino**                   | **Tipo**   |
+|-------------------|-------------------------------|------------|
+| tentar novamente  | Escolher forma de pagamento   | default    |
+| cancelar          | Início do processo            | cancel     |
 
+---
 
-**Atividade 11 – Notificar Usuário (Sistema)**
+## Atividade 15 – Registrar reserva (Sistema)
 
-| **Campo**              | **Tipo**       | **Restrições**                          | **Valor default** |
-|-------------------------|----------------|-----------------------------------------|-------------------|
-| mensagem de erro        | Área de Texto  | obrigatório, clara e objetiva            |                   |
-| tipo de notificação     | Seleção única  | alerta em tela, e-mail, SMS              | alerta em tela    |
+| **Campo**            | **Tipo**   | **Restrições**                         | **Valor default** |
+|----------------------|------------|----------------------------------------|-------------------|
+| dados da reserva     | Tabela     | armazenar dados do veículo, cliente e pagamento |                   |
 
-| **Comandos**      | **Destino**                  | **Tipo**   |
-|-------------------|------------------------------|------------|
-| tentar novamente  | Escolher forma de pagamento  | default    |
-| cancelar          | Encerrar processo            | cancel     |
+| **Comandos**   | **Destino**                   | **Tipo**   |
+|----------------|-------------------------------|------------|
+| confirmar      | Gerar confirmação de reserva  | default    |
 
+---
 
-**Atividade 12 – Registrar Reserva (Sistema)**
+## Atividade 16 – Gerar confirmação de reserva (Sistema)
 
-| **Campo**             | **Tipo**  | **Restrições**              | **Valor default** |
-|-----------------------|-----------|-----------------------------|-------------------|
-| reserva               | Registro  | obrigatório                 |                   |
+| **Campo**               | **Tipo**   | **Restrições**                           | **Valor default** |
+|-------------------------|------------|------------------------------------------|-------------------|
+| código da reserva       | Número     | obrigatório, gerado automaticamente      |                   |
+| resumo da reserva       | Tabela     | dados do cliente, veículo e período      |                   |
 
-| **Comandos**   | **Destino**                  | **Tipo**   |
-|----------------|------------------------------|------------|
-| registrada     | Gerar confirmação de reserva | default    |
+| **Comandos**   | **Destino**                   | **Tipo**   |
+|----------------|-------------------------------|------------|
+| exibir resumo  | Exibir confirmação de reserva | default    |
 
+---
 
-**Atividade 13 – Gerar Confirmação de Reserva (Sistema)**
+## Atividade 17 – Exibir confirmação de reserva (Sistema/Cliente)
 
-| **Campo**                   | **Tipo**  | **Restrições**           | **Valor default** |
-|-----------------------------|-----------|--------------------------|-------------------|
-| confirmação da reserva      | Registro  | obrigatório              |                   |
+| **Campo**              | **Tipo**      | **Restrições**                           | **Valor default** |
+|------------------------|---------------|------------------------------------------|-------------------|
+| mensagem de sucesso    | Área de texto | obrigatório, clara e objetiva             |                   |
+| comprovante da reserva | Arquivo (PDF)| disponível para download e envio por e-mail |                   |
 
-| **Comandos**   | **Destino**                  | **Tipo**   |
-|----------------|------------------------------|------------|
-| gerar          | Exibir confirmação de reserva| default    |
-
-
-**Atividade 14 – Exibir Confirmação de Reserva (Cliente)**
-
-| **Campo**                   | **Tipo**      | **Restrições**          | **Valor default** |
-|-----------------------------|---------------|-------------------------|-------------------|
-| mensagem de sucesso         | Área de Texto | obrigatório             |                   |
-| detalhes da reserva         | Tabela        | obrigatórios exibir     |                   |
-
-| **Comandos**   | **Destino**       | **Tipo**   |
-|----------------|-------------------|------------|
-| finalizar      | Encerrar processo | default    |
+| **Comandos**     | **Destino**         | **Tipo**   |
+|------------------|---------------------|------------|
+| encerrar processo| Fim                 | default    |
