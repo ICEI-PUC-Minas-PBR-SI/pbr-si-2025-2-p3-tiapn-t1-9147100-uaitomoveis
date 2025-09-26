@@ -6,17 +6,6 @@ O processo de **Login e Cadastro de Usuários** é responsável por registrar cl
 ### Diagrama de Atividade
 <img width="1079" height="1015" alt="image" src="https://github.com/user-attachments/assets/e2dcd13e-0f85-4658-a88e-c7f17fd06913" />
 
-
-### Homepage
-![homepage_uaitomoveis](https://github.com/user-attachments/assets/ccc8584b-8ed5-4691-a70e-41478fa5e0ba)
-
-### Login
-![login_uaitomoveis](https://github.com/user-attachments/assets/ee93c7bb-2b68-4f04-962f-d078313db791)
-
-### Cadastro
-![criar_conta_uaitomoveis](https://github.com/user-attachments/assets/72a1bd68-9ea3-459e-9185-eb7f3a3aec20)
-
-
 #### Detalhamento das atividades
 
 _Os tipos de dados a serem utilizados são:_
