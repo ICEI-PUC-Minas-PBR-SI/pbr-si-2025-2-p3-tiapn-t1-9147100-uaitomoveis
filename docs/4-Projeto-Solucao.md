@@ -44,34 +44,34 @@ Tela destinada a novos usuários, que devem preencher informações obrigatória
 
 As telas propostas contemplam a navegação do usuário na escolha do veículo até a confirmação da reserva e pagamento.  
 #### Catálogo de Veículos  
-<img width="1284" height="602" alt="image" src="https://github.com/user-attachments/assets/96e34d58-16d8-4640-b318-ab48dc7bf0e7" />
+<img width="1127" height="519" alt="image" src="https://github.com/user-attachments/assets/a31b924c-2bb4-4f68-b0f8-4c91d3574014" />
 
 Exibe as categorias de veículos disponíveis (Econômicos, Sedans, SUVs, Minivans/Vans, Picapes, Elétricos/Híbridos, Esportivos e Luxo). Cada categoria apresenta uma breve descrição de sua finalidade.  
 
 #### Lista de Modelos (Sedans)  
-<img width="1295" height="602" alt="image" src="https://github.com/user-attachments/assets/3d8894be-fde0-43b8-a275-02776f98160a" />
+<img width="1126" height="520" alt="image" src="https://github.com/user-attachments/assets/0f8abd2c-999c-47dd-a4e3-3b3376ade54f" />
 
 Mostra os veículos disponíveis dentro de uma categoria, exibindo informações como **nome, preço/dia, disponibilidade e descrição resumida**.  
 
 #### Detalhes do Veículo  
-<img width="1296" height="605" alt="image" src="https://github.com/user-attachments/assets/aa7c9ebd-d56e-4ee7-ae16-403b58e0fde6" />
+<img width="1127" height="522" alt="image" src="https://github.com/user-attachments/assets/a788bd30-5831-4d6c-aa3a-69fd27dd6d9d" />
 
 Apresenta informações detalhadas do veículo, incluindo preço da diária, status de disponibilidade, especificações técnicas (motor, número de assentos, consumo médio etc.) e a opção “Reservar agora”.
 
 #### Finalizar Reserva  
-<img width="1312" height="607" alt="image" src="https://github.com/user-attachments/assets/cd845489-0ba1-4b29-be0e-69f492d87210" />
+<img width="1128" height="525" alt="image" src="https://github.com/user-attachments/assets/722ecc04-89d2-4c66-a744-f1debbc944a4" />
 
 Formulário para definir os detalhes da reserva, incluindo data de retirada e devolução, seleção de seguro, exibição do preço final calculado e a opção “Confirmar reserva”.
 
 #### Inserir Método de Pagamento (Cartão) 
-<img width="1293" height="605" alt="image" src="https://github.com/user-attachments/assets/ef3e7ef3-3b0d-4658-b49f-7153fc92b803" />
+<img width="1128" height="525" alt="image" src="https://github.com/user-attachments/assets/056f3b19-f3c2-4fb5-865c-dfaae33d3252" />
 
 O usuário seleciona a forma de pagamento desejada (cartão de crédito, débito ou PIX).
 Se optar por cartão, deve preencher: nome no cartão, número do cartão, data de validade e CVV.
 No caso do PIX, será exibido um QR Code ou a chave PIX.
 
 #### Confirmação do Pagamento  
-<img width="1293" height="605" alt="image" src="https://github.com/user-attachments/assets/deb1a404-05a6-44ca-a336-652847a59120" />
+<img width="1127" height="526" alt="image" src="https://github.com/user-attachments/assets/1ec1588e-3486-47fb-9837-c5746728762a" />
 
 Antes de concluir, o sistema exibe o resumo da reserva, contendo: veículo selecionado, datas de retirada e devolução, valor total e forma de pagamento escolhida.
 Após a confirmação, é gerado o comprovante digital da reserva.
