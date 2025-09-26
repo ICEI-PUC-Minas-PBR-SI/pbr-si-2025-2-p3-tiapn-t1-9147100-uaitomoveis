@@ -4,7 +4,8 @@ O processo de **Login e Cadastro de Usuários** é responsável por registrar cl
 
 
 ### Diagrama de Atividade
-<img width="1079" height="1015" alt="image" src="https://github.com/user-attachments/assets/e2dcd13e-0f85-4658-a88e-c7f17fd06913" />
+<img width="1085" height="1021" alt="image" src="https://github.com/user-attachments/assets/fa0081fc-9190-4317-bb8a-2ae561153d6c" />
+
 
 #### Detalhamento das atividades
 
