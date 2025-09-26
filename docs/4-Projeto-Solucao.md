@@ -23,7 +23,7 @@ O objetivo é garantir que os requisitos funcionais e não funcionais sejam aten
 
 ## Processo 1 – Login e Cadastro de Usuários
 
-As telas propostas contemplam:  
+As telas propostas contemplam a navegação do usuário desde a homepage até a tela de cadastro, caso ele ainda não possua login.
 - **Homepage:** ponto inicial de acesso à plataforma.  
 - **Login:** autenticação de usuários já registrados.  
 - **Cadastro:** registro de novos usuários quando não possuem conta.  
