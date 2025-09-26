@@ -142,8 +142,8 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | confirmar     | Realizar pagamento   | default    |
 | voltar        | Informar seguro      | secondary  |
 
-**Atividade 11 – Realizar Pagamento (Cliente)**
-**Descrição:** O cliente informa os dados necessários e realiza o pagamento. 
+**Atividade 11 – Realizar Pagamento (Cliente)**  
+**Descrição:** O cliente informa os dados necessários e realiza o pagamento.
 | **Campo** | **Tipo** | **Restrições** | 
 |-----------------------|------------|-----------------------| 
 | Dados do pagamento | Texto | obrigatórios | 
