@@ -147,7 +147,10 @@ _* **Tabela** - campo formado por uma matriz de valores_
 
 | **Campo**             | **Tipo**   | **Restrições**        |
 |-----------------------|------------|-----------------------|
-| Dados do pagamento    | Texto      | obrigatórios          |
+| Nome no cartão        | Texto      | obrigatório           |
+| Número do cartão      | Numérico   | obrigatório, 16 dígitos|
+| Validade              | Data (MM/AA)| obrigatório           |
+| CVV                   | Numérico   | obrigatório, 3 dígitos|
 
 | **Comando**   | **Destino**           | **Tipo**   |
 |---------------|-----------------------|------------|
