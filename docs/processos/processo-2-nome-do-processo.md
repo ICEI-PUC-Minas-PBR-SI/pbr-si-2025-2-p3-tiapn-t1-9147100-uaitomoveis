@@ -1,4 +1,4 @@
-### 3.3.2 Processo 2 – Aluguel de Veículos
+### 3.3.2. Processo 2 – Aluguel de Veículos
 
 O processo de **Aluguel de Veículos** descreve as etapas que o cliente percorre desde a seleção do veículo até a confirmação da reserva.  
 Ele envolve interação do cliente, validações do sistema e processamento do pagamento.
