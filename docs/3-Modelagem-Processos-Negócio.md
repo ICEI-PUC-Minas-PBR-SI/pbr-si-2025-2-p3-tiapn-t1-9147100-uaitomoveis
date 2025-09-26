@@ -24,6 +24,6 @@ Assim, espera-se que o processo da locadora seja transformado em uma operação 
 
 [PROCESSO 2 - Aluguel de Veículos](./processos/processo-2-nome-do-processo.md "Detalhamento do Processo 2.")
 
-[PROCESSO 3 - NOME DO PROCESSO](./processos/processo-3-nome-do-processo.")
+[PROCESSO 3 - NOME DO PROCESSO](./processos/processo-3-nome-do-processo.md")
 
-[PROCESSO 4 - NOME DO PROCESSO](./processos/processo-4-nome-do-processo.")
+[PROCESSO 4 - NOME DO PROCESSO](./processos/processo-4-nome-do-processo.md")
