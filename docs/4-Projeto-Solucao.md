@@ -32,9 +32,10 @@ As telas propostas contemplam:
 A tela inicial apresenta as opções de acesso, permitindo que o usuário escolha entre realizar login ou efetuar um novo cadastro.  
 
 #### Login
-<img width="1116" height="522" alt="Login" src="https://github.com/user-attachments/assets/e0f09369-e61b-4afc-ae92-c9433be1cce4" />
+![Imagem do WhatsApp de 2025-09-26 à(s) 16 08 48_d58e17d0](https://github.com/user-attachments/assets/a6897ec4-ae9e-4cd1-ac55-fb1affc710ad)
 
-Tela para autenticação de usuários cadastrados. Requer **e-mail/CPF** e **senha**. Caso não possua conta, há opção de redirecionamento para a tela de cadastro.  
+
+Tela para autenticação de usuários cadastrados. Requer **e-mail** e **senha**. Caso não possua conta, há opção de redirecionamento para a tela de cadastro.  
 
 #### Cadastro
 <img width="1120" height="521" alt="Cadastro" src="https://github.com/user-attachments/assets/00579386-b886-4238-a60f-2188bf194eec" />
