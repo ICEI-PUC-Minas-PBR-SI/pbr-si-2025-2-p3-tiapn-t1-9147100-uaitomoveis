@@ -17,9 +17,11 @@
 
 ### 4.2. Protótipos de Telas
 
-A seguir são apresentados os protótipos de tela que representam as principais interfaces do **Processo 1 – Login e Cadastro de Usuários**. Esses protótipos foram elaborados de forma a refletir a interação entre usuário e sistema, conforme descrito na seção [Especificação do Projeto](02-Especificação%20do%20Projeto.md). 
+A seguir são apresentados os protótipos de tela que representam as principais interfaces do sistema, organizados por processos. Esses protótipos foram elaborados de forma a refletir a interação entre usuário e sistema, conforme descrito na seção [Especificação do Projeto](02-Especificação%20do%20Projeto.md).  
 
-O objetivo é garantir que os requisitos funcionais e não funcionais sejam atendidos, bem como as histórias de usuário relacionadas ao acesso seguro à plataforma de serviços de locação de veículos.  
+O objetivo é garantir que os requisitos funcionais e não funcionais sejam atendidos, bem como as histórias de usuário relacionadas à plataforma de serviços de locação de veículos.  
+
+## Processo 1 – Login e Cadastro de Usuários
 
 As telas propostas contemplam:  
 - **Homepage:** ponto inicial de acesso à plataforma.  
@@ -32,8 +34,7 @@ As telas propostas contemplam:
 A tela inicial apresenta as opções de acesso, permitindo que o usuário escolha entre realizar login ou efetuar um novo cadastro.  
 
 #### Login
-![Imagem do WhatsApp de 2025-09-26 à(s) 16 08 48_d58e17d0](https://github.com/user-attachments/assets/a6897ec4-ae9e-4cd1-ac55-fb1affc710ad)
-
+![Login](https://github.com/user-attachments/assets/a6897ec4-ae9e-4cd1-ac55-fb1affc710ad)
 
 Tela para autenticação de usuários cadastrados. Requer **e-mail** e **senha**. Caso não possua conta, há opção de redirecionamento para a tela de cadastro.  
 
@@ -41,6 +42,46 @@ Tela para autenticação de usuários cadastrados. Requer **e-mail** e **senha**
 <img width="1120" height="521" alt="Cadastro" src="https://github.com/user-attachments/assets/00579386-b886-4238-a60f-2188bf194eec" />
 
 Tela destinada a novos usuários, que devem preencher informações obrigatórias como **nome completo, CPF, CNH, data de nascimento, endereço e e-mail**. O sistema realiza validações para garantir a consistência dos dados informados.  
+
+## Processo 2 – Reserva de Veículos  
+
+As telas propostas contemplam a navegação do usuário na escolha do veículo até a confirmação da reserva e pagamento.  
+#### Catálogo de Veículos  
+![Catálogo](upload://d2cefd15-913f-4267-9ade-ac1ed3175551.png)
+
+Exibe as categorias de veículos disponíveis (Econômicos, Sedans, SUVs, Minivans/Vans, Picapes, Elétricos/Híbridos, Esportivos e Luxo). Cada categoria apresenta uma breve descrição de sua finalidade.  
+
+#### Lista de Modelos (Sedans)  
+![Modelos Sedan](upload://d096caca-f6aa-42db-97b8-08bd64abc268.png)
+
+Mostra os veículos disponíveis dentro de uma categoria, exibindo informações como **nome, preço/dia, disponibilidade e descrição resumida**.  
+
+#### Detalhes do Veículo  
+![Detalhes do Veículo](upload://548e72e9-064b-41de-ada7-7013e44dad49.png)
+
+Apresenta informações detalhadas de um veículo, incluindo:  
+- **Preço por dia**  
+- **Status de disponibilidade**  
+- **Especificações técnicas** (motor, assentos, consumo médio etc.)  
+- Opção para **reservar o veículo**  
+
+#### Finalizar Reserva  
+![Finalizar Reserva](upload://2fa12364-8a18-4b13-9699-d409d425edc8.png)
+
+Formulário para definir os detalhes da reserva, incluindo:  
+- Data de retirada e devolução  
+- Seleção de seguro  
+- Exibição do **preço final calculado**  
+- Opção de **confirmar a reserva**  
+
+---
+
+## Processo 3 – Pagamento (a ser detalhado)
+
+---
+
+## Processo 4 – Confirmação e Gestão da Reserva (a ser detalhado)
+ 
 
 ## Diagrama de Classes
 
