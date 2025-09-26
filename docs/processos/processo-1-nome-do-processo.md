@@ -35,7 +35,7 @@ _* **Link** - campo que armazena uma URL_
 _* **Tabela** - campo formado por uma matriz de valores_
 
 
-**Atividade 1 – Acessar Plataforma (Usuário)**
+**Atividade 1 – Acessar Plataforma (Usuário)**  
 **Descrição:** Usuário acessa a *Home Page* da plataforma, onde pode navegar pelas opções iniciais e decidir se vai para login ou cadastro.
 
 | **Comando**   | **Destino**                 | **Tipo**   |
@@ -43,35 +43,41 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | acessar login | Ir para **Acessar Área de Login** | default    |
 | sair          | Encerrar processo            | cancel     |
 
+
 **Atividade 2 – Acessar Área de Login (Usuário)**
 
 | **Campo** | **Tipo**       | **Restrições**                                                         | **Valor default** |
 |-----------|----------------|------------------------------------------------------------------------|-------------------|
-| login     | Caixa de Texto | formato de e-mail válido                                               |                   |
+| e-mail    | Caixa de Texto | formato de e-mail válido                                               |                   |
 | senha     | Caixa de Texto | mínimo 8 caracteres, 1 letra maiúscula, 1 número e 1 caractere especial|                   |
 
 | **Comandos**   | **Destino**                               | **Tipo**   |
 |----------------|-------------------------------------------|------------|
 | entrar         | Fim da Atividade 2 (se login válido)      | default    |
-| cadastrar      | Ir para formulário de cadastro de usuário |            |
+| cadastre-se    | Ir para formulário de cadastro de usuário |            |
+
 
 **Atividade 3 – Preencher Formulário de Dados (Usuário)**
 
-| **Campo**          | **Tipo**        | **Restrições**                           | **Valor default** |
-|--------------------|-----------------|------------------------------------------|-------------------|
-| nome completo      | Caixa de Texto  | obrigatório, máximo 100 caracteres       |                   |
-| CPF                | Caixa de Texto  | formato válido (###.###.###-##), único   |                   |
-| CNH                | Caixa de Texto  | obrigatório, 11 dígitos, válido          |                   |
-| data de nascimento | Data            | formato dd-mm-aaaa, idade ≥ 18 anos      |                   |
-| telefone           | Caixa de Texto  | apenas números (DDD+Nº)                  |                   |
-| endereço           | Área de Texto   | obrigatório                              |                   |
-| e-mail             | Caixa de Texto  | formato válido, único                    |                   |
-| tipo de usuário    | Seleção única   | cliente, funcionário, administrador      | cliente           |
+| **Campo**           | **Tipo**        | **Restrições**                           | **Valor default** |
+|---------------------|-----------------|------------------------------------------|-------------------|
+| nome completo       | Caixa de Texto  | obrigatório, máximo 100 caracteres       |                   |
+| tipo de pessoa      | Seleção única   | obrigatório                              |                   |
+| número da CNH       | Caixa de Texto  | obrigatório, 11 dígitos, válido          |                   |
+| categoria CNH       | Seleção única   | obrigatório                              |                   |
+| data de nascimento  | Data            | formato dd-mm-aaaa, idade ≥ 18 anos      |                   |
+| telefone            | Caixa de Texto  | apenas números (DDD+Nº)                  |                   |
+| CEP                 | Caixa de Texto  | apenas números                           |                   |
+| número da casa      | Caixa de Texto  | apenas números                           |                   |
+| e-mail              | Caixa de Texto  | formato válido, único                    |                   |
+| senha               | Caixa de Texto  | mínimo 8 caracteres, 1 letra maiúscula, 1 número e 1 caractere especial | |
+| confirmar senha     | Caixa de Texto  | igual ao campo senha                     |                   |
 
 | **Comandos**   | **Destino**                      | **Tipo**   |
 |----------------|----------------------------------|------------|
-| salvar         | Validar dados preenchidos        | default    |
+| cadastrar      | Validar dados preenchidos        | default    |
 | cancelar       | Início do processo               | cancel     |
+
 
 **Atividade 4 – Aceitar Termos e Políticas (Usuário)**
 
@@ -85,16 +91,18 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | continuar      | Validar dados preenchidos       | default    |
 | voltar         | Preencher formulário de dados   | cancel     |
 
+
 **Atividade 5 – Validar Dados (Sistema)**
 
 | **Campo**             | **Tipo** | **Restrições**                                        | **Valor default** |
 |-----------------------|----------|-------------------------------------------------------|-------------------|
-| validação cadastro    | Tabela   | cruzar CPF, CNH e e-mail com banco de dados           |                   |
+| validação cadastro    | Tabela   | cruzar CNH, e-mail e telefone com banco de dados      |                   |
 
 | **Comandos**     | **Destino**               | **Tipo**   |
 |------------------|---------------------------|------------|
 | dados corretos   | Consultar tipo de usuário | default    |
 | dados incorretos | Notificar Usuário         | cancel     |
+
 
 **Atividade 6 – Notificar Usuário (Sistema)**
 
@@ -108,6 +116,7 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | tentar novamente  | Preencher formulário de dados| default    |
 | cancelar          | Início do processo           | cancel     |
 
+
 **Atividade 7 – Consultar Tipo de Usuário (Sistema)**
 
 | **Campo**      | **Tipo**        | **Restrições**                                 | **Valor default** |
@@ -118,6 +127,7 @@ _* **Tabela** - campo formado por uma matriz de valores_
 |----------------|---------------------------------------|------------|
 | atribuir perfil| Conceder acesso com permissões atribuídas | default    |
 
+
 **Atividade 8 – Conceder Permissões (Sistema)**
 
 | **Campo**              | **Tipo**        | **Restrições**                                                        | **Valor default** |
@@ -127,6 +137,7 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | **Comandos**   | **Destino**           | **Tipo**   |
 |----------------|-----------------------|------------|
 | acesso liberado| Acesso Liberado       | default    |
+
 
 **Atividade 9 – Acesso Liberado (Sistema/Usuário)**
 
