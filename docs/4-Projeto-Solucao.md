@@ -59,7 +59,7 @@ Mostra os veículos disponíveis dentro de uma categoria, exibindo informações
 Apresenta informações detalhadas do veículo, incluindo preço da diária, status de disponibilidade, especificações técnicas (motor, número de assentos, consumo médio etc.) e a opção “Reservar agora”.
 
 #### Finalizar Reserva  
-<img width="1128" height="525" alt="image" src="https://github.com/user-attachments/assets/722ecc04-89d2-4c66-a744-f1debbc944a4" />
+<img width="1125" height="517" alt="image" src="https://github.com/user-attachments/assets/8fae4bab-0096-4de4-aa83-494b3b640c95" />
 
 Formulário para definir os detalhes da reserva, incluindo data de retirada e devolução, seleção de seguro, exibição do preço final calculado e a opção “Confirmar reserva”.
 
