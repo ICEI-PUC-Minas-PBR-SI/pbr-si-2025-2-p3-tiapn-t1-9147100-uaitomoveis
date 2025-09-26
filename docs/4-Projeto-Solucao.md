@@ -15,24 +15,28 @@
  ![Exemplo de Arquitetura](./images/arquitetura-exemplo.png)
  
 
-### 4.2. Protótipos de telas
+### 4.2. Protótipos de Telas
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="02-Especificação do Projeto.md"> Especificação do Projeto</a>.
-A partir das atividades de usuário identificadas na seção anterior, elabore o protótipo de tela de cada uma delas.
-![Exemplo de Wireframe](images/wireframe-example.png)
+A seguir são apresentados os protótipos de tela que representam as principais interfaces do **Processo 1 – Login e Cadastro de Usuários**. Esses protótipos foram elaborados de forma a refletir a interação entre usuário e sistema, conforme descrito na seção [Especificação do Projeto](02-Especificação%20do%20Projeto.md). 
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+O objetivo é garantir que os requisitos funcionais e não funcionais sejam atendidos, bem como as histórias de usuário relacionadas ao acesso seguro à plataforma de serviços de locação de veículos.  
 
+As telas propostas contemplam:  
+- **Homepage:** ponto inicial de acesso à plataforma.  
+- **Login:** autenticação de usuários já registrados.  
+- **Cadastro:** registro de novos usuários quando não possuem conta.  
+
+#### Homepage
+![homepage_uaitomoveis](images/homepage_uaitomoveis.png)  
+A tela inicial apresenta as opções de acesso, permitindo que o usuário escolha entre realizar login ou efetuar um novo cadastro.  
+
+#### Login
+![login_uaitomoveis](images/login_uaitomoveis.png)  
+Tela para autenticação de usuários cadastrados. Requer **e-mail/CPF** e **senha**. Caso não possua conta, há opção de redirecionamento para a tela de cadastro.  
+
+#### Cadastro
+![cadastro_uaitomoveis](images/cadastro_uaitomoveis.png)  
+Tela destinada a novos usuários, que devem preencher informações obrigatórias como **nome completo, CPF, CNH, data de nascimento, endereço e e-mail**. O sistema realiza validações para garantir a consistência dos dados informados.  
 
 ## Diagrama de Classes
 
