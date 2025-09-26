@@ -3,16 +3,16 @@
 O processo de **Login e Cadastro de Usuários** é responsável por registrar clientes no sistema e garantir o acesso seguro à plataforma de serviços (aluguel de veículos). Ele assegura a integridade dos dados, evita duplicidade de registros e define permissões de acesso conforme o tipo de usuário.
 
 
-## Diagrama de Atividade
+### Diagrama de Atividade
 <img width="1091" height="1024" alt="image" src="https://github.com/user-attachments/assets/db8a7ff7-bb7f-4964-836a-5f2c27304f49" />
 
-## Homepage
+### Homepage
 ![homepage_uaitomoveis](https://github.com/user-attachments/assets/ccc8584b-8ed5-4691-a70e-41478fa5e0ba)
 
-# Login
+### Login
 ![login_uaitomoveis](https://github.com/user-attachments/assets/ee93c7bb-2b68-4f04-962f-d078313db791)
 
-## Cadastro
+### Cadastro
 ![criar_conta_uaitomoveis](https://github.com/user-attachments/assets/72a1bd68-9ea3-459e-9185-eb7f3a3aec20)
 
 
