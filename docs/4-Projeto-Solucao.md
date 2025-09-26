@@ -79,8 +79,8 @@ Formulário para definir os detalhes da reserva, incluindo:
 
 O usuário seleciona a forma de pagamento desejada (**cartão de crédito, débito ou PIX**).  
 Caso escolha cartão, deve preencher:  
-- Número do cartão  
-- Nome do titular  
+- Número no cartão  
+- Número do Cartão
 - Data de validade  
 - CVV  
 
