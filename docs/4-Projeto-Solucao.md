@@ -47,17 +47,17 @@ Tela destinada a novos usuários, que devem preencher informações obrigatória
 
 As telas propostas contemplam a navegação do usuário na escolha do veículo até a confirmação da reserva e pagamento.  
 #### Catálogo de Veículos  
-![Catálogo](upload://d2cefd15-913f-4267-9ade-ac1ed3175551.png)
+<img width="1284" height="602" alt="image" src="https://github.com/user-attachments/assets/96e34d58-16d8-4640-b318-ab48dc7bf0e7" />
 
 Exibe as categorias de veículos disponíveis (Econômicos, Sedans, SUVs, Minivans/Vans, Picapes, Elétricos/Híbridos, Esportivos e Luxo). Cada categoria apresenta uma breve descrição de sua finalidade.  
 
 #### Lista de Modelos (Sedans)  
-![Modelos Sedan](upload://d096caca-f6aa-42db-97b8-08bd64abc268.png)
+<img width="1295" height="602" alt="image" src="https://github.com/user-attachments/assets/3d8894be-fde0-43b8-a275-02776f98160a" />
 
 Mostra os veículos disponíveis dentro de uma categoria, exibindo informações como **nome, preço/dia, disponibilidade e descrição resumida**.  
 
 #### Detalhes do Veículo  
-![Detalhes do Veículo](upload://548e72e9-064b-41de-ada7-7013e44dad49.png)
+<img width="1296" height="605" alt="image" src="https://github.com/user-attachments/assets/aa7c9ebd-d56e-4ee7-ae16-403b58e0fde6" />
 
 Apresenta informações detalhadas de um veículo, incluindo:  
 - **Preço por dia**  
@@ -66,7 +66,7 @@ Apresenta informações detalhadas de um veículo, incluindo:
 - Opção para **reservar o veículo**  
 
 #### Finalizar Reserva  
-![Finalizar Reserva](upload://2fa12364-8a18-4b13-9699-d409d425edc8.png)
+<img width="1312" height="607" alt="image" src="https://github.com/user-attachments/assets/cd845489-0ba1-4b29-be0e-69f492d87210" />
 
 Formulário para definir os detalhes da reserva, incluindo:  
 - Data de retirada e devolução  
@@ -76,11 +76,9 @@ Formulário para definir os detalhes da reserva, incluindo:
 
 ## Processo 3 – Pagamento (a ser detalhado)
 
----
 
 ## Processo 4 – Confirmação e Gestão da Reserva (a ser detalhado)
 
----
 
 ## Diagrama de Classes
 
