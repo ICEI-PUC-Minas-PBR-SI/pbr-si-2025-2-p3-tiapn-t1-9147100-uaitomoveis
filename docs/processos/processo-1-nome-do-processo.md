@@ -95,59 +95,14 @@ _* **Tabela** - campo formado por uma matriz de valores_
 
 **Atividade 5 – Validar Dados (Sistema)**
 
-| **Campo**             | **Tipo** | **Restrições**                                        | **Valor default** |
-|-----------------------|----------|-------------------------------------------------------|-------------------|
-| validação cadastro    | Tabela   | cruzar CNH, e-mail e telefone com banco de dados      |                   |
-
 | **Comandos**     | **Destino**               | **Tipo**   |
 |------------------|---------------------------|------------|
-| dados corretos   | Consultar tipo de usuário | default    |
-| dados incorretos | Notificar Usuário         | cancel     |
-
+| validar dados   | Consultar tipo de usuário | default    |
 
 **Atividade 6 – Notificar Usuário (Sistema)**
-
-| **Campo**              | **Tipo**       | **Restrições**                          | **Valor default** |
-|-------------------------|----------------|-----------------------------------------|-------------------|
-| mensagem de erro        | Área de Texto  | obrigatório, clara e objetiva            |                   |
-| tipo de notificação     | Seleção única  | alerta em tela, e-mail, SMS              | alerta em tela    |
 
 | **Comandos**      | **Destino**                  | **Tipo**   |
 |-------------------|------------------------------|------------|
 | tentar novamente  | Preencher formulário de dados| default    |
 | cancelar          | Início do processo           | cancel     |
 
-
-**Atividade 7 – Consultar Tipo de Usuário (Sistema)**
-
-| **Campo**      | **Tipo**        | **Restrições**                                 | **Valor default** |
-|----------------|-----------------|------------------------------------------------|-------------------|
-| tipo usuário   | Seleção única   | atribuído automaticamente (cliente, funcionário, administrador) |                   |
-
-| **Comandos**   | **Destino**                           | **Tipo**   |
-|----------------|---------------------------------------|------------|
-| atribuir perfil| Conceder acesso com permissões atribuídas | default    |
-
-
-**Atividade 8 – Conceder Permissões (Sistema)**
-
-| **Campo**              | **Tipo**        | **Restrições**                                                        | **Valor default** |
-|------------------------|-----------------|-----------------------------------------------------------------------|-------------------|
-| permissões de usuário  | Seleção múltipla| cliente = locação de veículos; funcionário = gerenciar reservas; administrador = acesso total |                   |
-
-| **Comandos**   | **Destino**           | **Tipo**   |
-|----------------|-----------------------|------------|
-| acesso liberado| Acesso Liberado       | default    |
-
-
-**Atividade 9 – Acesso Liberado (Sistema/Usuário)**
-
-| **Campo**              | **Tipo**       | **Restrições**                          | **Valor default** |
-|-------------------------|----------------|-----------------------------------------|-------------------|
-| mensagem de sucesso     | Área de Texto  | obrigatório, clara e objetiva            |                   |
-| resumo permissões       | Tabela         | exibir permissões concedidas conforme perfil |                   |
-
-| **Comandos**     | **Destino**         | **Tipo**   |
-|------------------|---------------------|------------|
-| acessar sistema  | Início da sessão    | default    |
-| sair             | Encerrar processo   | cancel     |
