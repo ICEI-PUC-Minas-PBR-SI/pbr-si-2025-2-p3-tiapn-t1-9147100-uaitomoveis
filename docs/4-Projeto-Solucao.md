@@ -74,6 +74,29 @@ Formulário para definir os detalhes da reserva, incluindo:
 - Exibição do **preço final calculado**  
 - Opção de **confirmar a reserva**  
 
+#### Inserir Método de Pagamento  
+<img width="1293" height="605" alt="image" src="https://github.com/user-attachments/assets/ef3e7ef3-3b0d-4658-b49f-7153fc92b803" />
+
+O usuário seleciona a forma de pagamento desejada (**cartão de crédito, débito ou PIX**).  
+Caso escolha cartão, deve preencher:  
+- Número do cartão  
+- Nome do titular  
+- Data de validade  
+- CVV  
+
+No caso de PIX, será exibido um **QR Code ou chave PIX**.  
+
+#### Confirmação do Pagamento  
+<img width="1293" height="605" alt="image" src="https://github.com/user-attachments/assets/deb1a404-05a6-44ca-a336-652847a59120" />
+
+Antes de concluir, o sistema exibe o **resumo da reserva** com:  
+- Veículo selecionado  
+- Datas de retirada e devolução  
+- Valor total  
+- Forma de pagamento escolhida  
+
+Após a confirmação, é gerado o **comprovante digital da reserva**.
+
 ## Processo 3 – Pagamento (a ser detalhado)
 
 
