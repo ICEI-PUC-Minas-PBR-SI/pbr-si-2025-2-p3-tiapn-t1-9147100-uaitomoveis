@@ -142,20 +142,16 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | confirmar     | Realizar pagamento   | default    |
 | voltar        | Informar seguro      | secondary  |
 
-**Atividade 11 – Realizar Pagamento (Cliente)**  
-**Descrição:** O cliente informa os dados necessários e realiza o pagamento.  
+**Atividade 11 – Realizar Pagamento (Cliente)** 
+**Descrição:** O cliente informa os dados necessários e realiza o pagamento. 
+| **Campo** | **Tipo** | **Restrições** | 
+|-----------------------|------------|-----------------------| 
+| Dados do pagamento | Texto | obrigatórios | 
 
-| **Campo**             | **Tipo**   | **Restrições**        |
-|-----------------------|------------|-----------------------|
-| Nome no cartão        | Texto      | obrigatório           |
-| Número do cartão      | Numérico   | obrigatório, 16 dígitos|
-| Validade              | Data (MM/AA)| obrigatório           |
-| CVV                   | Numérico   | obrigatório, 3 dígitos|
-
-| **Comando**   | **Destino**           | **Tipo**   |
-|---------------|-----------------------|------------|
-| pagar         | Processar pagamento   | default    |
-| voltar        | Forma de pagamento    | secondary  |
+| **Comando** | **Destino** | **Tipo** | 
+|---------------|-----------------------|------------| 
+| pagar | Processar pagamento | default | 
+| voltar | Forma de pagamento | secondary |
 
 **Atividade 12 – Processar Pagamento (Sistema)**  
 **Descrição:** O sistema processa os dados enviados para pagamento.  
