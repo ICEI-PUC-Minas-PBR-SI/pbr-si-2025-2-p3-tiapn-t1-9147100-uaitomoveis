@@ -27,15 +27,18 @@ As telas propostas contemplam:
 - **Cadastro:** registro de novos usuários quando não possuem conta.  
 
 #### Homepage
-![homepage_uaitomoveis](images/homepage_uaitomoveis.png)  
+<img width="1116" height="526" alt="HomePage" src="https://github.com/user-attachments/assets/3bf182e9-3ebb-4d0f-9486-b496ac6cce84" />
+
 A tela inicial apresenta as opções de acesso, permitindo que o usuário escolha entre realizar login ou efetuar um novo cadastro.  
 
 #### Login
-![login_uaitomoveis](images/login_uaitomoveis.png)  
+<img width="1116" height="522" alt="Login" src="https://github.com/user-attachments/assets/e0f09369-e61b-4afc-ae92-c9433be1cce4" />
+
 Tela para autenticação de usuários cadastrados. Requer **e-mail/CPF** e **senha**. Caso não possua conta, há opção de redirecionamento para a tela de cadastro.  
 
 #### Cadastro
-![cadastro_uaitomoveis](images/cadastro_uaitomoveis.png)  
+<img width="1120" height="521" alt="Cadastro" src="https://github.com/user-attachments/assets/00579386-b886-4238-a60f-2188bf194eec" />
+
 Tela destinada a novos usuários, que devem preencher informações obrigatórias como **nome completo, CPF, CNH, data de nascimento, endereço e e-mail**. O sistema realiza validações para garantir a consistência dos dados informados.  
 
 ## Diagrama de Classes
