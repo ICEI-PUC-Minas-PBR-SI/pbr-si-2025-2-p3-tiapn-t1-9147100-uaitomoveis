@@ -74,14 +74,13 @@ Formulário para definir os detalhes da reserva, incluindo:
 - Exibição do **preço final calculado**  
 - Opção de **confirmar a reserva**  
 
----
-
 ## Processo 3 – Pagamento (a ser detalhado)
 
 ---
 
 ## Processo 4 – Confirmação e Gestão da Reserva (a ser detalhado)
- 
+
+---
 
 ## Diagrama de Classes
 
