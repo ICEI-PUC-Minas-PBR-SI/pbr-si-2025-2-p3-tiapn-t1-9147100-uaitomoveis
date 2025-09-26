@@ -3,7 +3,7 @@
 O processo de **Aluguel de Veículos** descreve as etapas que o cliente percorre desde a seleção do veículo até a confirmação da reserva.  
 Ele envolve interação do cliente, validações do sistema e processamento do pagamento.
 
-<img width="1044" height="690" alt="Captura de tela 2025-09-26 165602" src="https://github.com/user-attachments/assets/3d8521b7-4dd9-4f86-999d-6460d9713683" />
+<img width="1043" height="688" alt="Captura de tela 2025-09-26 185553" src="https://github.com/user-attachments/assets/5afb2205-a9c2-4b65-8aac-26f8d1882cb9" />
 
 #### Detalhamento das atividades
 
@@ -62,34 +62,15 @@ _* **Tabela** - campo formado por uma matriz de valores_
 
 | **Campo**         | **Tipo**        | **Restrições**                     | **Valor default** |
 |-------------------|-----------------|------------------------------------|-------------------|
-| Grupo de veículo  | Lista suspensa  | obrigatório                        |                   |
-| Modelo            | Lista suspensa  | obrigatório, dependente do grupo    |                   |
+| Grupo de veículo  | Seleção múltipla  | obrigatório                        |                   |
+| Modelo            | Seleção única  |    |                   |
 
 | **Comando**   | **Destino**           | **Tipo**   |
 |---------------|-----------------------|------------|
 | confirmar     | Validar seleção       | default    |
 | voltar        | Buscar veículos       | secondary  |
 
-**Atividade 4 – Validar Seleção (Sistema)**  
-**Descrição:** O sistema valida se o grupo e modelo selecionados estão disponíveis no período informado.  
-
-| **Decisão**        | **Destino**                  |
-|--------------------|------------------------------|
-| Disponível         | Carregar lista de modelos    |
-| Indisponível       | Buscar veículos              |
-
-**Atividade 5 – Carregar Lista de Modelos Disponíveis (Sistema)**  
-**Descrição:** O sistema exibe os veículos disponíveis conforme filtros e seleção feita.  
-
-| **Campo exibido**  | **Descrição**                       |
-|--------------------|-------------------------------------|
-| Foto               | Imagem ilustrativa do veículo       |
-| Modelo             | Nome do modelo                      |
-| Categoria          | Categoria/grupo do veículo          |
-| Valor da diária    | Preço por dia                       |
-| Status             | Disponível ou não                   |
-
-**Atividade 6 – Visualizar Informações do Veículo (Cliente)**  
+**Atividade 4 – Visualizar Informações do Veículo (Cliente)**  
 **Descrição:** O cliente seleciona um veículo para ver os detalhes.  
 
 | **Comando**   | **Destino**          | **Tipo**   |
@@ -97,7 +78,7 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | confirmar     | Confirmar veículo    | default    |
 | voltar        | Carregar lista       | secondary  |
 
-**Atividade 7 – Confirmar Veículo (Cliente)**  
+**Atividade 5 – Confirmar Veículo (Cliente)**  
 **Descrição:** O cliente confirma o veículo escolhido.  
 
 | **Comando**   | **Destino**       | **Tipo**   |
@@ -105,7 +86,7 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | continuar     | Informar data     | default    |
 | voltar        | Visualizar veículo| secondary  |
 
-**Atividade 8 – Informar Data (Cliente)**  
+**Atividade 6 – Informar Data (Cliente)**  
 **Descrição:** O cliente revisa ou ajusta datas de retirada e devolução.  
 
 | **Campo**          | **Tipo**       | **Restrições**                           |
@@ -118,7 +99,7 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | confirmar     | Informar seguro    | default    |
 | voltar        | Confirmar veículo  | secondary  |
 
-**Atividade 9 – Informar Seguro (Cliente)**  
+**Atividade 7 – Informar Seguro (Cliente)**  
 **Descrição:** O cliente escolhe se deseja contratar seguro adicional.  
 
 | **Campo**         | **Tipo**       | **Restrições**       |
@@ -130,7 +111,7 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | confirmar     | Forma de pagamento   | default    |
 | voltar        | Informar data        | secondary  |
 
-**Atividade 10 – Escolher Forma de Pagamento (Cliente)**  
+**Atividade 8 – Escolher Forma de Pagamento (Cliente)**  
 **Descrição:** O cliente seleciona a forma de pagamento.  
 
 | **Campo**          | **Tipo**       | **Opções**                       |
@@ -142,7 +123,7 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | confirmar     | Realizar pagamento   | default    |
 | voltar        | Informar seguro      | secondary  |
 
-**Atividade 11 – Realizar Pagamento (Cliente)**  
+**Atividade 9 – Realizar Pagamento (Cliente)**  
 **Descrição:** O cliente informa os dados necessários e realiza o pagamento.
 | **Campo** | **Tipo** | **Restrições** | 
 |-----------------------|------------|-----------------------| 
@@ -153,34 +134,8 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | pagar | Processar pagamento | default | 
 | voltar | Forma de pagamento | secondary |
 
-**Atividade 12 – Processar Pagamento (Sistema)**  
-**Descrição:** O sistema processa os dados enviados para pagamento.  
 
-| **Decisão**        | **Destino**           |
-|--------------------|-----------------------|
-| Aprovado           | Validar               |
-| Recusado           | Realizar pagamento    |
-
-**Atividade 13 – Validar (Sistema)**  
-**Descrição:** O sistema valida todas as informações do processo e finaliza a reserva.  
-
-| **Decisão**        | **Destino**           |
-|--------------------|-----------------------|
-| Válido             | Registrar reserva     |
-| Inválido           | Reprocessar dados     |
-
-**Atividade 14 – Registrar Reserva (Sistema)**  
-**Descrição:** O sistema salva os dados da reserva no banco de dados.  
-
-| **Campo**          | **Tipo**   | **Restrições**              |
-|--------------------|------------|-----------------------------|
-| Registro reserva   | Tabela     | obrigatório e único         |
-
-| **Comando**        | **Destino**                 | **Tipo**   |
-|--------------------|-----------------------------|------------|
-| registrado         | Gerar confirmação de reserva| default    |
-
-**Atividade 15 – Gerar Confirmação de Reserva (Sistema)**  
+**Atividade 10 – Gerar Confirmação de Reserva (Sistema)**  
 **Descrição:** O sistema gera o documento de confirmação.  
 
 | **Campo**              | **Tipo**        | **Restrições**                   |
@@ -191,7 +146,7 @@ _* **Tabela** - campo formado por uma matriz de valores_
 |--------------------|---------------------------|------------|
 | gerar              | Exibir confirmação de reserva | default |
 
-**Atividade 16 – Notificar Usuário (Sistema)**  
+**Atividade 11 – Notificar Usuário (Sistema)**  
 **Descrição:** Caso haja erro no processo, o sistema notifica o cliente.  
 
 | **Campo**              | **Tipo**       | **Restrições**                        |
@@ -204,7 +159,7 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | tentar novamente   | Realizar pagamento      | default    |
 | encerrar processo  | Fim                     | cancel     |
 
-**Atividade 17 – Exibir Confirmação de Reserva (Sistema/Cliente)**  
+**Atividade 12 – Exibir Confirmação de Reserva (Sistema/Cliente)**  
 
 | **Campo**              | **Tipo**       | **Restrições**                           | **Valor default** |
 |------------------------|----------------|------------------------------------------|-------------------|
