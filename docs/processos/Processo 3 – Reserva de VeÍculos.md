@@ -22,8 +22,6 @@ _* **Arquivo** - campo de upload de documento_
 _* **Link** - campo que armazena uma URL_  
 _* **Tabela** - campo formado por uma matriz de valores_  
 
----
-
 **Atividade 1 – Acessar Minhas Reservas (Cliente)**  
 **Descrição:** O usuário, já logado, clica no botão **Reservas** no menu superior da Home.  
 
@@ -31,8 +29,6 @@ _* **Tabela** - campo formado por uma matriz de valores_
 |---------------|--------------------------|------------|
 | clicar        | Listar reservas          | default    |
 | voltar        | Home Page                | secondary  |
-
----
 
 **Atividade 2 – Listar Reservas (Cliente)**  
 **Descrição:** O sistema exibe a lista de reservas, divididas em **ativas** e **passadas**.  
@@ -46,8 +42,6 @@ _* **Tabela** - campo formado por uma matriz de valores_
 |---------------|----------------------------|------------|
 | selecionar    | Exibir detalhes da reserva | default    |
 | voltar        | Home Page                  | secondary  |
-
----
 
 **Atividade 3 – Exibir Detalhes da Reserva (Cliente)**  
 **Descrição:** O cliente visualiza os dados do veículo, período da reserva e informações de pagamento.  
@@ -64,8 +58,6 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | avaliar       | Avaliar veículo      | default    |
 | voltar        | Listar reservas      | secondary  |
 
----
-
 **Atividade 4 – Avaliar Veículo (Cliente)**  
 **Descrição:** O cliente registra uma avaliação do veículo utilizado.  
 
@@ -78,8 +70,6 @@ _* **Tabela** - campo formado por uma matriz de valores_
 |---------------------|---------------------|------------|
 | enviar avaliação    | Encerrar processo   | default    |
 | pular avaliação     | Encerrar processo   | cancel     |
-
----
 
 **Atividade 5 – Notificação de Avaliação (Sistema)**  
 **Descrição:** Ao acessar o site já logado, caso o cliente possua reservas passadas ainda não avaliadas, o sistema exibe uma notificação em destaque na Home.  
