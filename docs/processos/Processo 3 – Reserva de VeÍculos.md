@@ -1,67 +1,76 @@
-### 3.3.3 Processo 3 – Reserva de VeÍculos
+### 3.3.3 Processo 3 – Reserva de Veículos
 
-_Apresente aqui o nome e as oportunidades de melhoria para o processo 3. 
-Em seguida, apresente o modelo do processo 3, descrito no padrão BPMN._
+_Apresenta-se aqui o processo de reserva de veículos, que contempla desde a escolha do carro pelo cliente até a avaliação final após a utilização. As principais oportunidades de melhoria identificadas estão relacionadas à simplificação da confirmação de pagamento e à padronização da avaliação do cliente para gerar relatórios mais consistentes._
 
-![Exemplo de um Modelo BPMN do PROCESSO 3](../images/process.png "Modelo BPMN do Processo 3.")
-
+![Modelo BPMN do Processo 3](../images/process3.png "Modelo BPMN do Processo 3.")
 
 #### Detalhamento das atividades
 
-_Descreva aqui cada uma das propriedades das atividades do processo 2. 
-Devem estar relacionadas com o modelo de processo apresentado anteriormente._
+**Atividade 1 – Cliente acessa o sistema de reservas**
 
-_Os tipos de dados a serem utilizados são:_
+| **Campo**       | **Tipo**         | **Restrições**         | **Valor default** |
+| ---             | ---              | ---                    | ---               |
+| login           | Caixa de Texto   | formato de e-mail      |                   |
+| senha           | Caixa de Texto   | mínimo de 8 caracteres |                   |
 
-_* **Área de texto** - campo texto de múltiplas linhas_
+| **Comandos**         | **Destino**                   | **Tipo**   |
+| ---                  | ---                            | ---        |
+| entrar               | Atividade 2 – Escolher carro  | default    |
 
-_* **Caixa de texto** - campo texto de uma linha_
+**Atividade 2 – Cliente escolhe carro disponível**
 
-_* **Número** - campo numérico_
+| **Campo**          | **Tipo**         | **Restrições**               | **Valor default** |
+| ---                | ---              | ---                          | ---               |
+| lista_de_carros    | Seleção única    | somente veículos disponíveis |                   |
 
-_* **Data** - campo do tipo data (dd-mm-aaaa)_
+| **Comandos**         | **Destino**                                | **Tipo**   |
+| ---                  | ---                                        | ---        |
+| reservar             | Atividade 3 – Efetuar reserva              | default    |
+| cancelar             | Fim do Processo                            | cancel     |
 
-_* **Hora** - campo do tipo hora (hh:mm:ss)_
+**Atividade 3 – Efetuar reserva**
 
-_* **Data e Hora** - campo do tipo data e hora (dd-mm-aaaa, hh:mm:ss)_
+| **Campo**          | **Tipo**         | **Restrições**          | **Valor default** |
+| ---                | ---              | ---                     | ---               |
+| data_retirada      | Data             | obrigatória             |                   |
+| hora_retirada      | Hora             | obrigatória             |                   |
+| data_devolucao     | Data             | obrigatória             |                   |
+| hora_devolucao     | Hora             | obrigatória             |                   |
 
-_* **Imagem** - campo contendo uma imagem_
+| **Comandos**         | **Destino**                       | **Tipo**   |
+| ---                  | ---                               | ---        |
+| confirmar_reserva    | Atividade 4 – Confirmar pagamento | default    |
+| voltar               | Atividade 2 – Escolher carro      | cancel     |
 
-_* **Seleção única** - campo com várias opções de valores que são mutuamente exclusivas (tradicional radio button ou combobox)_
+**Atividade 4 – Confirmar pagamento**
 
-_* **Seleção múltipla** - campo com várias opções que podem ser selecionadas mutuamente (tradicional checkbox ou listbox)_
+| **Campo**          | **Tipo**         | **Restrições**                        | **Valor default** |
+| ---                | ---              | ---                                   | ---               |
+| forma_pagamento    | Seleção única    | cartão/crédito/débito/pix             |                   |
+| valor_total        | Número           | maior que zero                        | calculado         |
 
-_* **Arquivo** - campo de upload de documento_
+| **Comandos**         | **Destino**                         | **Tipo**   |
+| ---                  | ---                                 | ---        |
+| pagar                | Atividade 5 – Reserva concluída     | default    |
+| cancelar             | Atividade 2 – Escolher carro        | cancel     |
 
-_* **Link** - campo que armazena uma URL_
+**Atividade 5 – Cliente utiliza o carro**
 
-_* **Tabela** - campo formado por uma matriz de valores_
+| **Campo**          | **Tipo**         | **Restrições**       | **Valor default** |
+| ---                | ---              | ---                  | ---               |
+| status_veiculo     | Texto            | preenchido pela locadora |              |
 
-**Nome da atividade 1**
+| **Comandos**         | **Destino**                         | **Tipo**   |
+| ---                  | ---                                 | ---        |
+| finalizar_utilizacao | Atividade 6 – Avaliar carro         | default    |
 
-| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-| ***Exemplo:***  |                  |                |                   |
-| login           | Caixa de Texto   | formato de e-mail |                |
-| senha           | Caixa de Texto   | mínimo de 8 caracteres |           |
+**Atividade 6 – Cliente avalia o carro**
 
-| **Comandos**         |  **Destino**                   | **Tipo** |
-| ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-| ***Exemplo:***       |                                |                   |
-| entrar               | Fim do Processo 1              | default           |
-| cadastrar            | Início do proceso de cadastro  |                   |
+| **Campo**          | **Tipo**         | **Restrições**       | **Valor default** |
+| ---                | ---              | ---                  | ---               |
+| nota_carro         | Número           | 1 a 5                |                   |
+| comentario         | Área de Texto    | opcional             |                   |
 
-
-**Nome da atividade 2**
-
-| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-|                 |                  |                |                   |
-
-| **Comandos**         |  **Destino**                   | **Tipo**          |
-| ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-|                      |                                |                   |
+| **Comandos**         | **Destino**             | **Tipo**   |
+| ---                  | ---                     | ---        |
+| enviar_avaliacao     | Fim do Processo         | default    |
