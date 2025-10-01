@@ -24,6 +24,6 @@ Assim, espera-se que o processo da locadora seja transformado em uma operação 
 
 [PROCESSO 2 - Aluguel de Veículos](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2025-2-p3-tiapn-t1-9147100-uaitomoveis/blob/main/docs/processos/Processo%202%20–%20Aluguel%20de%20Veículos.md)
 
-[PROCESSO 3 - Reserva de VeÍculos](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2025-2-p3-tiapn-t1-9147100-uaitomoveis/edit/main/docs/3-Modelagem-Processos-Neg%C3%B3cio.md)
+[PROCESSO 3 - Reserva de VeÍculos](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2025-2-p3-tiapn-t1-9147100-uaitomoveis/blob/main/docs/processos/Processo%203%20–%20Reserva%20de%20VeÍculos.md)
 
-[PROCESSO 4 - Contato da Empresa](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2025-2-p3-tiapn-t1-9147100-uaitomoveis/edit/main/docs/3-Modelagem-Processos-Neg%C3%B3cio.md)
+[PROCESSO 4 - Contato da Empresa](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2025-2-p3-tiapn-t1-9147100-uaitomoveis/blob/main/docs/processos/Processo%204%20–%20Contato%20da%20Empresa.md)
