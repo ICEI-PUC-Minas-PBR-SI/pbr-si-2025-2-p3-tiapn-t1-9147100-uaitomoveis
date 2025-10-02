@@ -88,7 +88,7 @@ Nesta tela, o usuário pode visualizar e acompanhar todas as suas reservas que a
 #### Detalhes do Aluguel
 ![Imagem do WhatsApp de 2025-10-01 à(s) 14 53 08_f8854f20](https://github.com/user-attachments/assets/9afc0eb0-9a03-4455-9266-88f78502c32f)
 
-Ao selecionar uma reserva específica, o usuário é direcionado para uma tela que apresenta os detalhes completos do aluguel, fornecendo total transparência sobre o veículo. Nesta seção, são exibidas informações como o modelo (ex: Jeep Compass), a marca (Jeep), o ano (2023), a placa (ABC-1234), o chassi (9BWZZZ377VT004251), a cor (Branco), o grupo ao qual pertence (SUV), a CNH necessária para conduzi-lo (B) e o status atual (Disponível).
+Ao selecionar uma reserva, o usuário é direcionado para uma tela que exibe os detalhes completos do aluguel, garantindo total transparência sobre o veículo. Esta seção apresenta as informações básicas do carro, como modelo, marca, ano, placa, chassi, cor, grupo, a CNH necessária para condução e o status atual do veículo.
 
 #### Informações de Pagamento e Avaliação
 ![Imagem do WhatsApp de 2025-10-01 à(s) 14 55 06_c0257a3f](https://github.com/user-attachments/assets/adf1a5f1-c6ff-42d6-8a19-245949b29b1b)
