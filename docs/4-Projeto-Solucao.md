@@ -76,8 +76,54 @@ No caso do PIX, será exibido um QR Code ou a chave PIX.
 Antes de concluir, o sistema exibe o resumo da reserva, contendo: veículo selecionado, datas de retirada e devolução, valor total e forma de pagamento escolhida.
 Após a confirmação, é gerado o comprovante digital da reserva.
 
-## Processo 3 – (a ser detalhado)
+## Processo 3 – Minhas Reservas  
 
+As telas propostas contemplam a navegação do usuário para acessar suas reservas ativas e passadas, visualizar detalhes do aluguel (veículo, período, pagamento) e registrar avaliação do veículo.  
+Também contempla a notificação do sistema para lembrete de avaliação de reservas já concluídas.  
+
+#### Homepage (Botão Minhas Reservas)  
+<img width="1125" height="520" alt="Home Minhas Reservas" src="https://github.com/user-attachments/assets/4245fc87-63be-4a97-ac02-f668353a50c2" />
+
+Na tela inicial, o cliente logado encontra no canto superior esquerdo o botão **Reservas**.  
+Ao clicar, é direcionado para a listagem de suas reservas.  
+
+#### Lista de Reservas (Ativas e Passadas)  
+<img width="1127" height="520" alt="Lista de Reservas" src="https://github.com/user-attachments/assets/a03d5b21-b292-4f1e-9fe9-5c1e22414ed2" />
+
+O sistema exibe duas seções:  
+- **Reservas Ativas** – reservas em andamento ou futuras.  
+- **Reservas Passadas** – reservas concluídas.  
+
+Cada item pode ser selecionado para exibir os detalhes.  
+
+#### Detalhes da Reserva  
+<img width="1127" height="521" alt="Detalhes da Reserva" src="https://github.com/user-attachments/assets/47147add-ed30-4aef-bd05-05ef36b8f0f9" />
+
+A tela mostra informações completas do aluguel:  
+- **Veículo** (modelo, placa, categoria etc.)  
+- **Período da reserva** (data/hora de retirada e devolução)  
+- **Pagamento** (status e valor total)  
+
+Na parte inferior, o cliente encontra a opção de **avaliar o veículo**.  
+
+#### Avaliação do Veículo  
+<img width="1126" height="519" alt="Avaliação do Veículo" src="https://github.com/user-attachments/assets/916eb390-0ac3-472c-b787-9df0c570bc80" />
+
+O cliente pode registrar sua experiência com o veículo:  
+- **Nota de 0 a 5 estrelas**  
+- **Comentário opcional** (até 500 caracteres)  
+
+Opções:  
+- **Enviar Avaliação** → salva no sistema  
+- **Pular Avaliação** → encerra sem registrar opinião  
+
+#### Notificação de Avaliação (Sistema)  
+<img width="1125" height="520" alt="Notificação Avaliação" src="https://github.com/user-attachments/assets/2cedc5e3-1abc-4745-b892-716976193df8.png" />
+
+Sempre que o cliente acessar a Home logado e possuir reservas passadas ainda não avaliadas, o sistema exibe uma **notificação em destaque**, contendo:  
+- Mensagem de lembrete para avaliar o veículo  
+- Botão **Avaliar Agora**, que direciona para a tela de avaliação  
+- Botão **Fechar (X)**, que remove a notificação  
 
 ## Processo 4 – (a ser detalhado)
 
