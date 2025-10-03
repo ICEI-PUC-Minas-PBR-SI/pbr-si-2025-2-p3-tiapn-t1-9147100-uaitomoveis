@@ -101,6 +101,13 @@ Na seção de avaliação, ainda não há feedback registrado, sendo exibida a o
 
 O sistema, após a devolução do veículo, direciona o usuário para uma tela onde ele pode avaliar a experiência. Ele visualiza um resumo da reserva e, em seguida, atribui uma nota de 0 a 5 estrelas, escreve um comentário detalhando seu feedback e, por fim, clica no botão "Enviar Avaliação". Essa funcionalidade coleta sugestões ou elogios e reforça o compromisso da empresa com a qualidade.
 
+#### Avaliação Concluída
+![Imagem do WhatsApp de 2025-10-01 à(s) 22 10 16_c063e48d](https://github.com/user-attachments/assets/b3e5c276-6edd-4226-a9a8-81d992319dbd)
+
+Após o envio, o sistema exibe a confirmação da **avaliação concluída**.  
+Na tela, ficam visíveis as **estrelas atribuídas**, o **comentário realizado** e as informações da reserva correspondente.  
+Dessa forma, o cliente tem a segurança de que seu feedback foi registrado com sucesso e poderá ser utilizado pela locadora para futuras melhorias no atendimento e no serviço prestado.
+
 ## Processo 4 – (a ser detalhado)
 
 
