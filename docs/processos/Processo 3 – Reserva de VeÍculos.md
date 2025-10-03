@@ -3,8 +3,7 @@
 O processo de **Minhas Reservas** descreve as etapas que o cliente percorre ao acessar a plataforma já logado, consultar suas reservas ativas ou passadas, visualizar os detalhes do aluguel (veículo, período e pagamento) e eventualmente registrar uma avaliação do veículo.  
 O processo envolve gateways de decisão, interação direta do cliente e operações de leitura/gravação no banco de dados do sistema.
 
-<img width="1241" height="1038" alt="image" src="https://github.com/user-attachments/assets/4fb29c18-f76f-447e-9dbf-9d70f3efd5d5" />
-
+<img width="1231" height="1026" alt="image" src="https://github.com/user-attachments/assets/2ed08123-3bc1-4d5b-89f6-8d5f27b6eb20" />
 
 #### Detalhamento das atividades
 
