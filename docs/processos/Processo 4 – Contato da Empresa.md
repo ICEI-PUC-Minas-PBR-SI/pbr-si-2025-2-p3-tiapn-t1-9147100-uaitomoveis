@@ -36,30 +36,31 @@ _* **Link** - campo que armazena uma URL_
 
 _* **Tabela** - campo formado por uma matriz de valores_
 
-**Atividade 1 – Preencher Formulário de Contato**  
+**Atividade 1 – Acessar Plataforma**  
+O cliente acessa a plataforma da empresa.  
 
-| **Campo**          | **Tipo**       | **Restrições**                          | **Valor default** |
-|---------------------|----------------|------------------------------------------|-------------------|
-| nome                | Caixa de texto | Obrigatório                              |                   |
-| e-mail              | Caixa de texto | Formato de e-mail válido, obrigatório    |                   |
-| telefone            | Caixa de texto | Numérico (apenas dígitos)                |                   |
-| assunto             | Caixa de texto | Obrigatório, máximo de 100 caracteres    |                   |
-| mensagem            | Área de texto  | Obrigatório, sem limite de caracteres    |                   |
-| anexo (opcional)    | Arquivo        | Tipos aceitos: .pdf, .jpg, .png, .docx   |                   |
+**Atividade 2 – Clicar em Contato**  
+O cliente seleciona a opção “Contato” no menu, e o sistema abre a página de contato com o ícone do ChatBot disponível.  
 
-| **Comandos**         | **Destino**                     | **Tipo**  |
-|-----------------------|---------------------------------|-----------|
-| enviar mensagem       | Atividade "Encaminhar Mensagem" | default   |
-| cancelar              | Fim do processo                 | cancel    |
+**Atividade 3 – Clicar no ícone do ChatBot**  
+O cliente clica no ícone exibido na página, e o sistema abre a janela do assistente virtual.  
 
-**Atividade 2 – Encaminhar Mensagem**  
+**Atividade 4 – Exibir mensagem automática de boas-vindas**  
+O chatbot envia uma mensagem inicial de saudação para iniciar a interação.  
 
-| **Campo**            | **Tipo**         | **Restrições**                | **Valor default** |
-|-----------------------|------------------|--------------------------------|-------------------|
-| setor responsável     | Seleção única    | Obrigatório (ex.: Suporte, Financeiro, Comercial) | |
-| status da mensagem    | Seleção única    | Default = "Pendente"           | Pendente          |
-| data de recebimento   | Data e Hora      | Automático                     | Data/Hora atual   |
+**Decisão – Deseja interagir com o ChatBot?**  
+- **Não** → o processo é encerrado.  
+- **Sim** → o cliente segue para envio de mensagem.  
 
-| **Comandos**              | **Destino**        | **Tipo**  |
-|----------------------------|--------------------|-----------|
-| confirmar encaminhamento   | Fim do processo    | default   |
+**Atividade 5 – Enviar mensagem**  
+
+| **Campo**  | **Tipo**        | **Restrições**                 |
+|------------|-----------------|---------------------------------|
+| mensagem   | Área de texto   | Obrigatório, texto livre        |
+
+| **Comando** | **Destino**     | **Tipo**   |
+|-------------|-----------------|------------|
+| enviar      | Atividade 6     | default    |
+
+**Atividade 6 – Encaminhar mensagem / suporte automático**  
+O sistema recebe e encaminha a mensagem ao suporte automático, encerrando o processo de contato.  
