@@ -107,3 +107,18 @@ _* **Tabela** - campo formado por uma matriz de valores_
 
 **Atividade 8 – Encerrar Processo**  
 **Descrição:** O fluxo é finalizado, seja após a exibição dos detalhes ou após a avaliação.  
+
+#### Reservas Ativas
+![Imagem do WhatsApp de 2025-10-01 à(s) 14 52 19_97ab4500](https://github.com/user-attachments/assets/cf18c871-203e-4ae3-af12-a6a47d57d6e4)
+
+#### Detalhes do Aluguel
+![Imagem do WhatsApp de 2025-10-01 à(s) 14 53 08_f8854f20](https://github.com/user-attachments/assets/9afc0eb0-9a03-4455-9266-88f78502c32f)
+
+#### Informações de Pagamento e Avaliação
+![Imagem do WhatsApp de 2025-10-02 à(s) 11 36 00_25f1f1e5](https://github.com/user-attachments/assets/d54270c4-7dcb-4745-b4ea-14625ebfb50c)
+
+#### Avaliação da Experiência
+![Imagem do WhatsApp de 2025-10-02 à(s) 11 37 35_fa54d303](https://github.com/user-attachments/assets/957aecd6-7555-4d8e-b707-6de3a213038a)
+
+#### Avaliação Concluída
+![Imagem do WhatsApp de 2025-10-01 à(s) 22 10 16_c063e48d](https://github.com/user-attachments/assets/b3e5c276-6edd-4226-a9a8-81d992319dbd)
