@@ -2,7 +2,6 @@
 
 O processo de **Login e Cadastro de Usuários** é responsável por registrar clientes no sistema e garantir o acesso seguro à plataforma de serviços (aluguel de veículos). Ele assegura a integridade dos dados, evita duplicidade de registros e define permissões de acesso conforme o tipo de usuário.
 
-### Diagrama de Atividade
 <img width="1084" height="1021" alt="image" src="https://github.com/user-attachments/assets/5f49440c-1e27-4c9c-9604-08e0e800c55e" />
 
 #### Detalhamento das atividades
@@ -104,11 +103,11 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | tentar novamente  | Preencher formulário de dados| default    |
 | cancelar          | Início do processo           | cancel     |
 
-### Homepage
+#### Homepage
 <img width="1116" height="526" alt="HomePage" src="https://github.com/user-attachments/assets/3bf182e9-3ebb-4d0f-9486-b496ac6cce84" />
 
-### Login
+#### Login
 ![Login](https://github.com/user-attachments/assets/a6897ec4-ae9e-4cd1-ac55-fb1affc710ad)
 
-### Cadastro
+#### Cadastro
 <img width="1120" height="521" alt="Cadastro" src="https://github.com/user-attachments/assets/00579386-b886-4238-a60f-2188bf194eec" />
