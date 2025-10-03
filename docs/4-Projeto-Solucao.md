@@ -93,7 +93,8 @@ Ao selecionar uma reserva, o usuário é direcionado para uma tela que exibe os 
 #### Informações de Pagamento e Avaliação
 ![Imagem do WhatsApp de 2025-10-02 à(s) 11 36 00_25f1f1e5](https://github.com/user-attachments/assets/d54270c4-7dcb-4745-b4ea-14625ebfb50c)
 
-Após a devolução do carro, a tela exibe um resumo da locação. Nele, constam os detalhes do pagamento final de R$ 1.280,00, o status "Finalizado" da reserva e a avaliação do cliente, que deu nota 3,5 e comentou sobre a demora na retirada. Essa etapa conclui a experiência e registra o feedback.
+Após a devolução do carro, a tela exibe um resumo da locação. Consta o valor final de R$ 1.280,00, o status da reserva como Finalizado e os detalhes do pagamento, que foi realizado em cartão de crédito, no valor de R$ 1.280,00, pago em 1x e com status Pago.
+Na seção de avaliação, ainda não há feedback registrado, sendo exibida a opção para o cliente fazer avaliação.
 
 #### Avaliação da Experiência
 ![Imagem do WhatsApp de 2025-10-02 à(s) 11 37 35_fa54d303](https://github.com/user-attachments/assets/957aecd6-7555-4d8e-b707-6de3a213038a)
