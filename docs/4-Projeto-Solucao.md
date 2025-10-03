@@ -108,8 +108,28 @@ Após o envio, o sistema exibe a confirmação da **avaliação concluída**.
 Na tela, ficam visíveis as **estrelas atribuídas**, o **comentário realizado** e as informações da reserva correspondente.  
 Dessa forma, o cliente tem a segurança de que seu feedback foi registrado com sucesso e poderá ser utilizado pela locadora para futuras melhorias no atendimento e no serviço prestado.
 
-## Processo 4 – (a ser detalhado)
+## Processo 4 – Contato da Empresa  
 
+As telas apresentadas contemplam o fluxo de comunicação do cliente com a empresa, desde o acesso à seção de contato até a interação com o assistente virtual. O objetivo é oferecer um canal direto, dinâmico e eficiente para dúvidas, sugestões e solicitações.  
+
+#### Página "Contato"  
+![Imagem do WhatsApp de 2025-10-03 à(s) 15 30 54_66a3c775](https://github.com/user-attachments/assets/7ecdde47-f302-4758-8379-5375cfc55697)
+
+Ao clicar em **Contato** no menu superior, o usuário é direcionado para a página institucional da empresa.  
+Nela, encontra informações sobre a Uaitomoveis, seus serviços, canais de comunicação, além do acesso facilitado ao suporte via chatbot.  
+
+#### Chatbot (ícone fixo na tela)  
+![Imagem do WhatsApp de 2025-10-03 à(s) 15 31 37_a8827f24](https://github.com/user-attachments/assets/176beec0-ec9d-4451-93af-7a1436def808)
+
+
+Na página de **Contato**, o cliente visualiza no canto inferior direito o ícone do **chatbot fixo**, que permanece disponível mesmo ao rolar a tela.  
+Esse recurso garante praticidade, permitindo iniciar uma conversa a qualquer momento enquanto permanece na seção de contato.  
+
+#### Chatbot Ativo  
+![Imagem do WhatsApp de 2025-10-03 à(s) 15 32 17_48463f25](https://github.com/user-attachments/assets/199bec0e-4529-4616-a23c-ffdf5d76edc1)
+ 
+Ao clicar no ícone, abre-se a janela do **assistente virtual**, onde o cliente pode esclarecer dúvidas, verificar unidades disponíveis, solicitar ajuda para reservas ou, se necessário, ser direcionado a um atendente humano.  
+O chatbot torna a comunicação mais ágil, fornecendo respostas instantâneas e orientações automáticas, enquanto organiza os contatos para otimizar o suporte prestado.  
 
 ## Diagrama de Classes
 
