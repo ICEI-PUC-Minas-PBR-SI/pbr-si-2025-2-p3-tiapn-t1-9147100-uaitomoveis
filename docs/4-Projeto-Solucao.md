@@ -91,12 +91,12 @@ Nesta tela, o usuário pode visualizar e acompanhar todas as suas reservas que a
 Ao selecionar uma reserva, o usuário é direcionado para uma tela que exibe os detalhes completos do aluguel, garantindo total transparência sobre o veículo. Esta seção apresenta as informações básicas do carro, como modelo, marca, ano, placa, chassi, cor, grupo, a CNH necessária para condução e o status atual do veículo.
 
 #### Informações de Pagamento e Avaliação
-![Imagem do WhatsApp de 2025-10-01 à(s) 14 55 06_c0257a3f](https://github.com/user-attachments/assets/adf1a5f1-c6ff-42d6-8a19-245949b29b1b)
+![Imagem do WhatsApp de 2025-10-02 à(s) 11 36 00_25f1f1e5](https://github.com/user-attachments/assets/d54270c4-7dcb-4745-b4ea-14625ebfb50c)
 
 Após a devolução do carro, a tela exibe um resumo da locação. Nele, constam os detalhes do pagamento final de R$ 1.280,00, o status "Finalizado" da reserva e a avaliação do cliente, que deu nota 3,5 e comentou sobre a demora na retirada. Essa etapa conclui a experiência e registra o feedback.
 
 #### Avaliação da Experiência
-![Imagem do WhatsApp de 2025-10-01 à(s) 16 14 38_24e7b82b](https://github.com/user-attachments/assets/1e4a7046-1f6c-4ef0-a53d-1313e72d2eab)
+![Imagem do WhatsApp de 2025-10-02 à(s) 11 37 35_fa54d303](https://github.com/user-attachments/assets/957aecd6-7555-4d8e-b707-6de3a213038a)
 
 O sistema, após a devolução do veículo, direciona o usuário para uma tela onde ele pode avaliar a experiência. Ele visualiza um resumo da reserva e, em seguida, atribui uma nota de 0 a 5 estrelas, escreve um comentário detalhando seu feedback e, por fim, clica no botão "Enviar Avaliação". Essa funcionalidade coleta sugestões ou elogios e reforça o compromisso da empresa com a qualidade.
 
