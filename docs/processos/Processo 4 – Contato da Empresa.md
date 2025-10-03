@@ -1,7 +1,6 @@
 ### 3.3.4 Processo 4 – Contato da Empresa
 
-_Apresente aqui o nome e as oportunidades de melhoria para o processo 4. 
-Em seguida, apresente o modelo do processo 4, descrito no padrão BPMN._
+O processo de **Contato da Empresa** é responsável por permitir que o cliente envie dúvidas, sugestões ou solicitações diretamente à empresa. Esse processo melhora a comunicação, amplia o suporte ao cliente e aumenta a eficiência no atendimento, já que organiza as mensagens recebidas e gera um encaminhamento mais ágil para os responsáveis. As oportunidades de melhoria incluem automatizar o direcionamento das mensagens para os setores responsáveis, implementar feedback automático ao cliente confirmando o recebimento e integrar o histórico de contatos com o cadastro do cliente.
 
 <img width="1251" height="557" alt="image" src="https://github.com/user-attachments/assets/1376bdb2-b053-4857-9614-06cd9740d338" />
 
@@ -37,31 +36,30 @@ _* **Link** - campo que armazena uma URL_
 
 _* **Tabela** - campo formado por uma matriz de valores_
 
-**Nome da atividade 1**
+**Atividade 1 – Preencher Formulário de Contato**  
 
-| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-| ***Exemplo:***  |                  |                |                   |
-| login           | Caixa de Texto   | formato de e-mail |                |
-| senha           | Caixa de Texto   | mínimo de 8 caracteres |           |
+| **Campo**          | **Tipo**       | **Restrições**                          | **Valor default** |
+|---------------------|----------------|------------------------------------------|-------------------|
+| nome                | Caixa de texto | Obrigatório                              |                   |
+| e-mail              | Caixa de texto | Formato de e-mail válido, obrigatório    |                   |
+| telefone            | Caixa de texto | Numérico (apenas dígitos)                |                   |
+| assunto             | Caixa de texto | Obrigatório, máximo de 100 caracteres    |                   |
+| mensagem            | Área de texto  | Obrigatório, sem limite de caracteres    |                   |
+| anexo (opcional)    | Arquivo        | Tipos aceitos: .pdf, .jpg, .png, .docx   |                   |
 
-| **Comandos**         |  **Destino**                   | **Tipo** |
-| ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-| ***Exemplo:***       |                                |                   |
-| entrar               | Fim do Processo 1              | default           |
-| cadastrar            | Início do proceso de cadastro  |                   |
+| **Comandos**         | **Destino**                     | **Tipo**  |
+|-----------------------|---------------------------------|-----------|
+| enviar mensagem       | Atividade "Encaminhar Mensagem" | default   |
+| cancelar              | Fim do processo                 | cancel    |
 
+**Atividade 2 – Encaminhar Mensagem**  
 
-**Nome da atividade 2**
+| **Campo**            | **Tipo**         | **Restrições**                | **Valor default** |
+|-----------------------|------------------|--------------------------------|-------------------|
+| setor responsável     | Seleção única    | Obrigatório (ex.: Suporte, Financeiro, Comercial) | |
+| status da mensagem    | Seleção única    | Default = "Pendente"           | Pendente          |
+| data de recebimento   | Data e Hora      | Automático                     | Data/Hora atual   |
 
-| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-|                 |                  |                |                   |
-
-| **Comandos**         |  **Destino**                   | **Tipo**          |
-| ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-|                      |                                |                   |
+| **Comandos**              | **Destino**        | **Tipo**  |
+|----------------------------|--------------------|-----------|
+| confirmar encaminhamento   | Fim do processo    | default   |
