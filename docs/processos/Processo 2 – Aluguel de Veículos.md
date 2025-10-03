@@ -169,3 +169,22 @@ _* **Tabela** - campo formado por uma matriz de valores_
 | **Comandos**     | **Destino**         | **Tipo**   |
 |------------------|---------------------|------------|
 | encerrar processo| Fim                 | default    |
+
+ 
+#### Catálogo de Veículos  
+<img width="1127" height="519" alt="image" src="https://github.com/user-attachments/assets/a31b924c-2bb4-4f68-b0f8-4c91d3574014" />
+
+#### Lista de Modelos (Sedans)  
+<img width="1126" height="520" alt="image" src="https://github.com/user-attachments/assets/0f8abd2c-999c-47dd-a4e3-3b3376ade54f" />
+
+#### Detalhes do Veículo  
+<img width="1127" height="522" alt="image" src="https://github.com/user-attachments/assets/a788bd30-5831-4d6c-aa3a-69fd27dd6d9d" />
+
+#### Finalizar Reserva  
+<img width="1125" height="517" alt="image" src="https://github.com/user-attachments/assets/8fae4bab-0096-4de4-aa83-494b3b640c95" />
+
+#### Inserir Método de Pagamento (Cartão) 
+<img width="1128" height="525" alt="image" src="https://github.com/user-attachments/assets/056f3b19-f3c2-4fb5-865c-dfaae33d3252" />
+
+#### Confirmação do Pagamento  
+<img width="1127" height="526" alt="image" src="https://github.com/user-attachments/assets/1ec1588e-3486-47fb-9837-c5746728762a" />
