@@ -64,3 +64,12 @@ O chatbot envia uma mensagem inicial de saudação para iniciar a interação.
 
 **Atividade 6 – Encaminhar mensagem / suporte automático**  
 O sistema recebe e encaminha a mensagem ao suporte automático, encerrando o processo de contato.  
+
+#### Página "Contato"  
+![Imagem do WhatsApp de 2025-10-03 à(s) 15 30 54_66a3c775](https://github.com/user-attachments/assets/7ecdde47-f302-4758-8379-5375cfc55697)
+
+#### Chatbot (ícone fixo na tela)  
+![Imagem do WhatsApp de 2025-10-03 à(s) 15 31 37_a8827f24](https://github.com/user-attachments/assets/176beec0-ec9d-4451-93af-7a1436def808)
+
+#### Chatbot Ativo  
+![Imagem do WhatsApp de 2025-10-03 à(s) 15 32 17_48463f25](https://github.com/user-attachments/assets/199bec0e-4529-4616-a23c-ffdf5d76edc1)
