@@ -1,6 +1,6 @@
 ### 3.3.4 Processo 4 – Contato da Empresa
 
-O processo de **Contato da Empresa** é responsável por permitir que o cliente envie dúvidas, sugestões ou solicitações diretamente à empresa. Esse processo melhora a comunicação, amplia o suporte ao cliente e aumenta a eficiência no atendimento, já que organiza as mensagens recebidas e gera um encaminhamento mais ágil para os responsáveis. As oportunidades de melhoria incluem automatizar o direcionamento das mensagens para os setores responsáveis, implementar feedback automático ao cliente confirmando o recebimento e integrar o histórico de contatos com o cadastro do cliente.
+O processo de Contato da Empresa permite ao cliente enviar dúvidas ou solicitações, organizando e agilizando o atendimento. Pode ser melhorado com automação no direcionamento, resposta automática de recebimento e integração do histórico ao cadastro do cliente.
 
 <img width="1251" height="557" alt="image" src="https://github.com/user-attachments/assets/1376bdb2-b053-4857-9614-06cd9740d338" />
 
