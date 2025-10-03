@@ -11,11 +11,11 @@ O projeto consiste no desenvolvimento de um sistema web para automação de proc
 ## Integrantes
 
 * Caio Gabriel Duarte Costa
+* Gabriel Gomes Ferreira Aranda Lima
 * Guilherme Caçuci Ladislau
 * Kaio César dos Santos Vidigal
 * Paulo Gabriel de Souza Lopes 
 * Paulo Henrique Xavier Lopes
-* Gabriel Gomes Ferreira Aranda Lima
 
 ## Orientador
 
