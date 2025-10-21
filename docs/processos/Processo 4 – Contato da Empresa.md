@@ -4,29 +4,28 @@ O processo de Contato da Empresa permite ao cliente enviar dúvidas ou solicita�
 
 <img width="1251" height="557" alt="image" src="https://github.com/user-attachments/assets/1376bdb2-b053-4857-9614-06cd9740d338" />
 
-
 #### Detalhamento das atividades
 
-**Atividade 1 – Enviar Mensagem (Cliente)**  
-O cliente interage com o chatbot digitando e enviando sua dúvida, sugestão ou solicitação.
+**Atividade 1 – Enviar mensagem (Cliente)**  
+O cliente clica no ícone do ChatBot disponível na página e envia uma mensagem com dúvidas ou solicitações.
 
-| **Campo**  | **Tipo**        | **Restrições**                 |
-|------------|-----------------|--------------------------------|
-| mensagem   | Área de texto   | Obrigatório, texto livre       |
+| **Campo**   | **Tipo**        | **Restrições**                 |
+|--------------|-----------------|--------------------------------|
+| Mensagem     | Área de texto   | Obrigatório, texto livre        |
 
-| **Comando** | **Destino**     | **Tipo**   |
-|-------------|-----------------|------------|
-| enviar      | Atividade 2     | default    |
+| **Comando**  | **Destino**              | **Tipo**   |
+|---------------|--------------------------|------------|
+| Enviar        | Suporte automático       | default    |
 
-**Atividade 2 – Encaminhar Mensagem / Suporte Automático (Sistema)**  
-O sistema recebe a mensagem e a direciona automaticamente para o suporte, podendo gerar respostas automáticas ou registrar o atendimento no histórico do cliente.
+**Atividade 2 – Encaminhar mensagem / suporte automático (Sistema)**  
+O sistema recebe a mensagem e realiza o encaminhamento para o suporte automatizado ou equipe responsável.
 
-**Decisão – Deseja interagir com o ChatBot? (Gateway)**  
+**Gateway – Deseja interagir com o ChatBot?**  
 - **Não** → o processo é encerrado.  
-- **Sim** → o cliente realiza a Atividade 1 (Envio de Mensagem).
+- **Sim** → o cliente envia uma mensagem.  
 
-**Atividade 3 – Encerrar Processo**  
-O processo é finalizado após o envio e encaminhamento da mensagem ou caso o cliente opte por não interagir com o chatbot.  
+**Atividade 3 – Encerrar processo**  
+O fluxo é finalizado após o envio da mensagem ou caso o cliente não queira interagir. 
 
 #### Página "Contato"  
 ![Imagem do WhatsApp de 2025-10-03 à(s) 15 30 54_66a3c775](https://github.com/user-attachments/assets/7ecdde47-f302-4758-8379-5375cfc55697)
