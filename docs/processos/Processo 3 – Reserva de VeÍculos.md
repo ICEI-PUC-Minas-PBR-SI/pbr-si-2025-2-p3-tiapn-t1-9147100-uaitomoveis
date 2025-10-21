@@ -26,12 +26,6 @@ O processo envolve gateways de decisão, interação direta do cliente e operaç
 |--------------|------------------------|------------|
 | selecionar    | Detalhes da reserva   | default    |
 
-**Gateway 1 – Reserva Ativa ou Finalizada?**  
-- Se **Ativa**, o status é exibido como *ATIVO* e não há opção de avaliação.  
-- Se **Finalizada**, o status é *FINALIZADO* e o sistema disponibiliza a opção de “Fazer Avaliação”.
-
-#### Reservas Ativas
-
 **Atividade 3 – Exibir Detalhes do Aluguel (Sistema)**  
 **Descrição:** O cliente acessa as informações completas da reserva selecionada, incluindo veículo, período, valor, pagamento e status.
 
@@ -43,8 +37,6 @@ O processo envolve gateways de decisão, interação direta do cliente e operaç
 | CNH necessária         | Texto          | somente leitura      |
 | Status do veículo      | Texto           | leitura e atualização|
 
-#### Detalhes do Aluguel
-
 **Atividade 4 – Consultar Pagamento (Cliente)**  
 **Descrição:** O sistema apresenta as informações referentes ao pagamento da reserva.
 
@@ -55,12 +47,6 @@ O processo envolve gateways de decisão, interação direta do cliente e operaç
 | Data de pagamento    | Data          | somente leitura          |
 | Status do pagamento  | Texto         | leitura do banco         |
 | Detalhes             | Texto         | leitura do banco         |
-
-#### Informações de Pagamento e Avaliação
-
-**Gateway 2 – Deseja Avaliar o Aluguel?**  
-- Se **Não**, o processo é encerrado.  
-- Se **Sim**, o cliente é direcionado ao formulário de avaliação.
 
 **Atividade 5 – Preencher Avaliação (Cliente)**  
 **Descrição:** O cliente informa uma nota de 0 a 5 estrelas e um comentário opcional sobre a experiência com o veículo e o atendimento.
@@ -75,8 +61,6 @@ O processo envolve gateways de decisão, interação direta do cliente e operaç
 | enviar avaliação      | Salvar Avaliação     | default    |
 | cancelar              | Encerrar processo    | cancel     |
 
-#### Avaliação da Experiência
-
 **Atividade 6 – Salvar Avaliação (Sistema)**  
 **Descrição:** O sistema registra no banco de dados a nota e o comentário informados pelo cliente.
 
@@ -87,8 +71,6 @@ O processo envolve gateways de decisão, interação direta do cliente e operaç
 
 **Atividade 7 – Exibir Avaliação Concluída (Sistema)**  
 **Descrição:** Após o envio, a avaliação é exibida junto aos detalhes da reserva.
-
-#### Avaliação Concluída
 
 **Atividade 8 – Encerrar Processo**  
 **Descrição:** O fluxo é finalizado, seja após a consulta da reserva ou após o registro da avaliação.  
