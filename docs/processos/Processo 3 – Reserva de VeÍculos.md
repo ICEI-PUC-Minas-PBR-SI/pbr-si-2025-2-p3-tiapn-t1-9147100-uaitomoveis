@@ -7,33 +7,6 @@ O processo envolve gateways de decisão, interação direta do cliente e operaç
 
 #### Detalhamento das atividades
 
-_Os tipos de dados a serem utilizados são:_
-
-_* **Área de texto** - campo texto de múltiplas linhas_  
-
-_* **Caixa de texto** - campo texto de uma linha_  
-
-_* **Número** - campo numérico_  
-
-_* **Data** - campo do tipo data (dd-mm-aaaa)_  
-
-_* **Hora** - campo do tipo hora (hh:mm:ss)_  
-
-_* **Data e Hora** - campo do tipo data e hora (dd-mm-aaaa, hh:mm:ss)_  
-
-_* **Imagem** - campo contendo uma imagem_  
-
-_* **Seleção única** - campo com várias opções mutuamente exclusivas_  
-
-_* **Seleção múltipla** - campo com várias opções que podem ser selecionadas mutuamente_  
-
-_* **Arquivo** - campo de upload de documento_  
-
-_* **Link** - campo que armazena uma URL_  
-
-_* **Tabela** - campo formado por uma matriz de valores_  
-
-
 **Atividade 1 – Acessar Plataforma (Cliente)**  
 **Descrição:** O cliente já autenticado acessa a plataforma.  
 
