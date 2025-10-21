@@ -8,78 +8,90 @@ O processo envolve gateways de decisão, interação direta do cliente e operaç
 #### Detalhamento das atividades
 
 **Atividade 1 – Acessar Plataforma (Cliente)**  
-**Descrição:** O cliente já autenticado acessa a plataforma.  
+**Descrição:** O cliente já autenticado acessa a plataforma e navega até a área de reservas.
 
-| **Comando**   | **Destino**         | **Tipo**   |
-|---------------|---------------------|------------|
-| entrar        | Clicar em reservas  | default    |
+| **Comando** | **Destino**        | **Tipo**   |
+|--------------|--------------------|------------|
+| clicar       | Menu “Reservas”    | default    |
 
-**Atividade 2 – Clicar em Minhas Reservas (Cliente)**  
-**Descrição:** O cliente escolhe acessar suas reservas.  
+**Atividade 2 – Visualizar Minhas Reservas (Cliente)**  
+**Descrição:** O sistema exibe as reservas ativas e passadas do cliente, com informações resumidas (modelo, datas e status).
 
-| **Comando**   | **Destino**          | **Tipo**   |
-|---------------|----------------------|------------|
-| clicar        | Visualizar reservas  | default    |
+| **Campo**          | **Tipo** | **Restrições**            |
+|--------------------|----------|----------------------------|
+| Reservas ativas    | Tabela   | leitura do banco de dados  |
+| Reservas passadas  | Tabela   | leitura do banco de dados  |
 
-**Atividade 3 – Visualizar Lista de Reservas (Cliente)**  
-**Descrição:** O cliente visualiza a lista de reservas. O sistema consulta o banco de dados e exibe as reservas ativas e passadas.  
+| **Comando** | **Destino**            | **Tipo**   |
+|--------------|------------------------|------------|
+| selecionar    | Detalhes da reserva   | default    |
 
-| **Campo**            | **Tipo**   | **Restrições**             |
-|----------------------|------------|----------------------------|
-| Reservas ativas      | Tabela     | leitura do banco de dados  |
-| Reservas passadas    | Tabela     | leitura do banco de dados  |
+**Gateway 1 – Reserva Ativa ou Finalizada?**  
+- Se **Ativa**, o status é exibido como *ATIVO* e não há opção de avaliação.  
+- Se **Finalizada**, o status é *FINALIZADO* e o sistema disponibiliza a opção de “Fazer Avaliação”.
 
-| **Comando**   | **Destino**            | **Tipo**   |
-|---------------|------------------------|------------|
-| selecionar    | Gateway Ativa/Passada  | default    |
+#### Reservas Ativas
 
-**Gateway 1 – Reserva Ativa ou Passada?**  
-- Se **Ativa**, o cliente seleciona uma reserva ativa.  
-- Se **Passada**, o cliente seleciona uma reserva passada.  
+**Atividade 3 – Exibir Detalhes do Aluguel (Sistema)**  
+**Descrição:** O cliente acessa as informações completas da reserva selecionada, incluindo veículo, período, valor, pagamento e status.
 
-**Atividade 4 – Selecionar Reserva Ativa/Passada (Cliente)**  
-**Descrição:** O cliente seleciona uma reserva específica.  
+| **Campo**              | **Tipo**       | **Restrições**       |
+|------------------------|----------------|----------------------|
+| Modelo e marca         | Texto          | somente leitura      |
+| Placa e chassi         | Texto          | somente leitura      |
+| Cor e grupo do veículo | Texto          | somente leitura      |
+| CNH necessária         | Texto          | somente leitura      |
+| Status do veículo      | Texto           | leitura e atualização|
 
-| **Comando**   | **Destino**                | **Tipo**   |
-|---------------|----------------------------|------------|
-| selecionar    | Exibir detalhes da reserva | default    |
+#### Detalhes do Aluguel
 
-**Atividade 5 – Exibir Detalhes da Reserva (Sistema)**  
-**Descrição:** O sistema consulta o banco de dados e apresenta detalhes da reserva selecionada.  
+**Atividade 4 – Consultar Pagamento (Cliente)**  
+**Descrição:** O sistema apresenta as informações referentes ao pagamento da reserva.
 
-| **Campo**            | **Tipo**       | **Restrições**      |
-|----------------------|----------------|---------------------|
-| Veículo              | Tabela         | somente leitura     |
-| Período da reserva   | Data e Hora    | somente leitura     |
-| Pagamento            | Caixa de texto | somente leitura     |
+| **Campo**            | **Tipo**      | **Restrições**          |
+|----------------------|---------------|--------------------------|
+| Forma de pagamento   | Texto         | somente leitura          |
+| Valor final          | Moeda         | somente leitura          |
+| Data de pagamento    | Data          | somente leitura          |
+| Status do pagamento  | Texto         | leitura do banco         |
+| Detalhes             | Texto         | leitura do banco         |
 
-**Gateway 2 – Deseja Avaliar?**  
+#### Informações de Pagamento e Avaliação
+
+**Gateway 2 – Deseja Avaliar o Aluguel?**  
 - Se **Não**, o processo é encerrado.  
-- Se **Sim**, o cliente é direcionado para preencher a avaliação.  
+- Se **Sim**, o cliente é direcionado ao formulário de avaliação.
 
-**Atividade 6 – Preencher Avaliação (Cliente)**  
-**Descrição:** O cliente insere a nota de 0 a 5 e um comentário opcional.  
+**Atividade 5 – Preencher Avaliação (Cliente)**  
+**Descrição:** O cliente informa uma nota de 0 a 5 estrelas e um comentário opcional sobre a experiência com o veículo e o atendimento.
 
-| **Campo**        | **Tipo**        | **Restrições**                   |
-|------------------|-----------------|----------------------------------|
-| Nota (0 a 5)     | Número          | obrigatório                      |
-| Comentário       | Área de texto   | opcional, até 500 caracteres     |
+| **Campo**        | **Tipo**        | **Restrições**                    |
+|------------------|-----------------|-----------------------------------|
+| Nota (0 a 5)     | Número/Estrelas | obrigatório                       |
+| Comentário       | Texto livre     | até 500 caracteres, opcional      |
 
-| **Comando**         | **Destino**            | **Tipo**   |
-|---------------------|------------------------|------------|
-| enviar avaliação    | Salvar Avaliação       | default    |
-| pular avaliação     | Encerrar processo      | cancel     |
+| **Comando**           | **Destino**          | **Tipo**   |
+|-----------------------|----------------------|------------|
+| enviar avaliação      | Salvar Avaliação     | default    |
+| cancelar              | Encerrar processo    | cancel     |
 
-**Atividade 7 – Salvar Avaliação (Sistema)**  
-**Descrição:** O sistema grava no banco de dados a avaliação registrada pelo cliente.  
+#### Avaliação da Experiência
 
-| **Campo**         | **Tipo**   | **Restrições**        |
-|-------------------|------------|-----------------------|
-| Nota (0 a 5)      | Número     | persistência no banco |
-| Comentário        | Texto      | persistência no banco |
+**Atividade 6 – Salvar Avaliação (Sistema)**  
+**Descrição:** O sistema registra no banco de dados a nota e o comentário informados pelo cliente.
+
+| **Campo**      | **Tipo** | **Restrições**             |
+|----------------|----------|-----------------------------|
+| Nota           | Número   | persistência no banco       |
+| Comentário     | Texto    | persistência no banco       |
+
+**Atividade 7 – Exibir Avaliação Concluída (Sistema)**  
+**Descrição:** Após o envio, a avaliação é exibida junto aos detalhes da reserva.
+
+#### Avaliação Concluída
 
 **Atividade 8 – Encerrar Processo**  
-**Descrição:** O fluxo é finalizado, seja após a exibição dos detalhes ou após a avaliação.  
+**Descrição:** O fluxo é finalizado, seja após a consulta da reserva ou após o registro da avaliação.  
 
 #### Reservas Ativas
 ![Imagem do WhatsApp de 2025-10-01 à(s) 14 52 19_97ab4500](https://github.com/user-attachments/assets/cf18c871-203e-4ae3-af12-a6a47d57d6e4)
