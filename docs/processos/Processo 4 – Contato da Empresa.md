@@ -2,7 +2,7 @@
 
 O processo de Contato da Empresa permite ao cliente enviar dúvidas ou solicitações, organizando e agilizando o atendimento. Pode ser melhorado com automação no direcionamento, resposta automática de recebimento e integração do histórico ao cadastro do cliente.
 
-<img width="1251" height="557" alt="image" src="https://github.com/user-attachments/assets/1376bdb2-b053-4857-9614-06cd9740d338" />
+<img width="672" height="483" alt="image" src="https://github.com/user-attachments/assets/c9da3c11-78a2-4dfb-a50d-53c10ef6bd6a" />
 
 #### Detalhamento das atividades
 
