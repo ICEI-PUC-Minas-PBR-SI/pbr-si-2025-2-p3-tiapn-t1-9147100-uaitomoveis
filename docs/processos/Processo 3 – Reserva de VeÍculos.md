@@ -3,7 +3,7 @@
 O processo de **Minhas Reservas** descreve as etapas que o cliente percorre ao acessar a plataforma já logado, consultar suas reservas ativas ou passadas, visualizar os detalhes do aluguel (veículo, período e pagamento) e eventualmente registrar uma avaliação do veículo.  
 O processo envolve gateways de decisão, interação direta do cliente e operações de leitura/gravação no banco de dados do sistema.
 
-<img width="911" height="763" alt="image" src="https://github.com/user-attachments/assets/4abec400-7ee3-4b94-bd83-c2720c5994fe" />
+<img width="1007" height="764" alt="image" src="https://github.com/user-attachments/assets/158b6c24-8eff-4de5-be29-c18ecc79cdc2" />
 
 #### Detalhamento das atividades
 
@@ -52,7 +52,7 @@ O processo envolve gateways de decisão, interação direta do cliente e operaç
 | Status do pagamento  | Texto         | leitura do banco         |
 | Detalhes             | Texto         | leitura do banco         |
 
-**Atividade 5 – Preencher Avaliação (Cliente)**  
+**Atividade 6 – Preencher Avaliação (Cliente)**  
 **Descrição:** O cliente informa uma nota de 0 a 5 estrelas e um comentário opcional sobre a experiência com o veículo e o atendimento.
 
 | **Campo**        | **Tipo**        | **Restrições**                    |
@@ -70,7 +70,7 @@ O processo envolve gateways de decisão, interação direta do cliente e operaç
 | enviar avaliação      | Salvar Avaliação     | default    |
 | cancelar              | Encerrar processo    | cancel     |
 
-**Atividade 6 – Salvar Avaliação (Sistema)**  
+**Atividade 7 – Salvar Avaliação (Sistema)**  
 **Descrição:** O sistema registra no banco de dados a nota e o comentário informados pelo cliente.
 
 | **Campo**      | **Tipo** | **Restrições**             |
