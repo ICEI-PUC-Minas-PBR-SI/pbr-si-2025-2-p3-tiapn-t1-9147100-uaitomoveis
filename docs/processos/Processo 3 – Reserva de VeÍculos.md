@@ -31,9 +31,13 @@ O processo envolve gateways de decisão, interação direta do cliente e operaç
 
 | **Campo**              | **Tipo**       | **Restrições**       |
 |------------------------|----------------|----------------------|
-| Modelo e marca         | Texto          | somente leitura      |
-| Placa e chassi         | Texto          | somente leitura      |
-| Cor e grupo do veículo | Texto          | somente leitura      |
+| Modelo                 | Texto          | somente leitura      |
+| Marca                  | Texto          | somente leitura      |
+| Ano                    | Texto          | somente leitura      |
+| Placa                  | Texto          | somente leitura      |
+| Chassi                 | Texto          | somente leitura      |
+| Cor                    | Texto          | somente leitura      |
+| Grupo                  | Texto          | somente leitura      |
 | CNH necessária         | Texto          | somente leitura      |
 | Status do veículo      | Texto           | leitura e atualização|
 
@@ -53,6 +57,11 @@ O processo envolve gateways de decisão, interação direta do cliente e operaç
 
 | **Campo**        | **Tipo**        | **Restrições**                    |
 |------------------|-----------------|-----------------------------------|
+| Modelo           | Texto           | somente leitura                   |
+| Retirada         | Data            | somente leitura                   |
+| Devolução        | Data            | somente leitura                   |
+| Valor Final      | Moeda           | somente leitura                   |
+| Seguro           | Texto           | somente leitura                   |
 | Nota (0 a 5)     | Número/Estrelas | obrigatório                       |
 | Comentário       | Texto livre     | até 500 caracteres, opcional      |
 
