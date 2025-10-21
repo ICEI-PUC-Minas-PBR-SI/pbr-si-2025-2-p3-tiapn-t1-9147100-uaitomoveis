@@ -7,34 +7,26 @@ O processo de Contato da Empresa permite ao cliente enviar dúvidas ou solicita�
 
 #### Detalhamento das atividades
 
-**Atividade 1 – Acessar Plataforma**  
-O cliente acessa a plataforma da empresa.  
-
-**Atividade 2 – Clicar em Contato**  
-O cliente seleciona a opção “Contato” no menu, e o sistema abre a página de contato com o ícone do ChatBot disponível.  
-
-**Atividade 3 – Clicar no ícone do ChatBot**  
-O cliente clica no ícone exibido na página, e o sistema abre a janela do assistente virtual.  
-
-**Atividade 4 – Exibir mensagem automática de boas-vindas**  
-O chatbot envia uma mensagem inicial de saudação para iniciar a interação.  
-
-**Decisão – Deseja interagir com o ChatBot?**  
-- **Não** → o processo é encerrado.  
-- **Sim** → o cliente segue para envio de mensagem.  
-
-**Atividade 5 – Enviar mensagem**  
+**Atividade 1 – Enviar Mensagem (Cliente)**  
+O cliente interage com o chatbot digitando e enviando sua dúvida, sugestão ou solicitação.
 
 | **Campo**  | **Tipo**        | **Restrições**                 |
-|------------|-----------------|---------------------------------|
-| mensagem   | Área de texto   | Obrigatório, texto livre        |
+|------------|-----------------|--------------------------------|
+| mensagem   | Área de texto   | Obrigatório, texto livre       |
 
 | **Comando** | **Destino**     | **Tipo**   |
 |-------------|-----------------|------------|
-| enviar      | Atividade 6     | default    |
+| enviar      | Atividade 2     | default    |
 
-**Atividade 6 – Encaminhar mensagem / suporte automático**  
-O sistema recebe e encaminha a mensagem ao suporte automático, encerrando o processo de contato.  
+**Atividade 2 – Encaminhar Mensagem / Suporte Automático (Sistema)**  
+O sistema recebe a mensagem e a direciona automaticamente para o suporte, podendo gerar respostas automáticas ou registrar o atendimento no histórico do cliente.
+
+**Decisão – Deseja interagir com o ChatBot? (Gateway)**  
+- **Não** → o processo é encerrado.  
+- **Sim** → o cliente realiza a Atividade 1 (Envio de Mensagem).
+
+**Atividade 3 – Encerrar Processo**  
+O processo é finalizado após o envio e encaminhamento da mensagem ou caso o cliente opte por não interagir com o chatbot.  
 
 #### Página "Contato"  
 ![Imagem do WhatsApp de 2025-10-03 à(s) 15 30 54_66a3c775](https://github.com/user-attachments/assets/7ecdde47-f302-4758-8379-5375cfc55697)
