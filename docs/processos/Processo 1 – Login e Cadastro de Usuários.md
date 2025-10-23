@@ -26,6 +26,7 @@ O processo de **Login e Cadastro de Usuários** é responsável por registrar cl
 |----------------|-------------------------------------------|------------|
 | entrar         | Fim da Atividade 2 (se login válido)      | default    |
 | cadastre-se    | Ir para formulário de cadastro de usuário |            |
+| sair           | Volta para a HomePage                     | cancel     |
 
 
 **Atividade 3 – Preencher Formulário de Dados (Usuário)**
@@ -47,20 +48,21 @@ O processo de **Login e Cadastro de Usuários** é responsável por registrar cl
 | **Comandos**   | **Destino**                      | **Tipo**   |
 |----------------|----------------------------------|------------|
 | cadastrar      | Validar dados preenchidos        | default    |
-| cancelar       | Início do processo               | cancel     |
+| faça login     | Volta a tela de login            | cancel     |
+| sair           | Volta para a HomePage            | cancel     |
 
 
 **Atividade 4 – Aceitar Termos e Políticas (Usuário)**
 
 | **Campo**            | **Tipo**        | **Restrições**           | **Valor default** |
 |----------------------|-----------------|--------------------------|-------------------|
-| aceite termos        | Seleção única   | obrigatório (sim/não)    |                   |
-| aceite privacidade   | Seleção única   | obrigatório (sim/não)    |                   |
+| texto dos termos        | Área de texto   | somente leitura (exibição do conteúdo legal)    |                   |
+| aceite termos e políticas   | Seleção única   | obrigatório (Sim/Não)    |                   |
 
 | **Comandos**   | **Destino**                     | **Tipo**   |
 |----------------|---------------------------------|------------|
-| continuar      | Validar dados preenchidos       | default    |
-| voltar         | Preencher formulário de dados   | cancel     |
+| aceitar os termos      | Validar dados preenchidos       | default    |
+| cancelar         | Preencher formulário de dados   | cancel     |
 
 
 **Atividade 5 – Validar Dados (Sistema)**
