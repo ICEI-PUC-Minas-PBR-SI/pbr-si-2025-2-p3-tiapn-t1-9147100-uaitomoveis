@@ -1,4 +1,4 @@
-### 3.3.1 Processo 1 – Login e Cadastro de Usuários
+![Imagem do WhatsApp de 2025-10-23 à(s) 14 18 43_8a9869bc](https://github.com/user-attachments/assets/cd8a1413-ef33-45b2-ac5b-9e1bb1504bcb)### 3.3.1 Processo 1 – Login e Cadastro de Usuários
 
 O processo de **Login e Cadastro de Usuários** é responsável por registrar clientes no sistema e garantir o acesso seguro à plataforma de serviços (aluguel de veículos). Ele assegura a integridade dos dados, evita duplicidade de registros e define permissões de acesso conforme o tipo de usuário.
 
@@ -80,7 +80,8 @@ O processo de **Login e Cadastro de Usuários** é responsável por registrar cl
 <img width="1116" height="526" alt="HomePage" src="https://github.com/user-attachments/assets/3bf182e9-3ebb-4d0f-9486-b496ac6cce84" />
 
 #### Login
-![Login](https://github.com/user-attachments/assets/a6897ec4-ae9e-4cd1-ac55-fb1affc710ad)
+![Imagem do WhatsApp de 2025-10-23 à(s) 14 18 43_8a9869bc](https://github.com/user-attachments/assets/9b563254-02e1-44b4-b44d-9f8601decbe9)
 
 #### Cadastro
-<img width="1120" height="521" alt="Cadastro" src="https://github.com/user-attachments/assets/00579386-b886-4238-a60f-2188bf194eec" />
+![Imagem do WhatsApp de 2025-10-23 à(s) 14 19 49_874a0dd9](https://github.com/user-attachments/assets/4fe63c2c-3c64-4297-91bf-c1c0de147001)
+
