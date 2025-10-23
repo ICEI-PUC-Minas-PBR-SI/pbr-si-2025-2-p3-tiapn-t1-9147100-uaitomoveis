@@ -41,7 +41,17 @@ Além disso, o sistema contará com um módulo de avaliação, no qual os client
 - Desenvolvimento do Back-end (Processo 1): Paulo Henrique Xavier Lopes
 - Implementação Completa do Processo 1: Paulo Henrique Xavier Lopes
 - Planejamento da Sprint 5: Guilherme Caçuci Ladislau
-- Revisão e Entrega Final: Todos  
+- Revisão e Entrega Final: Todos
+
+### Sprint 5
+- Project Owner: Guilherme Caçuci Ladislau  
+- _Scrum Master_: Paulo Henrique Xavier Lopes  
+- Modelagem dos Processos (atualização): Todos  
+- Modelagem de Dados (atualização): Todos  
+- Desenvolvimento do Back-end (Processo 2): Caio Gabriel Duarte Costa, Gabriel Gomes Ferreira Aranda Lima, Paulo Gabriel de Souza Lopes  
+- Implementação Completa dos Processos 1 e 2: Todos  
+- Planejamento da Sprint 6: Guilherme Caçuci Ladislau  
+- Revisão e Entrega Final: Todos
 
 ## 5.1. Quadro de tarefas
 
