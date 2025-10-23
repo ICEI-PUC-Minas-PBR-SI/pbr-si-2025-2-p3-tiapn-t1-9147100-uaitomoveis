@@ -85,3 +85,5 @@ O processo de **Login e Cadastro de Usuários** é responsável por registrar cl
 #### Cadastro
 ![Imagem do WhatsApp de 2025-10-23 à(s) 14 19 49_874a0dd9](https://github.com/user-attachments/assets/4fe63c2c-3c64-4297-91bf-c1c0de147001)
 
+#### Termos e Políticas
+![Imagem do WhatsApp de 2025-10-23 à(s) 14 20 49_b213d49f](https://github.com/user-attachments/assets/4b3dcacd-86ed-45d4-93f4-5d09a856ad9c)
