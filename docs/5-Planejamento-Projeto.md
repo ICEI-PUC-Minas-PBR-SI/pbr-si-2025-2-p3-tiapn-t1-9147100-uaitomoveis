@@ -23,22 +23,24 @@ Além disso, o sistema contará com um módulo de avaliação, no qual os client
 ### Sprint 3
 - Project Owner: Guilherme Caçuci Ladislau
 - _Scrum master_: Paulo Henrique Xavier Lopes
-- Modelagem de Processos (1, 2, 3 e 4):  
-- Wireframes (Processos 1, 2, 3 e 4): 
-- Campos e Comandos: 
-- Front-end do Processo 3: 
-- Correção da Modelagem do Processo 1: 
-- Correção da Modelagem do Processo 2:  
+- Modelagem de Processos (1, 2 e 3): Guilherme Caçuci Ladislau, Kaio César dos Santos Vidigal, Paulo Henrique Xavier Lopes
+- Wireframes (Processos 1, 2 e 3): Guilherme Caçuci Ladislau, Kaio César dos Santos Vidigal, Paulo Henrique Xavier Lopes
+- Modelagem de Processos (4): Caio Gabriel Duarte Costa, Gabriel Gomes Ferreira Aranda Lima, Paulo Gabriel de Souza Lopes
+- Wireframes (Processo 4): Caio Gabriel Duarte Costa, Gabriel Gomes Ferreira Aranda Lima, Paulo Gabriel de Souza Lopes
+- Campos e Comandos: Kaio César dos Santos Vidigal
+- Front-end do Processo 3: Paulo Henrique Xavier Lopes
+- Correção da Modelagem do Processo 1: Guilherme Caçuci Ladislau, Kaio César dos Santos Vidigal
+- Correção da Modelagem do Processo 2: Guilherme Caçuci Ladislau, Kaio César dos Santos Vidigal
 - Documentação Geral: Todos  
 
 ### Sprint 4
 - Project Owner: Guilherme Caçuci Ladislau
 - _Scrum master_: Paulo Henrique Xavier Lopes
-- Modelagem dos Processos (atualização):  
-- Modelagem de Dados (atualização):
-- Desenvolvimento do Back-end (Processo 1):
-- Implementação Completa do Processo 1:
-- Planejamento da Sprint 5: 
+- Modelagem dos Processos (atualização): Kaio César dos Santos Vidigal, Paulo Henrique Xavier Lopes
+- Modelagem de Dados (atualização): Kaio César dos Santos Vidigal, Paulo Henrique Xavier Lopes
+- Desenvolvimento do Back-end (Processo 1): Paulo Henrique Xavier Lopes
+- Implementação Completa do Processo 1: Paulo Henrique Xavier Lopes
+- Planejamento da Sprint 5: Guilherme Caçuci Ladislau
 - Revisão e Entrega Final: Todos  
 
 ## 5.1. Quadro de tarefas
@@ -76,19 +78,19 @@ Atualizado em: 12/09/2025
 
 | Responsável | Tarefa/Requisito | Iniciado em | Prazo | Status | Terminado em |
 | :---- | :---- | :----: | :----: | :----: | :----: |
-|  | **Processo 2** - Modelagem em BPMN | 02/09/2025 | 12/09/2025 | ✔️ | 12/09/2025 |
-|  | **Processo 2** - Wireframes | 02/09/2025 | 12/09/2025 | ✔️ | 12/09/2025 |
-|  | **Processo 2** - Campos e comandos | 02/09/2025 | 12/09/2025 | ✔️ | 12/09/2025 |
-|  | **Correção** - Modelagem do Processo 1 (descrição e diagrama BPMN) | 10/09/2025 | 15/09/2025 | ✔️ | 15/09/2025 |
-|  | **Correção** - Modelagem do Processo 1 (tarefas e wireframes) | 10/09/2025 | 15/09/2025 | ✔️ | 15/09/2025 |
-|  | **Processo 3** - Modelagem em BPMN | 16/09/2025 | 26/09/2025 | ✔️ | 26/09/2025 |
-|  | **Processo 3** - Wireframes | 16/09/2025 | 26/09/2025 | ✔️ | 26/09/2025 |
-|  | **Processo 3** - Campos e comandos | 16/09/2025 | 26/09/2025 | ✔️ | 26/09/2025 |
-|  | **Processo 3** - Front-end (protótipo funcional) | 16/09/2025 | 26/09/2025 | ✔️ | 26/09/2025 |
-|  | **Processo 4** - Modelagem em BPMN | 16/09/2025 | 26/09/2025 | ✔️ | 26/09/2025 |
-|  | **Processo 4** - Wireframes | 16/09/2025 | 26/09/2025 | ✔️ | 26/09/2025 |
-|  | **Processo 4** - Campos e comandos | 16/09/2025 | 26/09/2025 | ✔️ | 26/09/2025 |
-|  | **Validação final da Sprint 3 (revisão do relatório e BPMNs)** | 26/09/2025 | 30/09/2025 | ✔️ | 30/09/2025 |
+| Guilherme Caçuci Ladislau, Kaio César dos Santos Vidigal, Paulo Henrique Xavier Lopes | **Processo 2** - Modelagem em BPMN | 02/09/2025 | 12/09/2025 | ✔️ | 12/09/2025 |
+| Guilherme Caçuci Ladislau, Kaio César dos Santos Vidigal, Paulo Henrique Xavier Lopes | **Processo 2** - Wireframes | 02/09/2025 | 12/09/2025 | ✔️ | 12/09/2025 |
+| Kaio César dos Santos Vidigal | **Processo 2** - Campos e comandos | 02/09/2025 | 12/09/2025 | ✔️ | 12/09/2025 |
+| Guilherme Caçuci Ladislau, Kaio César dos Santos Vidigal, Paulo Henrique Xavier Lopes | **Correção** - Modelagem do Processo 1 (descrição e diagrama BPMN) | 10/09/2025 | 15/09/2025 | ✔️ | 15/09/2025 |
+| Guilherme Caçuci Ladislau, Kaio César dos Santos Vidigal, Paulo Henrique Xavier Lopes | **Correção** - Modelagem do Processo 1 (tarefas e wireframes) | 10/09/2025 | 15/09/2025 | ✔️ | 15/09/2025 |
+| Guilherme Caçuci Ladislau, Kaio César dos Santos Vidigal, Paulo Henrique Xavier Lopes | **Processo 3** - Modelagem em BPMN | 16/09/2025 | 26/09/2025 | ✔️ | 26/09/2025 |
+| Guilherme Caçuci Ladislau, Kaio César dos Santos Vidigal, Paulo Henrique Xavier Lopes | **Processo 3** - Wireframes | 16/09/2025 | 26/09/2025 | ✔️ | 26/09/2025 |
+| Guilherme Caçuci Ladislau | **Processo 3** - Campos e comandos | 16/09/2025 | 26/09/2025 | ✔️ | 26/09/2025 |
+| Paulo Henrique Xavier Lopes | **Processo 3** - Front-end (protótipo funcional) | 16/09/2025 | 26/09/2025 | ✔️ | 26/09/2025 |
+| Caio Gabriel Duarte Costa, Gabriel Gomes Ferreira Aranda Lima, Paulo Gabriel de Souza Lopes | **Processo 4** - Modelagem em BPMN | 16/09/2025 | 26/09/2025 | ✔️ | 26/09/2025 |
+| Caio Gabriel Duarte Costa, Gabriel Gomes Ferreira Aranda Lima, Paulo Gabriel de Souza Lopes | **Processo 4** - Wireframes | 16/09/2025 | 26/09/2025 | ✔️ | 26/09/2025 |
+| Caio Gabriel Duarte Costa, Gabriel Gomes Ferreira Aranda Lima, Paulo Gabriel de Souza Lopes | **Processo 4** - Campos e comandos | 16/09/2025 | 26/09/2025 | ✔️ | 26/09/2025 |
+| Todos | **Validação final da Sprint 3 (revisão do relatório e BPMNs)** | 26/09/2025 | 30/09/2025 | ✔️ | 30/09/2025 |
 
 ##  Sprint 4 
 
@@ -96,12 +98,12 @@ Atualizado em: 12/09/2025
 
 | Responsável | Tarefa/Requisito | Iniciado em | Prazo | Status | Terminado em |
 | :---- | :---- | :----: | :----: | :----: | :----: |
-|  | Relatório “Modelagem dos Processos – Processo 1 (versão atualizada)” | 30/09/2025 | 10/10/2025 | ✔️ | 10/10/2025 |
-|  | Relatório “Modelo de Dados (versão atualizada)” | 30/09/2025 | 10/10/2025 | ✔️ | 10/10/2025 |
-|  | Implementação do Back-end do Processo 1 (Banco de Dados) | 30/09/2025 | 10/10/2025 | ✔️ | 10/10/2025 |
-|  | Implementação Completa do Processo 1 | 10/10/2025 | 17/10/2025 | ✔️ | 17/10/2025 |
-|  | Planejamento da Sprint 5 | 10/10/2025 | 17/10/2025 | ✔️ | 17/10/2025 |
-|  | **Validação e entrega final da Sprint 4** | 17/10/2025 | 17/10/2025 | ✔️ | 17/10/2025 |
+| Kaio César dos Santos Vidigal | Relatório “Modelagem dos Processos – Processo 1 (versão atualizada)” | 30/09/2025 | 10/10/2025 | ✔️ | 10/10/2025 |
+| Kaio César dos Santos Vidigal | Relatório “Modelo de Dados (versão atualizada)” | 30/09/2025 | 10/10/2025 | ✔️ | 10/10/2025 |
+| Paulo Henrique Xavier Lopes | Implementação do Back-end do Processo 1 (Banco de Dados) | 30/09/2025 | 10/10/2025 | ✔️ | 10/10/2025 |
+| Paulo Henrique Xavier Lopes | Implementação Completa do Processo 1 | 10/10/2025 | 17/10/2025 | ✔️ | 17/10/2025 |
+| Guilherme Caçuci Ladislau | Planejamento da Sprint 5 | 10/10/2025 | 17/10/2025 | ✔️ | 17/10/2025 |
+| Todos | **Validação e entrega final da Sprint 4** | 17/10/2025 | 17/10/2025 | ✔️ | 17/10/2025 |
 
 
 
