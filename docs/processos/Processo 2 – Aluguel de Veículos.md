@@ -156,7 +156,8 @@ Ele envolve interação do cliente, validações do sistema e processamento do p
 #### Finalizar Reserva  
 <img width="1125" height="517" alt="image" src="https://github.com/user-attachments/assets/8fae4bab-0096-4de4-aa83-494b3b640c95" />
 
-#### Inserir Método de Pagamento (Cartão) 
+#### Inserir Método de Pagamento (Cartão)
+<img width="1125" height="517" alt="image" src="https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2025-2-p3-tiapn-t1-9147100-uaitomoveis/blob/b60b4125869f7f14d378e0ab14444c46eae0667e/docs/images/forma_de_pagamento.jpg"/>
 <img width="1128" height="525" alt="image" src="https://github.com/user-attachments/assets/056f3b19-f3c2-4fb5-865c-dfaae33d3252" />
 
 #### Confirmação do Pagamento  
