@@ -149,15 +149,19 @@ Ele envolve interação do cliente, validações do sistema e processamento do p
 #### Catálogo de Veículos  
 <img width="1127" height="519" alt="image" src="https://github.com/user-attachments/assets/a31b924c-2bb4-4f68-b0f8-4c91d3574014" />
 
-#### Lista de Modelos (Sedans)  
+#### Lista de Modelos (Econômicos)  
 <img width="1298" height="604" alt="Cap1" src="https://github.com/user-attachments/assets/176c1a3d-f02c-4349-aa45-f5a439fdc750" />
 
 
 #### Detalhes do Veículo  
 <img width="1297" height="604" alt="Cap2" src="https://github.com/user-attachments/assets/41734c62-c51a-45c4-9e6f-01927120753a" />
 
-#### Finalizar Reserva  
-<img width="1125" height="517" alt="image" src="https://github.com/user-attachments/assets/8fae4bab-0096-4de4-aa83-494b3b640c95" />
+#### Inserir Data
+<img width="1291" height="604" alt="Cap4" src="https://github.com/user-attachments/assets/523802e3-3059-48ea-9a69-5834c8641ebe" />
+
+#### Inserir Seguro
+<img width="1295" height="607" alt="Cap5" src="https://github.com/user-attachments/assets/41a8b186-c0c9-4400-a27e-a60451c5c810" />
+
 
 #### Inserir Método de Pagamento (Cartão)
 <img width="1125" height="517" alt="image" src="https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2025-2-p3-tiapn-t1-9147100-uaitomoveis/blob/b60b4125869f7f14d378e0ab14444c46eae0667e/docs/images/forma_de_pagamento.jpg"/>
