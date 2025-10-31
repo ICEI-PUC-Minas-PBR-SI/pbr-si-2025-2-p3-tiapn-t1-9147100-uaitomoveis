@@ -157,11 +157,11 @@ Ele envolve interação do cliente, validações do sistema e processamento do p
 <img width="1297" height="604" alt="Cap2" src="https://github.com/user-attachments/assets/41734c62-c51a-45c4-9e6f-01927120753a" />
 
 #### Inserir Data
-<img width="1291" height="604" alt="Cap4" src="https://github.com/user-attachments/assets/523802e3-3059-48ea-9a69-5834c8641ebe" />
+<img width="1293" height="604" alt="Cap3" src="https://github.com/user-attachments/assets/40e4fcef-fe92-409e-8c33-ed3ec30cd579" />
+
 
 #### Inserir Seguro
-<img width="1295" height="607" alt="Cap5" src="https://github.com/user-attachments/assets/41a8b186-c0c9-4400-a27e-a60451c5c810" />
-
+<img width="1291" height="604" alt="Cap4" src="https://github.com/user-attachments/assets/523802e3-3059-48ea-9a69-5834c8641ebe" />
 
 #### Inserir Método de Pagamento (Cartão)
 <img width="1125" height="517" alt="image" src="https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2025-2-p3-tiapn-t1-9147100-uaitomoveis/blob/b60b4125869f7f14d378e0ab14444c46eae0667e/docs/images/forma_de_pagamento.jpg"/>
