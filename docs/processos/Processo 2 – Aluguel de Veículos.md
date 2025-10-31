@@ -150,10 +150,11 @@ Ele envolve interação do cliente, validações do sistema e processamento do p
 <img width="1127" height="519" alt="image" src="https://github.com/user-attachments/assets/a31b924c-2bb4-4f68-b0f8-4c91d3574014" />
 
 #### Lista de Modelos (Sedans)  
-<img width="1126" height="520" alt="image" src="https://github.com/user-attachments/assets/0f8abd2c-999c-47dd-a4e3-3b3376ade54f" />
+<img width="1298" height="604" alt="Cap1" src="https://github.com/user-attachments/assets/176c1a3d-f02c-4349-aa45-f5a439fdc750" />
+
 
 #### Detalhes do Veículo  
-<img width="1127" height="522" alt="image" src="https://github.com/user-attachments/assets/a788bd30-5831-4d6c-aa3a-69fd27dd6d9d" />
+<img width="1297" height="604" alt="Cap2" src="https://github.com/user-attachments/assets/41734c62-c51a-45c4-9e6f-01927120753a" />
 
 #### Finalizar Reserva  
 <img width="1125" height="517" alt="image" src="https://github.com/user-attachments/assets/8fae4bab-0096-4de4-aa83-494b3b640c95" />
