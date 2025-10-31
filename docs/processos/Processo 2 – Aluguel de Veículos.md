@@ -3,7 +3,8 @@
 O processo de **Aluguel de Veículos** descreve as etapas que o cliente percorre desde a seleção do veículo até a confirmação da reserva.  
 Ele envolve interação do cliente, validações do sistema e processamento do pagamento.
 
-<img width="1043" height="688" alt="Captura de tela 2025-09-26 185553" src="https://github.com/user-attachments/assets/5afb2205-a9c2-4b65-8aac-26f8d1882cb9" />
+![WhatsApp Image 2025-10-31 at 14 18 19](https://github.com/user-attachments/assets/fa0dc82e-cdd6-4fd3-90a9-20bf0826d949)
+
 
 #### Detalhamento das atividades
 
