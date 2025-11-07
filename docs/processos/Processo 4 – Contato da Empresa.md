@@ -4,6 +4,7 @@ O processo de Contato da Empresa permite ao cliente enviar dúvidas ou solicita�
 
 <img width="672" height="483" alt="image" src="https://github.com/user-attachments/assets/c9da3c11-78a2-4dfb-a50d-53c10ef6bd6a" />
 
+<img width="672" height="483" alt="image" src="https://github.com/123gabriel12/Bpmn-/blob/main/IMG-20251107-WA0030.jpg" />
 #### Detalhamento das atividades
 
 **Atividade 1 – Enviar mensagem (Cliente)**  
