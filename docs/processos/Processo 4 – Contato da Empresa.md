@@ -1,32 +1,62 @@
 ### 3.3.4 Processo 4 – Contato da Empresa
 
-O processo de Contato da Empresa permite ao cliente enviar dúvidas ou solicitações, organizando e agilizando o atendimento. Pode ser melhorado com automação no direcionamento, resposta automática de recebimento e integração do histórico ao cadastro do cliente.
+O processo de Contato da Empresa permite ao cliente enviar dúvidas, solicitações e também registrar sua avaliação sobre o site, organizando e agilizando o atendimento.  
+Esse fluxo pode ser aprimorado com automação no direcionamento das mensagens, respostas automáticas de confirmação e integração do histórico ao cadastro do cliente.
 
 <img width="672" height="483" alt="image" src="https://github.com/user-attachments/assets/c9da3c11-78a2-4dfb-a50d-53c10ef6bd6a" />
 
 <img width="672" height="483" alt="image" src="https://github.com/123gabriel12/Bpmn-/blob/main/IMG-20251107-WA0030.jpg" />
+
+---
+
 #### Detalhamento das atividades
 
-**Atividade 1 – Enviar mensagem (Cliente)**  
-O cliente clica no ícone do ChatBot disponível na página e envia uma mensagem com dúvidas ou solicitações.
+---
 
-| **Campo**   | **Tipo**        | **Restrições**                 |
-|--------------|-----------------|--------------------------------|
-| Mensagem     | Área de texto   | Obrigatório, texto livre        |
+### **Atividade 1 – Enviar Mensagem (Cliente)**  
+O cliente acessa o ícone do ChatBot disponível na página e opta por iniciar uma conversa enviando sua dúvida ou solicitação.
 
-| **Comando**  | **Destino**              | **Tipo**   |
-|---------------|--------------------------|------------|
-| Enviar        | Suporte automático       | default    |
+| **Campo**   | **Tipo**      | **Restrições**         |
+|-------------|---------------|-------------------------|
+| Mensagem    | Área de texto | Obrigatório, texto livre |
 
-**Atividade 2 – Encaminhar mensagem / suporte automático (Sistema)**  
+| **Comando** | **Destino**         | **Tipo** |
+|-------------|----------------------|----------|
+| Enviar      | Suporte automático   | default  |
+
+---
+
+### **Atividade 2 – Encaminhar Mensagem / Suporte Automático (Sistema)**  
 O sistema recebe a mensagem e realiza o encaminhamento para o suporte automatizado ou equipe responsável.
 
-**Gateway – Deseja interagir com o ChatBot?**  
-- **Não** → o processo é encerrado.  
-- **Sim** → o cliente envia uma mensagem.  
+---
 
-**Atividade 3 – Encerrar processo**  
-O fluxo é finalizado após o envio da mensagem ou caso o cliente não queira interagir. 
+### **Gateway 1 – Deseja interagir com o ChatBot?**  
+- **Sim** → o cliente envia uma mensagem pelo ChatBot.  
+- **Não** → segue para a opção de avaliação do site.
+
+---
+
+### **Atividade 3 – Preencher Avaliação (Cliente)**  
+Caso o cliente opte por avaliar o site, é exibido o formulário de avaliação com campos de nota e comentários.
+
+---
+
+### **Atividade 4 – Registrar Avaliação (Sistema)**  
+O sistema armazena os dados enviados pelo cliente, vinculando a avaliação ao histórico de interação.
+
+---
+
+### **Gateway 2 – Deseja avaliar o site?**  
+- **Sim** → cliente preenche o formulário e o sistema registra.  
+- **Não** → processo é finalizado.
+
+---
+
+### **Atividade 5 – Encerrar Processo**  
+O processo termina caso o cliente não queira interagir com o ChatBot e nem avaliar o site, ou após o envio da avaliação.
+
+---
 
 #### Página "Contato"  
 ![Imagem do WhatsApp de 2025-10-03 à(s) 15 30 54_66a3c775](https://github.com/user-attachments/assets/7ecdde47-f302-4758-8379-5375cfc55697)
