@@ -53,3 +53,6 @@ O processo termina caso o cliente não queira interagir com o ChatBot e nem aval
 
 #### Chatbot Ativo  
 ![Imagem do WhatsApp de 2025-10-03 à(s) 15 32 17_48463f25](https://github.com/user-attachments/assets/199bec0e-4529-4616-a23c-ffdf5d76edc1)
+
+#### Avaliação do site
+![Imagem do WhatsApp de 2025-11-13 à(s) 10 28 10_735c5ce3](https://github.com/user-attachments/assets/c7fbd83c-b781-46d2-8100-f92caa62a737)
