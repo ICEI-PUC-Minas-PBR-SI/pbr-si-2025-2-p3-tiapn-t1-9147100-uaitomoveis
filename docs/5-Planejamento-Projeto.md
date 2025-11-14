@@ -121,12 +121,12 @@ Atualizado em: 12/09/2025
 
 | Responsável | Tarefa/Requisito | Iniciado em | Prazo | Status | Terminado em |
 | :---- | :---- | :----: | :----: | :----: | :----: |
-| Todos | Relatório “Modelagem dos Processos – Processo 2 (versão atualizada)” | 23/10/2025 | 31/10/2025 | 📝 |  |
-| Todos | Relatório “Modelo de Dados (versão atualizada)” | 23/10/2025 | 31/10/2025 | 📝 |  |
-| Caio Gabriel Duarte Costa, Gabriel Gomes Ferreira Aranda Lima, Paulo Gabriel de Souza Lopes | Implementação do Back-end do Processo 2 (duas atividades completas) | 23/10/2025 | 31/10/2025 | 📝 |  |
-| Todos | Implementação Completa dos Processos 1 e 2 | 23/10/2025 | 31/10/2025 | 📝 |  |
-| Guilherme Caçuci Ladislau | Planejamento da Sprint 6 | 23/10/2025 | 31/10/2025 | 📝 |  |
-| Todos | **Validação e entrega final da Sprint 5** | 31/10/2025 | 31/10/2025 | 📝 |  |
+| Todos | Relatório “Modelagem dos Processos – Processo 2 (versão atualizada)” | 23/10/2025 | 31/10/2025 | ✔️ | 31/10/2025 |
+| Todos | Relatório “Modelo de Dados (versão atualizada)” | 23/10/2025 | 31/10/2025 | ✔️ | 31/10/2025 |
+| Caio Gabriel Duarte Costa, Gabriel Gomes Ferreira Aranda Lima, Paulo Gabriel de Souza Lopes | Implementação do Back-end do Processo 2 (duas atividades completas) | 23/10/2025 | 31/10/2025 | ✔️ | 31/10/2025 |
+| Todos | Implementação Completa dos Processos 1 e 2 | 23/10/2025 | 31/10/2025 | ✔️ | 31/10/2025 |
+| Guilherme Caçuci Ladislau | Planejamento da Sprint 6 | 23/10/2025 | 31/10/2025 | ✔️ | 31/10/2025 |
+| Todos | **Validação e entrega final da Sprint 5** | 31/10/2025 | 31/10/2025 | ✔️ | 31/10/2025 |
 
 Legenda:
 - ✔️: terminado
