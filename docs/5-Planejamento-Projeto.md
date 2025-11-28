@@ -142,19 +142,19 @@ Atualizado em: 12/09/2025
 
 ## Sprint 6
 
-**Atualizado em:** 14/11/2025  
+**Atualizado em:** 28/11/2025  
 
 | Responsável | Tarefa/Requisito | Iniciado em | Prazo | Status | Terminado em |
 | :---- | :---- | :----: | :----: | :----: | :----: |
-| Guilherme Caçuci Ladislau | Relatório – “Modelagem dos Processos – Processo 3” (versão atualizada) | 14/11/2025 | 22/11/2025 | ⏳ | — |
-| Kaio César dos Santos Vidigal, Paulo Henrique Xavier Lopes | Relatório – “Modelo de Dados” (versão atualizada) | 14/11/2025 | 22/11/2025 | ⏳ | — |
-| Todos | Relatório – seção “Indicadores de Desempenho” | 14/11/2025 | 22/11/2025 | ⏳ | — |
-| Caio Gabriel Duarte Costa, Gabriel Gomes Ferreira Aranda Lima, Paulo Gabriel de Souza Lopes | Implementação do Processo 3 (back-end e integração) | 14/11/2025 | 29/11/2025 | ⏳ | — |
-| Paulo Henrique Xavier Lopes | Implementação do Processo 3 (front-end) | 14/11/2025 | 29/11/2025 | ⏳ | — |
-| Caio Gabriel Duarte Costa, Gabriel Gomes Ferreira Aranda Lima, Paulo Gabriel de Souza Lopes | Implementação do Processo 4 (back-end e front-end) | 14/11/2025 | 29/11/2025 | ⏳ | — |
-| Todos | Ajustes finais dos Processos 1 e 2 conforme rubrica | 14/11/2025 | 20/11/2025 | ⏳ | — |
-| Guilherme Caçuci Ladislau | Planejamento da Sprint 7 | 25/11/2025 | 29/11/2025 | ⏳ | — |
-| Todos | Validação final da Sprint 6 (relatório, BPMNs, implementação) | 27/11/2025 | 30/11/2025 | ⏳ | — |
+| Guilherme Caçuci Ladislau | Relatório – “Modelagem dos Processos – Processo 3” (versão atualizada) | 14/11/2025 | 22/11/2025 | ✔️ | 22/11/2025 |
+| Kaio César dos Santos Vidigal, Paulo Henrique Xavier Lopes | Relatório – “Modelo de Dados” (versão atualizada) | 14/11/2025 | 22/11/2025 | ✔️ | 22/11/2025 |
+| Todos | Relatório – seção “Indicadores de Desempenho” | 14/11/2025 | 22/11/2025 | ✔️ | 22/11/2025 |
+| Caio Gabriel Duarte Costa, Gabriel Gomes Ferreira Aranda Lima, Paulo Gabriel de Souza Lopes | Implementação do Processo 3 (back-end e integração) | 14/11/2025 | 28/11/2025 | ✔️ | 28/11/2025 |
+| Paulo Henrique Xavier Lopes | Implementação do Processo 3 (front-end) | 14/11/2025 | 28/11/2025 | ✔️ | 28/11/2025 |
+| Caio Gabriel Duarte Costa, Gabriel Gomes Ferreira Aranda Lima, Paulo Gabriel de Souza Lopes | Implementação do Processo 4 (back-end e front-end) | 14/11/2025 | 28/11/2025 | ✔️ | 28/11/2025 |
+| Todos | Ajustes finais dos Processos 1 e 2 conforme rubrica | 14/11/2025 | 20/11/2025 | ✔️ | 20/11/2025 |
+| Guilherme Caçuci Ladislau | Planejamento da Sprint 7 | 25/11/2025 | 28/11/2025 | ✔️ | 28/11/2025 |
+| Todos | Validação final da Sprint 6 (relatório, BPMNs, implementação) | 27/11/2025 | 28/11/2025 | ✔️ | 28/11/2025 |
 
 
 Legenda:
