@@ -182,14 +182,8 @@ Cada retângulo corresponde a uma entidade (um conjunto de dados relevantes do s
 #### 4.3.2 Esquema Relacional
 
 O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
- 
-As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
 
-> - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
-
-![Exemplo de um modelo relacional](images/modeloRelacional.png "Exemplo de Modelo Relacional.")
----
-
+<img width="1004" height="1154" alt="diagrama_ER_do_BD_uaitomoveis" src="https://github.com/user-attachments/assets/c58ad60e-f8f5-48c9-8ff0-1fb1ef36a6f6" />
 
 #### 4.3.3 Modelo Físico
 
@@ -362,9 +356,6 @@ CREATE TABLE pagamento (
 </code>
 
 Este script deverá ser incluído em um arquivo .sql na pasta src\db.
-
-
-
 
 ### 4.4. Tecnologias
 
