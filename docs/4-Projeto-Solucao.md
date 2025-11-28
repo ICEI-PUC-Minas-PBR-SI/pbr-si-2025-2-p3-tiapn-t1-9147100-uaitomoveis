@@ -174,11 +174,10 @@ _Apresente o modelo de dados por meio de um modelo relacional que contemple todo
 
 #### 4.3.1 Modelo ER
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
+O diagrama ER abaixo representa, de forma visual, as principais entidades do sistema e como elas se relacionam dentro da aplicação interativa Uaitomóveis.
+Cada retângulo corresponde a uma entidade (um conjunto de dados relevantes do sistema), enquanto os losangos indicam os relacionamentos entre essas entidades, descrevendo como elas interagem entre si. Os atributos essenciais foram incluídos para representar a estrutura lógica do banco de dados utilizado pela aplicação.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
-
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
+<img width="712" height="692" alt="uaitomoveisER drawio" src="https://github.com/user-attachments/assets/7db73e54-0801-4a90-86b1-e7274044b493" />
 
 #### 4.3.2 Esquema Relacional
 
