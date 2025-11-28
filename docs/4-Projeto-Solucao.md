@@ -4,11 +4,34 @@
 
 ## 4.1. Arquitetura da solução
 
+A arquitetura da solução foi planejada para garantir organização, escalabilidade e separação clara de responsabilidades, seguindo o padrão clássico de desenvolvimento em três camadas: **Apresentação (Front-end)**, **Lógica de Negócio (Back-end)** e **Persistência (Banco de Dados)**. Essa estrutura facilita manutenção, evolução do projeto e compreensão do fluxo interno do sistema.
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
+### Camada de Apresentação (Front-end)
 
- Inclua um diagrama da solução e descreva os módulos e as tecnologias
- que fazem parte da solução. Discorra sobre o diagrama.
+A camada de apresentação é responsável por toda a interação com o usuário, fornecendo uma interface web amigável, intuitiva e responsiva. Nessa camada estão as páginas acessadas por clientes e administradores, incluindo telas de cadastro, login, consulta de veículos, reservas, relatórios e gerenciamento de frota.  
+Toda a comunicação entre o front-end e o back-end ocorre por meio de requisições HTTP, garantindo que os dados circulem de forma organizada e segura.
+
+### Camada de Lógica de Negócio (Back-end)
+
+A camada de back-end foi estruturada em C#, aplicando princípios de Programação Orientada a Objetos para representar entidades como **Cliente**, **Veículo**, **Reserva** e **Administrador**.  
+É nessa camada que ficam centralizadas as regras de negócio: validação de dados, controle de reservas, atualização de status da frota, autenticação de usuários, geração de relatórios e todo o processamento essencial do sistema.
+
+Essa camada também gerencia o fluxo entre a interface e o banco de dados, garantindo que os dados trafeguem de forma coerente e confiável.
+
+### Camada de Persistência (Banco de Dados)
+
+Para o armazenamento das informações, utiliza-se um **banco de dados relacional SQL Server**, onde são mantidos todos os dados relacionados a veículos, clientes, reservas e operações internas.  
+A modelagem foi projetada para evitar redundâncias, garantir integridade referencial e permitir consultas eficientes, especialmente para relatórios gerenciais e análise de uso da frota.
+
+O acesso ao banco é feito por meio de consultas SQL integradas ao back-end, seguindo boas práticas de conexão, segurança e manipulação de dados.
+
+### Integração entre as Camadas
+
+A aplicação opera com integração total entre as três camadas. O front-end envia solicitações ao back-end, que processa a lógica necessária, se comunica com o banco de dados quando preciso e retorna respostas estruturadas à interface.  
+Esse fluxo garante consistência e permite que o sistema seja expandido futuramente, como a inclusão de módulos novos (pagamentos, dashboards avançados ou API para aplicativo mobile) sem comprometer a estrutura já existente.
+
+Essa arquitetura modular oferece um equilíbrio sólido entre simplicidade e robustez, ideal para um projeto acadêmico com características próximas às demandas reais da indústria de software.
+
  
  **Exemplo do diagrama de Arquitetura**:
  
