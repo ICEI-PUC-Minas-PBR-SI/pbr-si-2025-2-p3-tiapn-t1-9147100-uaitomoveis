@@ -48,11 +48,10 @@ O processo termina caso o cliente não queira interagir com o ChatBot e nem aval
 #### Página "Contato"  
 ![Imagem do WhatsApp de 2025-10-03 à(s) 15 30 54_66a3c775](https://github.com/user-attachments/assets/7ecdde47-f302-4758-8379-5375cfc55697)
 
-#### Chatbot (ícone fixo na tela)  
-![Imagem do WhatsApp de 2025-10-03 à(s) 15 31 37_a8827f24](https://github.com/user-attachments/assets/176beec0-ec9d-4451-93af-7a1436def808)
-
 #### Chatbot Ativo  
-![Imagem do WhatsApp de 2025-10-03 à(s) 15 32 17_48463f25](https://github.com/user-attachments/assets/199bec0e-4529-4616-a23c-ffdf5d76edc1)
+<img width="1291" height="603" alt="image" src="https://github.com/user-attachments/assets/faca5411-2f32-4097-8abd-74e81f97bbcc" />
+
 
 #### Avaliação do site
-![Imagem do WhatsApp de 2025-11-13 à(s) 10 28 10_735c5ce3](https://github.com/user-attachments/assets/c7fbd83c-b781-46d2-8100-f92caa62a737)
+<img width="1302" height="608" alt="image" src="https://github.com/user-attachments/assets/88c3f12e-764c-42d0-859d-a72fe8ed9db9" />
+
