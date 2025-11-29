@@ -23,9 +23,9 @@ O projeto consiste no desenvolvimento de um sistema web para automação de proc
 
 ## Instruções de utilização
 
-# 🚀 Como Executar o Projeto
+#  Como Executar o Projeto
 
-## 📌 Pré-requisitos
+##  Pré-requisitos
 Antes de iniciar, certifique-se de ter instalado em sua máquina:
 
 - Node.js
@@ -35,23 +35,23 @@ Antes de iniciar, certifique-se de ter instalado em sua máquina:
 
 ---
 
-## ⚙️ Passo a Passo
+##  Passo a Passo
 
-### 1️⃣ Importar o Banco de Dados
+### 1 Importar o Banco de Dados
 Baixe o arquivo do banco disponível no GitHub e importe no MySQL.
 
-### 2️⃣ Configurar Credenciais
+### 2 Configurar Credenciais
 No arquivo `server.js`, edite as linhas 30 e 31 informando suas credenciais de acesso ao MySQL:
 
 js
 `user: 'SEU_USUARIO';
 password: 'SUA_SENHA';`
-### 3️⃣ Iniciar o Servidor
+### 3 Iniciar o Servidor
 
 Abra um terminal na pasta do projeto e execute:
 
 `node server.js`
-### 4️⃣ Acessar a Aplicação
+### 4 Acessar a Aplicação
 
 Com o servidor rodando, abra no navegador:
 
