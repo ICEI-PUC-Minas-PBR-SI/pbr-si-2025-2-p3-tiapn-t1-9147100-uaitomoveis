@@ -2,17 +2,18 @@ cff-version: 1.0.1
 message: Please cite this software using these metadata.
 title: 
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-
+- family-names: Duarte Costa
+    given-names: Caio Gabriel 
+  - family-names: Caçuci Ladislau
+    given-names: Guilherme
+  - family-names: Gomes Ferreira Aranda Lima
+    given-names: Gabriel 
+  - family-names: dos Santos Vidigal
+    given-names: Kaio César
+  - family-names: de Souza Lopes
+    given-names: Paulo Gabriel
+  - family-names: Xavier Lopes
+    given-names: Paulo Henrique
   - name-suffix: Professor
     affiliation: PUC Minas
     family-names: 
