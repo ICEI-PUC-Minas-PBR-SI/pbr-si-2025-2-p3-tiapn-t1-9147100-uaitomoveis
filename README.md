@@ -23,27 +23,39 @@ O projeto consiste no desenvolvimento de um sistema web para automação de proc
 
 ## Instruções de utilização
 
-**COMO EXECUTAR O PROJETO:**
+# 🚀 Como Executar o Projeto
 
- * Pré-Requisitos 
-  
-* certifique-se de ter instalado em sua máquina:
+## 📌 Pré-requisitos
+Antes de iniciar, certifique-se de ter instalado em sua máquina:
 
- * A extensão do Java Script
- * o MySQL Server
- * Todos os arquivos de código imagem e vídeo que estão no Github
+- Node.js
+- MySQL Server
+- Extensão de JavaScript no Visual Studio Code
+- Todos os arquivos de código, imagens e vídeos disponibilizados no GitHub
 
-* Passo a passo
+---
 
- * passo 1
-    * importe o banco do GitHub
- * passo 2
-    * Altere as linhas 30 e 31 para suas informar sua credenciais de acesso ao banco de dados de sua maquina
- * passo 3
-    * abra um terminal e inicie a conexão com o banco utilizando do código Node server.js
- * passo 4
-    * Acesse a aplicação no navegador através do endereço: http://localhost:3000.
+## ⚙️ Passo a Passo
 
+### 1️⃣ Importar o Banco de Dados
+Baixe o arquivo do banco disponível no GitHub e importe no MySQL.
+
+### 2️⃣ Configurar Credenciais
+No arquivo `server.js`, edite as linhas 30 e 31 informando suas credenciais de acesso ao MySQL:
+
+js
+`user: 'SEU_USUARIO';
+password: 'SUA_SENHA';`
+### 3️⃣ Iniciar o Servidor
+
+Abra um terminal na pasta do projeto e execute:
+
+`node server.js`
+4️⃣ Acessar a Aplicação
+
+Com o servidor rodando, abra no navegador:
+
+`http://localhost:3000`
 
 # Documentação
 
