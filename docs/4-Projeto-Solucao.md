@@ -32,12 +32,6 @@ Esse fluxo garante consistência e permite que o sistema seja expandido futurame
 
 Essa arquitetura modular oferece um equilíbrio sólido entre simplicidade e robustez, ideal para um projeto acadêmico com características próximas às demandas reais da indústria de software.
 
- 
- **Exemplo do diagrama de Arquitetura**:
- 
- ![Exemplo de Arquitetura](./images/arquitetura-exemplo.png)
- 
-
 ### 4.2. Protótipos de Telas
 
 A seguir são apresentados os protótipos de tela que representam as principais interfaces do sistema, organizados por processos. Esses protótipos foram elaborados de forma a refletir a interação entre usuário e sistema, conforme descrito na seção [Especificação do Projeto](2-Especificação.md).  
