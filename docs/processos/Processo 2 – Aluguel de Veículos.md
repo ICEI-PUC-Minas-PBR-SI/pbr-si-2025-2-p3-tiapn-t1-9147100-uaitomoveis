@@ -147,25 +147,28 @@ Ele envolve interação do cliente, validações do sistema e processamento do p
 
  
 #### Catálogo de Veículos  
-<img width="1127" height="519" alt="image" src="https://github.com/user-attachments/assets/a31b924c-2bb4-4f68-b0f8-4c91d3574014" />
+<img width="1295" height="604" alt="image" src="https://github.com/user-attachments/assets/8877227c-6cb8-459e-95e1-3f831cd1fefe" />
 
-#### Lista de Modelos (Econômicos)  
-<img width="1298" height="604" alt="Cap1" src="https://github.com/user-attachments/assets/176c1a3d-f02c-4349-aa45-f5a439fdc750" />
+
+#### Lista de Modelos (Luxo)  
+<img width="1307" height="599" alt="image" src="https://github.com/user-attachments/assets/73cdd396-71e6-4c62-92cb-476815d23355" />
 
 
 #### Detalhes do Veículo  
-<img width="1297" height="604" alt="Cap2" src="https://github.com/user-attachments/assets/41734c62-c51a-45c4-9e6f-01927120753a" />
+<img width="1292" height="594" alt="image" src="https://github.com/user-attachments/assets/e8caeaf0-7450-4121-8a11-f9749306a2c1" />
+
 
 #### Inserir Data
-<img width="1293" height="604" alt="Cap3" src="https://github.com/user-attachments/assets/40e4fcef-fe92-409e-8c33-ed3ec30cd579" />
+<img width="1291" height="601" alt="image" src="https://github.com/user-attachments/assets/03c00127-d7b3-4419-9cf6-519a528a7f17" />
 
 
 #### Inserir Seguro
-<img width="1291" height="604" alt="Cap4" src="https://github.com/user-attachments/assets/523802e3-3059-48ea-9a69-5834c8641ebe" />
+<img width="1292" height="603" alt="image" src="https://github.com/user-attachments/assets/1f47a673-63e9-48a7-a3b1-1456cae3eb6d" />
+
 
 #### Inserir Método de Pagamento (Cartão)
-<img width="1125" height="517" alt="image" src="https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2025-2-p3-tiapn-t1-9147100-uaitomoveis/blob/b60b4125869f7f14d378e0ab14444c46eae0667e/docs/images/forma_de_pagamento.jpg"/>
-<img width="1128" height="525" alt="image" src="https://github.com/user-attachments/assets/056f3b19-f3c2-4fb5-865c-dfaae33d3252" />
+<img width="1290" height="601" alt="image" src="https://github.com/user-attachments/assets/f4e873df-f7ea-4b89-9b5d-3d185fb054b6" />
+
 
 #### Confirmação do Pagamento  
-<img width="1127" height="526" alt="image" src="https://github.com/user-attachments/assets/1ec1588e-3486-47fb-9837-c5746728762a" />
+<img width="1299" height="604" alt="image" src="https://github.com/user-attachments/assets/978f6f8e-37ba-4247-9edd-ccc72a3394cb" />
