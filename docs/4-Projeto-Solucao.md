@@ -196,13 +196,13 @@ O chatbot torna a comunicação mais ágil, fornecendo respostas instantâneas e
 
 A seção apresenta um sistema de avaliação onde o usuário pode dar uma nota em estrelas para o site da Uaitomóveis e, opcionalmente, deixar um comentário. Após escolher a quantidade de estrelas e escrever o feedback, basta clicar no botão “Enviar Avaliação” para registrar a opinião. É uma área simples e direta, voltada para coletar a satisfação dos visitantes.
 
-## Diagrama de Classes
+#### Diagrama de Classes
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
 <img width="1149" height="808" alt="diagrama_classes_uaitomoveis drawio" src="https://github.com/user-attachments/assets/faf15e79-f448-4c8c-9665-81d4c2958212" />
 
-## Modelo ER
+#### Modelo ER
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
@@ -423,7 +423,7 @@ Como ambiente de desenvolvimento, utilizou-se o **Visual Studio Code (VS Code)**
 
 ---
 
-## Figura – Fluxo de interação do usuário com o sistema
+### Figura – Fluxo de interação do usuário com o sistema
 
 A figura a seguir ilustra como ocorre a interação entre o usuário e as tecnologias que compõem o sistema:
 
