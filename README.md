@@ -51,7 +51,7 @@ password: 'SUA_SENHA';`
 Abra um terminal na pasta do projeto e execute:
 
 `node server.js`
-4️⃣ Acessar a Aplicação
+### 4️⃣ Acessar a Aplicação
 
 Com o servidor rodando, abra no navegador:
 
