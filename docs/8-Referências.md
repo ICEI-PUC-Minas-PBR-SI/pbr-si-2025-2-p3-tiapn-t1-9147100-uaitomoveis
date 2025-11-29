@@ -1,27 +1,44 @@
 # REFERÊNCIAS
 
-_Como um projeto de software não requer revisão bibliográfica, a inclusão das referências não é obrigatória. No entanto, caso você deseje incluir referências relacionadas às tecnologias, padrões, ou metodologias que serão usadas no seu trabalho, relacione-as de acordo com a ABNT._
+LOCALIZA. Localiza Rent a Car. Disponível em: https://www.localiza.com
 
-_Verifique no link abaixo como devem ser as referências no padrão ABNT:_
+. Acesso em: 28 ago. 2025.
 
-http://portal.pucminas.br/imagedb/documento/DOC_DSC_NOME_ARQUI20160217102425.pdf
+NODE.JS FOUNDATION. Node.js: JavaScript runtime built on Chrome’s V8 engine. Disponível em: https://nodejs.org
 
-**[1.1]** - _ELMASRI, Ramez; NAVATHE, Sham. **Sistemas de banco de dados**. 7. ed. São Paulo: Pearson, c2019. E-book. ISBN 9788543025001._
+. Acesso em: 28 ago. 2025.
 
-**[1.2]** - _COPPIN, Ben. **Inteligência artificial**. Rio de Janeiro, RJ: LTC, c2010. E-book. ISBN 978-85-216-2936-8._
+EXPRESS.JS. Express – Fast, unopinionated, minimalist web framework for Node.js. Disponível em: https://expressjs.com
 
-**[1.3]** - _CORMEN, Thomas H. et al. **Algoritmos: teoria e prática**. Rio de Janeiro, RJ: Elsevier, Campus, c2012. xvi, 926 p. ISBN 9788535236996._
+. Acesso em: 28 ago. 2025.
 
-**[1.4]** - _SUTHERLAND, Jeffrey Victor. **Scrum: a arte de fazer o dobro do trabalho na metade do tempo**. 2. ed. rev. São Paulo, SP: Leya, 2016. 236, [4] p. ISBN 9788544104514._
+ORACLE CORPORATION. MySQL: Open Source Relational Database Management System. Disponível em: https://www.mysql.com
 
-**[1.5]** - _RUSSELL, Stuart J.; NORVIG, Peter. **Inteligência artificial**. Rio de Janeiro: Elsevier, c2013. xxi, 988 p. ISBN 9788535237016._
+. Acesso em: 28 ago. 2025.
 
+ORACLE CORPORATION. MySQL Workbench. Disponível em: https://dev.mysql.com/workbench
 
+. Acesso em: 28 ago. 2025.
 
+WIT.AI. Wit.ai – Natural Language Interface for Developers. Disponível em: https://wit.ai
 
+. Acesso em: 28 ago. 2025.
 
+MOZILLA DEVELOPER NETWORK. HTML – HyperText Markup Language. Disponível em: https://developer.mozilla.org/pt-BR/docs/Web/HTML
 
+. Acesso em: 28 ago. 2025.
 
+MOZILLA DEVELOPER NETWORK. CSS – Cascading Style Sheets. Disponível em: https://developer.mozilla.org/pt-BR/docs/Web/CSS
+
+. Acesso em: 28 ago. 2025.
+
+MOZILLA DEVELOPER NETWORK. JavaScript – Linguagem de programação. Disponível em: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+
+. Acesso em: 28 ago. 2025.
+
+MICROSOFT CORPORATION. Visual Studio Code. Disponível em: https://code.visualstudio.com
+
+. Acesso em: 28 ago. 2025.
 
 
 
