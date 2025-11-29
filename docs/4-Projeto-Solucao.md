@@ -2,35 +2,66 @@
 
 <span style="color:red">Pré-requisitos: <a href="3-Modelagem-Processos-Negócio.md"> Modelagem do Processo de Negocio</a></span>
 
-## 4.1. Arquitetura da solução
+## 4.1. Arquitetura da Solução
 
-A arquitetura da solução foi planejada para garantir organização, escalabilidade e separação clara de responsabilidades, seguindo o padrão clássico de desenvolvimento em três camadas: **Apresentação (Front-end)**, **Lógica de Negócio (Back-end)** e **Persistência (Banco de Dados)**. Essa estrutura facilita manutenção, evolução do projeto e compreensão do fluxo interno do sistema.
+A arquitetura da solução foi planejada para garantir organização, escalabilidade e uma separação clara entre as responsabilidades do sistema. O modelo adotado segue a estrutura clássica em três camadas: **Apresentação (Front-end)**, **Lógica de Negócio (Back-end)** e **Persistência (Banco de Dados)**. Essa abordagem facilita a manutenção, a evolução futura e a compreensão do fluxo completo da aplicação.
 
 ### Camada de Apresentação (Front-end)
 
-A camada de apresentação é responsável por toda a interação com o usuário, fornecendo uma interface web amigável, intuitiva e responsiva. Nessa camada estão as páginas acessadas por clientes e administradores, incluindo telas de cadastro, login, consulta de veículos, reservas, relatórios e gerenciamento de frota.  
-Toda a comunicação entre o front-end e o back-end ocorre por meio de requisições HTTP, garantindo que os dados circulem de forma organizada e segura.
+A camada de apresentação é totalmente desenvolvida com **HTML, CSS e JavaScript**, garantindo uma interface moderna, responsiva e de fácil interação.  
+Ela engloba todas as páginas acessadas pelo usuário, como **Home**, **Veículos**, **Reservas** e **Contato**, além de elementos interativos como:
+
+- sistema de avaliação com estrelas;
+- chat flutuante integrado ao backend;
+- modais no estilo *glassmorphism*;
+- animações, efeitos visuais e feedbacks ao usuário.
+
+Todas as interações do usuário são enviadas ao back-end por meio de **requisições HTTP**, permitindo uma comunicação estruturada e eficiente.  
+Os dados de sessão (nome do usuário e estado do login) são controlados no navegador usando **localStorage**.
 
 ### Camada de Lógica de Negócio (Back-end)
 
-A camada de back-end foi estruturada em C#, aplicando princípios de Programação Orientada a Objetos para representar entidades como **Cliente**, **Veículo**, **Reserva** e **Administrador**.  
-É nessa camada que ficam centralizadas as regras de negócio: validação de dados, controle de reservas, atualização de status da frota, autenticação de usuários, geração de relatórios e todo o processamento essencial do sistema.
+O back-end foi desenvolvido em **Node.js**, utilizando o framework **Express** para organizar rotas, endpoints e serviços internos.  
+Esta camada é responsável por:
 
-Essa camada também gerencia o fluxo entre a interface e o banco de dados, garantindo que os dados trafeguem de forma coerente e confiável.
+- validações de login e sessões;
+- processamento das mensagens enviadas pelo chat;
+- integração com a API de inteligência artificial **Wit.ai**;
+- envio e recebimento de dados estruturados em JSON;
+- tratamento de erros e respostas adequadas ao front-end;
+- comunicação direta com o banco de dados MySQL.
+
+Bibliotecas como **JSON** e **Path** foram utilizadas para estruturar arquivos, organizar diretórios e manipular dados de forma segura e padronizada.
+
+O back-end atua como intermediário entre a interface e o banco, garantindo que todas as regras de negócio sejam aplicadas de forma coerente e confiável.
 
 ### Camada de Persistência (Banco de Dados)
 
-Para o armazenamento das informações, utiliza-se um **banco de dados relacional SQL Server**, onde são mantidos todos os dados relacionados a veículos, clientes, reservas e operações internas.  
-A modelagem foi projetada para evitar redundâncias, garantir integridade referencial e permitir consultas eficientes, especialmente para relatórios gerenciais e análise de uso da frota.
+A persistência dos dados é realizada por meio do banco de dados relacional **MySQL**, modelado e administrado no **MySQL Workbench**.  
+Nele são armazenados registros essenciais, como:
 
-O acesso ao banco é feito por meio de consultas SQL integradas ao back-end, seguindo boas práticas de conexão, segurança e manipulação de dados.
+- usuários cadastrados e logados,
+- avaliações realizadas,
+- logs de interação via chat,
+- informações complementares necessárias ao sistema.
+
+O back-end se conecta ao MySQL para executar consultas SQL, utilizando boas práticas de segurança, integridade e controle transacional.  
+A modelagem foi estruturada para evitar redundâncias, garantir consistência e permitir consultas rápidas e eficientes.
 
 ### Integração entre as Camadas
 
-A aplicação opera com integração total entre as três camadas. O front-end envia solicitações ao back-end, que processa a lógica necessária, se comunica com o banco de dados quando preciso e retorna respostas estruturadas à interface.  
-Esse fluxo garante consistência e permite que o sistema seja expandido futuramente, como a inclusão de módulos novos (pagamentos, dashboards avançados ou API para aplicativo mobile) sem comprometer a estrutura já existente.
+O funcionamento do sistema ocorre por meio de um ciclo claro e coordenado:
 
-Essa arquitetura modular oferece um equilíbrio sólido entre simplicidade e robustez, ideal para um projeto acadêmico com características próximas às demandas reais da indústria de software.
+1. O usuário interage com a interface web.  
+2. O front-end envia requisições ao back-end via HTTP.  
+3. O back-end processa a lógica, acessa o banco quando necessário e integra-se ao Wit.ai para respostas do chat.  
+4. O servidor retorna uma resposta estruturada ao navegador.  
+5. A interface exibe feedbacks, atualiza a tela ou executa novas ações conforme a resposta recebida.
+
+Essa arquitetura modular permite expansão futura, como novos módulos de reserva automatizada, dashboards administrativos, integração com pagamentos e até a criação de um aplicativo mobile utilizando a mesma API.
+
+A solução apresentada oferece equilíbrio entre simplicidade, robustez e escalabilidade — ideal tanto para fins acadêmicos quanto para aplicações reais.
+
 
 ### 4.2. Protótipos de Telas
 
