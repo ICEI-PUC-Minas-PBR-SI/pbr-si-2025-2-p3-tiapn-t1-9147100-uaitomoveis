@@ -79,13 +79,13 @@ O processo de **Login e Cadastro de Usuários** é responsável por registrar cl
 | cancelar          | Início do processo           | cancel     |
 
 #### Homepage
-<img width="1116" height="526" alt="HomePage" src="https://github.com/user-attachments/assets/3bf182e9-3ebb-4d0f-9486-b496ac6cce84" />
+<img width="1296" height="607" alt="image" src="https://github.com/user-attachments/assets/ce0e0523-fa4f-4ded-9d92-a99ca03a1bae" />
 
 #### Login
-![Imagem do WhatsApp de 2025-10-23 à(s) 14 18 43_8a9869bc](https://github.com/user-attachments/assets/9b563254-02e1-44b4-b44d-9f8601decbe9)
+<img width="1312" height="605" alt="image" src="https://github.com/user-attachments/assets/23a158ec-6186-4526-a85e-35bdf9d74c79" />
 
 #### Cadastro
-![Imagem do WhatsApp de 2025-10-23 à(s) 14 19 49_874a0dd9](https://github.com/user-attachments/assets/4fe63c2c-3c64-4297-91bf-c1c0de147001)
+<img width="1308" height="605" alt="image" src="https://github.com/user-attachments/assets/b3fc7c2c-a656-4d6c-9336-1bc8b8d2ed52" />
 
 #### Termos e Políticas
 ![Imagem do WhatsApp de 2025-10-23 à(s) 14 20 49_b213d49f](https://github.com/user-attachments/assets/4b3dcacd-86ed-45d4-93f4-5d09a856ad9c)
