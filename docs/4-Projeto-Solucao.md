@@ -49,17 +49,20 @@ O objetivo é garantir que os requisitos funcionais e não funcionais sejam aten
 As telas propostas contemplam a navegação do usuário desde a homepage até a tela de cadastro, caso ele ainda não possua login.
 
 #### Homepage
-<img width="1116" height="526" alt="HomePage" src="https://github.com/user-attachments/assets/3bf182e9-3ebb-4d0f-9486-b496ac6cce84" />
+<img width="1296" height="607" alt="image" src="https://github.com/user-attachments/assets/cd0611a9-1e3f-48f0-881f-d9a8bba2b902" />
+
 
 A tela inicial apresenta as opções de acesso, permitindo que o usuário escolha entre realizar login ou efetuar um novo cadastro.  
 
 #### Login
-![Login](https://github.com/user-attachments/assets/a6897ec4-ae9e-4cd1-ac55-fb1affc710ad)
+<img width="1312" height="605" alt="image" src="https://github.com/user-attachments/assets/e4a29a88-924e-4d35-8e45-08ccf311d2b7" />
+
 
 Tela para autenticação de usuários cadastrados. Requer **e-mail** e **senha**. Caso não possua conta, há opção de redirecionamento para a tela de cadastro.  
 
 #### Cadastro
-<img width="1120" height="521" alt="Cadastro" src="https://github.com/user-attachments/assets/00579386-b886-4238-a60f-2188bf194eec" />
+<img width="1308" height="605" alt="image" src="https://github.com/user-attachments/assets/29fd1fe7-7d25-4c0f-a3bd-1ff7a7673628" />
+
 
 Tela destinada a novos usuários, que devem preencher informações obrigatórias como **nome completo, CPF, CNH, data de nascimento, endereço e e-mail**. O sistema realiza validações para garantir a consistência dos dados informados.  
 
@@ -67,22 +70,26 @@ Tela destinada a novos usuários, que devem preencher informações obrigatória
 
 As telas propostas contemplam a navegação do usuário na escolha do veículo até a confirmação da reserva e pagamento.  
 #### Catálogo de Veículos  
-<img width="1127" height="519" alt="image" src="https://github.com/user-attachments/assets/a31b924c-2bb4-4f68-b0f8-4c91d3574014" />
+<img width="1295" height="604" alt="image" src="https://github.com/user-attachments/assets/07e719ba-5c34-4d34-8cac-df941e6dc137" />
+
 
 Exibe as categorias de veículos disponíveis (Econômicos, Sedans, SUVs, Minivans/Vans, Picapes, Elétricos/Híbridos, Esportivos e Luxo). Cada categoria apresenta uma breve descrição de sua finalidade.  
 
-#### Lista de Modelos (Sedans)  
-<img width="1126" height="520" alt="image" src="https://github.com/user-attachments/assets/0f8abd2c-999c-47dd-a4e3-3b3376ade54f" />
+#### Lista de Modelos (Luxo)  
+<img width="1307" height="599" alt="image" src="https://github.com/user-attachments/assets/8d06bccb-888e-4e15-9507-1a7404a3dfa8" />
+
 
 Mostra os veículos disponíveis dentro de uma categoria, exibindo informações como **nome, preço/dia, disponibilidade e descrição resumida**.  
 
 #### Detalhes do Veículo  
-<img width="1127" height="522" alt="image" src="https://github.com/user-attachments/assets/a788bd30-5831-4d6c-aa3a-69fd27dd6d9d" />
+<img width="1292" height="594" alt="image" src="https://github.com/user-attachments/assets/4ffe81ac-0a64-4e46-8abf-3be2bca75be7" />
+
 
 Apresenta informações detalhadas do veículo, incluindo preço da diária, status de disponibilidade, especificações técnicas (motor, número de assentos, consumo médio etc.) e a opção “Reservar agora”.
 
 #### Finalizar Reserva  
-<img width="1125" height="517" alt="image" src="https://github.com/user-attachments/assets/8fae4bab-0096-4de4-aa83-494b3b640c95" />
+<img width="1291" height="601" alt="image" src="https://github.com/user-attachments/assets/2201b80a-733d-4f4c-a46f-274acdcfc62e" />
+
 
 Formulário para definir os detalhes da reserva, incluindo data de retirada e devolução, seleção de seguro, exibição do preço final calculado e a opção “Confirmar reserva”.
 
@@ -103,29 +110,33 @@ Após a confirmação, é gerado o comprovante digital da reserva.
 
 As telas a seguir apresentam as funcionalidades disponíveis para o usuário acompanhar, revisar e avaliar suas reservas já realizadas. O processo abrange desde a visualização de reservas ativas até o envio de uma avaliação após o término do aluguel.
 
-#### Reservas Ativas
-![Imagem do WhatsApp de 2025-10-01 à(s) 14 52 19_97ab4500](https://github.com/user-attachments/assets/cf18c871-203e-4ae3-af12-a6a47d57d6e4)
+#### Reservas Ativas e Reservas Passadas
+<img width="1293" height="611" alt="image" src="https://github.com/user-attachments/assets/8f3863d3-dce8-4078-bd71-5599569e5fd2" />
 
-Nesta tela, o usuário pode visualizar e acompanhar todas as suas reservas que ainda estão em andamento. São exibidas informações essenciais como os veículos reservados, a exemplo de Fiat Toro e Honda Civic, juntamente com as respectivas datas de retirada e devolução. Além disso, o status da reserva, como "Ativo", também é mostrado, permitindo que o usuário se mantenha informado sobre os prazos e o andamento de suas locações ainda não finalizadas.
+
+Nesta tela, o usuário pode visualizar e acompanhar todas as suas reservas que ainda estão em andamento e as passadas. São exibidas informações essenciais como os veículos reservados, a exemplo de Fiat Toro e Honda Civic, juntamente com as respectivas datas de retirada e devolução. Além disso, o status da reserva, como "Ativo", também é mostrado, permitindo que o usuário se mantenha informado sobre os prazos e o andamento de suas locações ainda não finalizadas.
 
 #### Detalhes do Aluguel
-![Imagem do WhatsApp de 2025-10-01 à(s) 14 53 08_f8854f20](https://github.com/user-attachments/assets/9afc0eb0-9a03-4455-9266-88f78502c32f)
+<img width="1295" height="607" alt="image" src="https://github.com/user-attachments/assets/cab60cc5-5b14-410a-8573-3051460624ee" />
 
 Ao selecionar uma reserva, o usuário é direcionado para uma tela que exibe os detalhes completos do aluguel, garantindo total transparência sobre o veículo. Esta seção apresenta as informações básicas do carro, como modelo, marca, ano, placa, chassi, cor, grupo, a CNH necessária para condução e o status atual do veículo.
 
 #### Informações de Pagamento e Avaliação
-![Imagem do WhatsApp de 2025-10-02 à(s) 11 36 00_25f1f1e5](https://github.com/user-attachments/assets/d54270c4-7dcb-4745-b4ea-14625ebfb50c)
+<img width="1299" height="602" alt="image" src="https://github.com/user-attachments/assets/43281c3f-fcf5-448f-b979-7fff4d7c1eed" />
+
 
 Após a devolução do carro, a tela exibe um resumo da locação. Consta o valor final de R$ 1.280,00, o status da reserva como Finalizado e os detalhes do pagamento, que foi realizado em cartão de crédito, no valor de R$ 1.280,00, pago em 1x e com status Pago.
 Na seção de avaliação, ainda não há feedback registrado, sendo exibida a opção para o cliente fazer avaliação.
 
 #### Avaliação da Experiência
-![Imagem do WhatsApp de 2025-10-02 à(s) 11 37 35_fa54d303](https://github.com/user-attachments/assets/957aecd6-7555-4d8e-b707-6de3a213038a)
+<img width="1295" height="601" alt="image" src="https://github.com/user-attachments/assets/a930a29b-9d96-4cc7-867a-ad2f57f32a71" />
+
 
 O sistema, após a devolução do veículo, direciona o usuário para uma tela onde ele pode avaliar a experiência. Ele visualiza um resumo da reserva e, em seguida, atribui uma nota de 0 a 5 estrelas, escreve um comentário detalhando seu feedback e, por fim, clica no botão "Enviar Avaliação". Essa funcionalidade coleta sugestões ou elogios e reforça o compromisso da empresa com a qualidade.
 
 #### Avaliação Concluída
-![Imagem do WhatsApp de 2025-10-01 à(s) 22 10 16_c063e48d](https://github.com/user-attachments/assets/b3e5c276-6edd-4226-a9a8-81d992319dbd)
+<img width="1295" height="605" alt="image" src="https://github.com/user-attachments/assets/b0dfceb7-cc4e-44ee-aab5-27e29ffa3011" />
+
 
 Após o envio, o sistema exibe a confirmação da **avaliação concluída**.  
 Na tela, ficam visíveis as **estrelas atribuídas**, o **comentário realizado** e as informações da reserva correspondente.  
@@ -136,23 +147,21 @@ Dessa forma, o cliente tem a segurança de que seu feedback foi registrado com s
 As telas apresentadas contemplam o fluxo de comunicação do cliente com a empresa, desde o acesso à seção de contato até a interação com o assistente virtual. O objetivo é oferecer um canal direto, dinâmico e eficiente para dúvidas, sugestões e solicitações.  
 
 #### Página "Contato"  
-![Imagem do WhatsApp de 2025-10-03 à(s) 15 30 54_66a3c775](https://github.com/user-attachments/assets/7ecdde47-f302-4758-8379-5375cfc55697)
+<img width="1293" height="605" alt="image" src="https://github.com/user-attachments/assets/6cf93b5e-b84c-4db0-9c4b-4df39d13b028" />
 
 Ao clicar em **Contato** no menu superior, o usuário é direcionado para a página institucional da empresa.  
-Nela, encontra informações sobre a Uaitomoveis, seus serviços, canais de comunicação, além do acesso facilitado ao suporte via chatbot.  
-
-#### Chatbot (ícone fixo na tela)  
-![Imagem do WhatsApp de 2025-10-03 à(s) 15 31 37_a8827f24](https://github.com/user-attachments/assets/176beec0-ec9d-4451-93af-7a1436def808)
-
-
-Na página de **Contato**, o cliente visualiza no canto inferior direito o ícone do **chatbot fixo**, que permanece disponível mesmo ao rolar a tela.  
-Esse recurso garante praticidade, permitindo iniciar uma conversa a qualquer momento enquanto permanece na seção de contato.  
+Nela, encontra informações sobre a Uaitomoveis, seus serviços, canais de comunicação, além do acesso facilitado ao suporte via chatbot.   
 
 #### Chatbot Ativo  
-![Imagem do WhatsApp de 2025-10-03 à(s) 15 32 17_48463f25](https://github.com/user-attachments/assets/199bec0e-4529-4616-a23c-ffdf5d76edc1)
- 
+<img width="1291" height="603" alt="image" src="https://github.com/user-attachments/assets/ff693cdf-b26b-4dd5-b5ec-cbc76fa0eeff" />
+
 Ao clicar no ícone, abre-se a janela do **assistente virtual**, onde o cliente pode esclarecer dúvidas, verificar unidades disponíveis, solicitar ajuda para reservas ou, se necessário, ser direcionado a um atendente humano.  
 O chatbot torna a comunicação mais ágil, fornecendo respostas instantâneas e orientações automáticas, enquanto organiza os contatos para otimizar o suporte prestado.  
+
+#### Avaliação do site
+<img width="1302" height="608" alt="image" src="https://github.com/user-attachments/assets/d54654d4-6e49-4e4d-8e01-3add69270e5c" />
+
+A seção apresenta um sistema de avaliação onde o usuário pode dar uma nota em estrelas para o site da Uaitomóveis e, opcionalmente, deixar um comentário. Após escolher a quantidade de estrelas e escrever o feedback, basta clicar no botão “Enviar Avaliação” para registrar a opinião. É uma área simples e direta, voltada para coletar a satisfação dos visitantes.
 
 ## Diagrama de Classes
 
