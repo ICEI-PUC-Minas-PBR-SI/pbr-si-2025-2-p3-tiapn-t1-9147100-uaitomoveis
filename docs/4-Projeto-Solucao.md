@@ -2,11 +2,11 @@
 
 <span style="color:red">Pré-requisitos: <a href="3-Modelagem-Processos-Negócio.md"> Modelagem do Processo de Negocio</a></span>
 
-## 4.1. Arquitetura da Solução
+### 4.1. Arquitetura da Solução
 
 A arquitetura da solução foi planejada para garantir organização, escalabilidade e uma separação clara entre as responsabilidades do sistema. O modelo adotado segue a estrutura clássica em três camadas: **Apresentação (Front-end)**, **Lógica de Negócio (Back-end)** e **Persistência (Banco de Dados)**. Essa abordagem facilita a manutenção, a evolução futura e a compreensão do fluxo completo da aplicação.
 
-### Camada de Apresentação (Front-end)
+#### Camada de Apresentação (Front-end)
 
 A camada de apresentação é totalmente desenvolvida com **HTML, CSS e JavaScript**, garantindo uma interface moderna, responsiva e de fácil interação.  
 Ela engloba todas as páginas acessadas pelo usuário, como **Home**, **Veículos**, **Reservas** e **Contato**, além de elementos interativos como:
@@ -19,7 +19,7 @@ Ela engloba todas as páginas acessadas pelo usuário, como **Home**, **Veículo
 Todas as interações do usuário são enviadas ao back-end por meio de **requisições HTTP**, permitindo uma comunicação estruturada e eficiente.  
 Os dados de sessão (nome do usuário e estado do login) são controlados no navegador usando **localStorage**.
 
-### Camada de Lógica de Negócio (Back-end)
+#### Camada de Lógica de Negócio (Back-end)
 
 O back-end foi desenvolvido em **Node.js**, utilizando o framework **Express** para organizar rotas, endpoints e serviços internos.  
 Esta camada é responsável por:
@@ -35,7 +35,7 @@ Bibliotecas como **JSON** e **Path** foram utilizadas para estruturar arquivos, 
 
 O back-end atua como intermediário entre a interface e o banco, garantindo que todas as regras de negócio sejam aplicadas de forma coerente e confiável.
 
-### Camada de Persistência (Banco de Dados)
+#### Camada de Persistência (Banco de Dados)
 
 A persistência dos dados é realizada por meio do banco de dados relacional **MySQL**, modelado e administrado no **MySQL Workbench**.  
 Nele são armazenados registros essenciais, como:
@@ -48,7 +48,7 @@ Nele são armazenados registros essenciais, como:
 O back-end se conecta ao MySQL para executar consultas SQL, utilizando boas práticas de segurança, integridade e controle transacional.  
 A modelagem foi estruturada para evitar redundâncias, garantir consistência e permitir consultas rápidas e eficientes.
 
-### Integração entre as Camadas
+#### Integração entre as Camadas
 
 O funcionamento do sistema ocorre por meio de um ciclo claro e coordenado:
 
@@ -69,65 +69,65 @@ A seguir são apresentados os protótipos de tela que representam as principais 
 
 O objetivo é garantir que os requisitos funcionais e não funcionais sejam atendidos, bem como as histórias de usuário relacionadas à plataforma de serviços de locação de veículos.  
 
-## Processo 1 – Login e Cadastro de Usuários
+#### Processo 1 – Login e Cadastro de Usuários
 
 As telas propostas contemplam a navegação do usuário desde a homepage até a tela de cadastro, caso ele ainda não possua login.
 
-#### Homepage
+##### Homepage
 <img width="1296" height="607" alt="image" src="https://github.com/user-attachments/assets/cd0611a9-1e3f-48f0-881f-d9a8bba2b902" />
 
 
 A tela inicial apresenta as opções de acesso, permitindo que o usuário escolha entre realizar login ou efetuar um novo cadastro.  
 
-#### Login
+##### Login
 <img width="1312" height="605" alt="image" src="https://github.com/user-attachments/assets/e4a29a88-924e-4d35-8e45-08ccf311d2b7" />
 
 
 Tela para autenticação de usuários cadastrados. Requer **e-mail** e **senha**. Caso não possua conta, há opção de redirecionamento para a tela de cadastro.  
 
-#### Cadastro
+##### Cadastro
 <img width="1308" height="605" alt="image" src="https://github.com/user-attachments/assets/29fd1fe7-7d25-4c0f-a3bd-1ff7a7673628" />
 
 
 Tela destinada a novos usuários, que devem preencher informações obrigatórias como **nome completo, CPF, CNH, data de nascimento, endereço e e-mail**. O sistema realiza validações para garantir a consistência dos dados informados.  
 
-#### Termos de Uso e Politica de Privacidade
+##### Termos de Uso e Politica de Privacidade
 <img width="1294" height="603" alt="image" src="https://github.com/user-attachments/assets/bfc6693d-7ac2-4721-9ed1-c3fbec71ece1" />
 
 Após realizar o cadastro, o usuário deve aceitar os Termos de Uso e a Política de Privacidade, confirmando que está ciente das regras da plataforma, das condições de uso e de como seus dados serão tratados. Essa etapa garante segurança, transparência e conformidade legal antes de acessar os serviços do site.
 
-## Processo 2 – Reserva de Veículos  
+#### Processo 2 – Reserva de Veículos  
 
 As telas propostas contemplam a navegação do usuário na escolha do veículo até a confirmação da reserva e pagamento.  
-#### Catálogo de Veículos  
+##### Catálogo de Veículos  
 <img width="1295" height="604" alt="image" src="https://github.com/user-attachments/assets/07e719ba-5c34-4d34-8cac-df941e6dc137" />
 
 
 Exibe as categorias de veículos disponíveis (Econômicos, Sedans, SUVs, Minivans/Vans, Picapes, Elétricos/Híbridos, Esportivos e Luxo). Cada categoria apresenta uma breve descrição de sua finalidade.  
 
-#### Lista de Modelos (Luxo)  
+##### Lista de Modelos (Luxo)  
 <img width="1307" height="599" alt="image" src="https://github.com/user-attachments/assets/8d06bccb-888e-4e15-9507-1a7404a3dfa8" />
 
 
 Mostra os veículos disponíveis dentro de uma categoria, exibindo informações como **nome, preço/dia, disponibilidade e descrição resumida**.  
 
-#### Detalhes do Veículo  
+##### Detalhes do Veículo  
 <img width="1292" height="594" alt="image" src="https://github.com/user-attachments/assets/4ffe81ac-0a64-4e46-8abf-3be2bca75be7" />
 
 
 Apresenta informações detalhadas do veículo, incluindo preço da diária, status de disponibilidade, especificações técnicas (motor, número de assentos, consumo médio etc.) e a opção “Reservar agora”.
 
-#### Escolher as Datas da Reserva  
+##### Escolher as Datas da Reserva  
 <img width="1291" height="601" alt="image" src="https://github.com/user-attachments/assets/d99fb25c-c6ed-438d-ae3a-9263d1c183b7" />
 
 Nesta etapa, o usuário seleciona a data de retirada e a data de devolução do veículo desejado. O sistema valida o período e permite avançar para a próxima etapa da contratação
 
-#### Escolher o Seguro  
+##### Escolher o Seguro  
 <img width="1292" height="603" alt="image" src="https://github.com/user-attachments/assets/68329cef-d8a6-4f26-b6a6-3fe3176886b6" />
 
 Após definir as datas, o usuário escolhe o tipo de seguro que deseja adicionar à reserva. São apresentadas opções que variam de sem cobertura até proteção premium, cada uma com descrição clara e valor correspondente. Depois de selecionar a desejada, o usuário pode confirmar a reserva.
 
-#### Inserir Método de Pagamento (Cartão) 
+##### Inserir Método de Pagamento (Cartão) 
 <img width="1290" height="601" alt="image" src="https://github.com/user-attachments/assets/3a691d15-c655-4de9-a85e-e301d8fef41f" />
 
 O usuário seleciona a forma de pagamento desejada (cartão de crédito, débito ou PIX).
@@ -140,34 +140,34 @@ No caso do PIX, será exibido um QR Code ou a chave PIX.
 Antes de concluir, o sistema exibe o resumo da reserva, contendo: veículo selecionado, datas de retirada e devolução, valor total e forma de pagamento escolhida.
 Após a confirmação, é gerado o comprovante digital da reserva.
 
-## Processo 3 – Minhas Reservas
+#### Processo 3 – Minhas Reservas
 
 As telas a seguir apresentam as funcionalidades disponíveis para o usuário acompanhar, revisar e avaliar suas reservas já realizadas. O processo abrange desde a visualização de reservas ativas até o envio de uma avaliação após o término do aluguel.
 
-#### Reservas Ativas e Reservas Passadas
+##### Reservas Ativas e Reservas Passadas
 <img width="1293" height="611" alt="image" src="https://github.com/user-attachments/assets/8f3863d3-dce8-4078-bd71-5599569e5fd2" />
 
 
 Nesta tela, o usuário pode visualizar e acompanhar todas as suas reservas que ainda estão em andamento e as passadas. São exibidas informações essenciais como os veículos reservados, a exemplo de Fiat Toro e Honda Civic, juntamente com as respectivas datas de retirada e devolução. Além disso, o status da reserva, como "Ativo", também é mostrado, permitindo que o usuário se mantenha informado sobre os prazos e o andamento de suas locações ainda não finalizadas.
 
-#### Detalhes do Aluguel
+##### Detalhes do Aluguel
 <img width="1295" height="607" alt="image" src="https://github.com/user-attachments/assets/cab60cc5-5b14-410a-8573-3051460624ee" />
 
 Ao selecionar uma reserva, o usuário é direcionado para uma tela que exibe os detalhes completos do aluguel, garantindo total transparência sobre o veículo. Esta seção apresenta as informações básicas do carro, como modelo, marca, ano, placa, chassi, cor, grupo, a CNH necessária para condução e o status atual do veículo.
 
-#### Informações de Pagamento e Avaliação
+##### Informações de Pagamento e Avaliação
 <img width="1299" height="602" alt="image" src="https://github.com/user-attachments/assets/43281c3f-fcf5-448f-b979-7fff4d7c1eed" />
 
 Após a devolução do carro, a tela exibe um resumo da locação. Consta o valor final de R$ 1.280,00, o status da reserva como Finalizado e os detalhes do pagamento, que foi realizado em cartão de crédito, no valor de R$ 1.280,00, pago em 1x e com status Pago.
 Na seção de avaliação, ainda não há feedback registrado, sendo exibida a opção para o cliente fazer avaliação.
 
-#### Avaliação da Experiência
+##### Avaliação da Experiência
 <img width="1295" height="601" alt="image" src="https://github.com/user-attachments/assets/a930a29b-9d96-4cc7-867a-ad2f57f32a71" />
 
 
 O sistema, após a devolução do veículo, direciona o usuário para uma tela onde ele pode avaliar a experiência. Ele visualiza um resumo da reserva e, em seguida, atribui uma nota de 0 a 5 estrelas, escreve um comentário detalhando seu feedback e, por fim, clica no botão "Enviar Avaliação". Essa funcionalidade coleta sugestões ou elogios e reforça o compromisso da empresa com a qualidade.
 
-#### Avaliação Concluída
+##### Avaliação Concluída
 <img width="1295" height="605" alt="image" src="https://github.com/user-attachments/assets/b0dfceb7-cc4e-44ee-aab5-27e29ffa3011" />
 
 
@@ -175,23 +175,23 @@ Após o envio, o sistema exibe a confirmação da **avaliação concluída**.
 Na tela, ficam visíveis as **estrelas atribuídas**, o **comentário realizado** e as informações da reserva correspondente.  
 Dessa forma, o cliente tem a segurança de que seu feedback foi registrado com sucesso e poderá ser utilizado pela locadora para futuras melhorias no atendimento e no serviço prestado.
 
-## Processo 4 – Contato da Empresa  
+#### Processo 4 – Contato da Empresa  
 
 As telas apresentadas contemplam o fluxo de comunicação do cliente com a empresa, desde o acesso à seção de contato até a interação com o assistente virtual. O objetivo é oferecer um canal direto, dinâmico e eficiente para dúvidas, sugestões e solicitações.  
 
-#### Página "Contato"  
+##### Página "Contato"  
 <img width="1293" height="605" alt="image" src="https://github.com/user-attachments/assets/6cf93b5e-b84c-4db0-9c4b-4df39d13b028" />
 
 Ao clicar em **Contato** no menu superior, o usuário é direcionado para a página institucional da empresa.  
 Nela, encontra informações sobre a Uaitomoveis, seus serviços, canais de comunicação, além do acesso facilitado ao suporte via chatbot.   
 
-#### Chatbot Ativo  
+##### Chatbot Ativo  
 <img width="1291" height="603" alt="image" src="https://github.com/user-attachments/assets/ff693cdf-b26b-4dd5-b5ec-cbc76fa0eeff" />
 
 Ao clicar no ícone, abre-se a janela do **assistente virtual**, onde o cliente pode esclarecer dúvidas, verificar unidades disponíveis, solicitar ajuda para reservas ou, se necessário, ser direcionado a um atendente humano.  
 O chatbot torna a comunicação mais ágil, fornecendo respostas instantâneas e orientações automáticas, enquanto organiza os contatos para otimizar o suporte prestado.  
 
-#### Avaliação do site
+##### Avaliação do site
 <img width="1302" height="608" alt="image" src="https://github.com/user-attachments/assets/d54654d4-6e49-4e4d-8e01-3add69270e5c" />
 
 A seção apresenta um sistema de avaliação onde o usuário pode dar uma nota em estrelas para o site da Uaitomóveis e, opcionalmente, deixar um comentário. Após escolher a quantidade de estrelas e escrever o feedback, basta clicar no botão “Enviar Avaliação” para registrar a opinião. É uma área simples e direta, voltada para coletar a satisfação dos visitantes.
