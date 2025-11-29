@@ -27,7 +27,7 @@ O projeto consiste no desenvolvimento de um sistema web para automação de proc
 
  * Pré-Requisitos 
   
-*certifique-se de ter instalado em sua máquina:
+* certifique-se de ter instalado em sua máquina:
 
 * A extensão do Java Script
 * o MySQL Server
