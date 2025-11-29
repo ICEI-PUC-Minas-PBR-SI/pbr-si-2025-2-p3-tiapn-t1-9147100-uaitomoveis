@@ -1,9 +1,7 @@
 
-# 6. Interface do Sistem
+# 6. Interface do Sistema
 
-<span style="color:red">Pré-requisitos: <a href="4-Projeto-Solucao.md"> Projeto da Solução</a></span>
-
-_Visão geral da interação do usuário por meio das telas do sistema. Apresente as principais interfaces da plataforma._
+O sistema da Uaitomoveis é uma plataforma completa de locação de veículos que permite ao usuário buscar, reservar e gerenciar carros de forma totalmente digital. Ele oferece cadastro e login seguros, navegação por categorias e modelos de veículos, seleção de datas, seguros e formas de pagamento, além de exibir detalhes completos de cada reserva. O usuário pode acompanhar suas reservas ativas e passadas, avaliar a experiência com notas e comentários, e interagir com a empresa através de um chatbot inteligente, garantindo comunicação rápida e suporte eficiente. O front-end é moderno e responsivo, com animações e feedbacks visuais, enquanto o back-end em Node.js se conecta ao banco MySQL para armazenar dados e processar todas as funcionalidades de forma organizada e segura.
 
 ## 6.1. Tela principal do sistema
 
