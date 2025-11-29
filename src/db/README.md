@@ -4,6 +4,7 @@
 
 ## Scripts SQL.
 
+<code>
 -- Tabela Unidade
 CREATE TABLE unidade (
 idunidade INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -174,3 +175,4 @@ data_cadastro DATETIME DEFAULT CURRENT_TIMESTAMP,
 FOREIGN KEY (idaluguel) REFERENCES aluguel(idaluguel),
 FOREIGN KEY (idfuncionario) REFERENCES funcionario(idfuncionario)
 );
+</code>
