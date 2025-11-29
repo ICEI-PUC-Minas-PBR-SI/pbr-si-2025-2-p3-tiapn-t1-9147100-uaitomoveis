@@ -7,30 +7,89 @@ _Visão geral da interação do usuário por meio das telas do sistema. Apresent
 
 ## 6.1. Tela principal do sistema
 
-_Descrição da tela principal do sistema._
+Descrição do sistema — Página Home
 
-[`Tela principal do sistema`](images/)
+O usuário vê o menu superior, o vídeo de fundo com título e botão, os veículos em destaque, uma lista de benefícios e o rodapé. Ele pode navegar pelas páginas, abrir os veículos clicando nos cards, acessar login ou sair, e clicar na notificação para abrir o modal de avaliação. No modal pode escolher estrelas, escrever comentário e enviar a avaliação.
+
+<img width="1296" height="607" alt="image" src="https://github.com/user-attachments/assets/fa3a3831-efc7-470d-bb7c-8cdf082cecc4" />
+
 
 
 ## 6.2. Telas do processo 1
 
-_Descrição da tela relativa à atividade 1._
+Descrição do sistema — Página Login
 
-[`Tela da atividade 1`](images/)
+O usuário vê um vídeo de fundo, o logo da locadora, campos para e-mail/CPF e senha, botão “Entrar” e link para cadastro. Ele pode preencher os campos, enviar o formulário para fazer login, voltar para a home clicando em “Sair” e acessar a página de cadastro se não tiver conta.
 
-_Descrição da tela relativa à atividade 2._
+<img width="1312" height="605" alt="image" src="https://github.com/user-attachments/assets/94a74e52-a819-475a-8a17-c87166389046" />
 
-[`Tela da atividade 2`](images/)
+
+Descrição do sistema — Página Cadastro
+
+O usuário vê dois vídeos de fundo, o logo da locadora, campos para preencher dados pessoais, CNH, endereço, e-mail e senha, além de botão “Cadastrar” e link para login. Ele pode preencher o formulário, enviar o cadastro, aceitar os termos de uso no modal e voltar para a home clicando em “Sair”.
+
+<img width="1308" height="605" alt="image" src="https://github.com/user-attachments/assets/170665e7-5f19-4425-a220-627f30393043" />
+
 
 
 ## 6.3. Telas do processo 2
 
-_Descrição da tela relativa à atividade 1._
+Descrição do sistema — Página Veículos
 
-[`Tela da atividade 1`](images/)
+O usuário vê o menu, logo da locadora, e uma grade de cards com diferentes categorias de veículos (Econômicos, SUVs, Sedans, Minivans, Picapes, Híbridos, Esportivos, Luxo), cada card com imagem, título e descrição. Ele pode clicar nos cards para ver carros da categoria, visualizar sua saudação se estiver logado e usar o botão “Sair” para voltar ao login.
 
-_Descrição da tela relativa à atividade 2._
+<img width="1295" height="604" alt="image" src="https://github.com/user-attachments/assets/8ecae032-199f-4b94-8b4c-5dbe758e50c2" />
 
-[`Tela da atividade 2`](images/)
 
+Descrição do sistema — Página Categoria
+
+O usuário vê o menu, logo da locadora e uma grade de cards com os veículos da categoria selecionada, cada card mostrando imagem, modelo, preço, avaliação e status. Ele pode abrir e aplicar filtros por status, preço, marca e cor, clicar nos veículos para ver detalhes e visualizar sua saudação se estiver logado, podendo usar o botão “Sair” para voltar ao login.
+
+<img width="1307" height="599" alt="image" src="https://github.com/user-attachments/assets/301a2b8a-3bee-4e51-ab23-505707115a2f" />
+
+Descrição do sistema — Página Detalhes do Aluguel
+
+O usuário vê o menu, logo da locadora e sua saudação se estiver logado. A página mostra detalhes do aluguel em seções: veículo, cliente, informações do aluguel e pagamento, cada seção com título, ícones e dados. Na parte de avaliação, ele pode ver sua nota se já avaliou, ou clicar em “Avaliar Agora” para abrir o modal com estrelas e comentário.
+
+<img width="1292" height="594" alt="image" src="https://github.com/user-attachments/assets/95c774d8-d756-4ab7-b5dc-20e2a703ed63" />
+
+<img width="1291" height="601" alt="image" src="https://github.com/user-attachments/assets/722e4774-179e-4ccd-b372-76c2de3e7b14" />
+
+<img width="1292" height="603" alt="image" src="https://github.com/user-attachments/assets/007fde51-ba1f-4e3a-9544-2ef988420048" />
+
+Descrição do sistema — Página Pagamento
+
+O usuário vê o menu, o logo da locadora e um resumo do pedido com carro, dias, seguro e total. Ele escolhe o método de pagamento (Débito, Crédito ou Pix) e preenche os campos do cartão ou escaneia o QR code. Ao enviar, o sistema processa o pagamento, registra a reserva e exibe uma confirmação ou erro.
+
+<img width="1290" height="601" alt="image" src="https://github.com/user-attachments/assets/5c732992-24d2-4131-b8fc-2257bc651380" />
+
+<img width="1299" height="604" alt="image" src="https://github.com/user-attachments/assets/ab676855-9ac6-4af8-abd9-4d862b4699f6" />
+
+## 6.4. Telas do processo 3
+
+Descrição do sistema — Página Minhas Reservas
+
+O usuário vê o menu e o logo da locadora, com opção de login ou botão de sair caso esteja logado. As reservas são separadas em Ativas e Antigas, exibindo carro, datas e status (Ativo, Finalizado ou Cancelado). Cada reserva possui botão para ver detalhes. Se não houver reservas ou usuário não estiver logado, mensagens informativas aparecem sugerindo login ou explorar veículos.
+
+<img width="1293" height="611" alt="image" src="https://github.com/user-attachments/assets/ee195ebe-24af-4dc2-9880-94be0cc66e70" />
+
+Descrição do sistema — Página Detalhes do Aluguel
+
+O usuário vê informações completas do aluguel selecionado, incluindo dados do veículo, dados do cliente, informações do aluguel e pagamento. Há seção para avaliar o aluguel com estrelas e comentário em um modal moderno estilo glass. O botão de avaliação aparece apenas se o usuário estiver logado e ainda não avaliou. Tudo é carregado dinamicamente do backend via fetch, com proteção caso nenhuma reserva esteja selecionada ou usuário não esteja logado.
+
+<img width="1295" height="607" alt="image" src="https://github.com/user-attachments/assets/c037ace1-91fc-4f0e-89a6-35628884935e" />
+
+<img width="1295" height="601" alt="image" src="https://github.com/user-attachments/assets/f77b9bb4-7c28-4319-af84-313ca2135c79" />
+
+<img width="1295" height="605" alt="image" src="https://github.com/user-attachments/assets/c57adf02-4a3b-405b-bc10-2165abd649f7" />
+
+
+
+
+Descrição do sistema — Página Contato | Uaitomoveis
+
+O usuário acessa informações sobre a empresa, incluindo histórico, serviços, localização no mapa do Brasil e depoimentos de clientes. É possível enviar avaliação do site com estrelas e comentário, disponível apenas para usuários logados, com feedback visual de confirmação. A página conta com chat flutuante interativo, carregamento dinâmico do nome do usuário e validações que garantem experiência segura e personalizada. Todos os elementos são responsivos e visualmente modernos.
+
+<img width="1291" height="603" alt="image" src="https://github.com/user-attachments/assets/20ad5e7c-90b7-4bdb-94a4-537e0103a758" />
+<img width="1302" height="608" alt="image" src="https://github.com/user-attachments/assets/746f3b10-c227-4723-acbd-58d9a03ed685" />
 
