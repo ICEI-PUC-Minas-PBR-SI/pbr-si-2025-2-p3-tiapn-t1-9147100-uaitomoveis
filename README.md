@@ -36,13 +36,13 @@ O projeto consiste no desenvolvimento de um sistema web para automação de proc
 * Passo a passo
 
  * passo 1
-  * importe o banco do GitHub
+    * importe o banco do GitHub
  * passo 2
-  * Altere as linhas 30 e 31 para suas informar sua credenciais de acesso ao banco de dados de sua maquina
+    * Altere as linhas 30 e 31 para suas informar sua credenciais de acesso ao banco de dados de sua maquina
  * passo 3
-  * abra um terminal e inicie a conexão com o banco utilizando do código Node server.js
+    * abra um terminal e inicie a conexão com o banco utilizando do código Node server.js
  * passo 4
-  * Acesse a aplicação no navegador através do endereço: http://localhost:3000.
+    * Acesse a aplicação no navegador através do endereço: http://localhost:3000.
 
 
 # Documentação
