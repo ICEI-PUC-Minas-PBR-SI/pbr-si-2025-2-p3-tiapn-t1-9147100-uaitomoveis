@@ -66,6 +66,11 @@ Tela para autenticação de usuários cadastrados. Requer **e-mail** e **senha**
 
 Tela destinada a novos usuários, que devem preencher informações obrigatórias como **nome completo, CPF, CNH, data de nascimento, endereço e e-mail**. O sistema realiza validações para garantir a consistência dos dados informados.  
 
+#### Termos de Uso e Politica de Privacidade
+<img width="1294" height="603" alt="image" src="https://github.com/user-attachments/assets/bfc6693d-7ac2-4721-9ed1-c3fbec71ece1" />
+
+Após realizar o cadastro, o usuário deve aceitar os Termos de Uso e a Política de Privacidade, confirmando que está ciente das regras da plataforma, das condições de uso e de como seus dados serão tratados. Essa etapa garante segurança, transparência e conformidade legal antes de acessar os serviços do site.
+
 ## Processo 2 – Reserva de Veículos  
 
 As telas propostas contemplam a navegação do usuário na escolha do veículo até a confirmação da reserva e pagamento.  
@@ -87,21 +92,25 @@ Mostra os veículos disponíveis dentro de uma categoria, exibindo informações
 
 Apresenta informações detalhadas do veículo, incluindo preço da diária, status de disponibilidade, especificações técnicas (motor, número de assentos, consumo médio etc.) e a opção “Reservar agora”.
 
-#### Finalizar Reserva  
-<img width="1291" height="601" alt="image" src="https://github.com/user-attachments/assets/2201b80a-733d-4f4c-a46f-274acdcfc62e" />
+#### Escolher as Datas da Reserva  
+<img width="1291" height="601" alt="image" src="https://github.com/user-attachments/assets/d99fb25c-c6ed-438d-ae3a-9263d1c183b7" />
 
+Nesta etapa, o usuário seleciona a data de retirada e a data de devolução do veículo desejado. O sistema valida o período e permite avançar para a próxima etapa da contratação
 
-Formulário para definir os detalhes da reserva, incluindo data de retirada e devolução, seleção de seguro, exibição do preço final calculado e a opção “Confirmar reserva”.
+#### Escolher o Seguro  
+<img width="1292" height="603" alt="image" src="https://github.com/user-attachments/assets/68329cef-d8a6-4f26-b6a6-3fe3176886b6" />
+
+Após definir as datas, o usuário escolhe o tipo de seguro que deseja adicionar à reserva. São apresentadas opções que variam de sem cobertura até proteção premium, cada uma com descrição clara e valor correspondente. Depois de selecionar a desejada, o usuário pode confirmar a reserva.
 
 #### Inserir Método de Pagamento (Cartão) 
-<img width="1128" height="525" alt="image" src="https://github.com/user-attachments/assets/056f3b19-f3c2-4fb5-865c-dfaae33d3252" />
+<img width="1290" height="601" alt="image" src="https://github.com/user-attachments/assets/3a691d15-c655-4de9-a85e-e301d8fef41f" />
 
 O usuário seleciona a forma de pagamento desejada (cartão de crédito, débito ou PIX).
 Se optar por cartão, deve preencher: nome no cartão, número do cartão, data de validade e CVV.
 No caso do PIX, será exibido um QR Code ou a chave PIX.
 
 #### Confirmação do Pagamento  
-<img width="1127" height="526" alt="image" src="https://github.com/user-attachments/assets/1ec1588e-3486-47fb-9837-c5746728762a" />
+<img width="1299" height="604" alt="image" src="https://github.com/user-attachments/assets/744db3bb-d76b-4429-a18f-c600f0d80933" />
 
 Antes de concluir, o sistema exibe o resumo da reserva, contendo: veículo selecionado, datas de retirada e devolução, valor total e forma de pagamento escolhida.
 Após a confirmação, é gerado o comprovante digital da reserva.
@@ -123,7 +132,6 @@ Ao selecionar uma reserva, o usuário é direcionado para uma tela que exibe os 
 
 #### Informações de Pagamento e Avaliação
 <img width="1299" height="602" alt="image" src="https://github.com/user-attachments/assets/43281c3f-fcf5-448f-b979-7fff4d7c1eed" />
-
 
 Após a devolução do carro, a tela exibe um resumo da locação. Consta o valor final de R$ 1.280,00, o status da reserva como Finalizado e os detalhes do pagamento, que foi realizado em cartão de crédito, no valor de R$ 1.280,00, pago em 1x e com status Pago.
 Na seção de avaliação, ainda não há feedback registrado, sendo exibida a opção para o cliente fazer avaliação.
