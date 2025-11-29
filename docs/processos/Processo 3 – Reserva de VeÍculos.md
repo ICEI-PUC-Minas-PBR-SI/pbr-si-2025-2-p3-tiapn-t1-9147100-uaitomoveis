@@ -84,17 +84,18 @@ O processo envolve gateways de decisão, interação direta do cliente e operaç
 **Atividade 8 – Encerrar Processo**  
 **Descrição:** O fluxo é finalizado, seja após a consulta da reserva ou após o registro da avaliação.  
 
-#### Reservas Ativas
-![Imagem do WhatsApp de 2025-10-01 à(s) 14 52 19_97ab4500](https://github.com/user-attachments/assets/cf18c871-203e-4ae3-af12-a6a47d57d6e4)
+#### Reservas Ativas e Reservas Passadas
+<img width="1293" height="611" alt="image" src="https://github.com/user-attachments/assets/d22f4528-3d2e-4c76-8d00-0b6dae669232" />
 
 #### Detalhes do Aluguel
-![Imagem do WhatsApp de 2025-10-01 à(s) 14 53 08_f8854f20](https://github.com/user-attachments/assets/9afc0eb0-9a03-4455-9266-88f78502c32f)
+<img width="1295" height="607" alt="image" src="https://github.com/user-attachments/assets/28267a3f-bf4f-4c2d-a983-e172d1328d0d" />
 
 #### Informações de Pagamento e Avaliação
-![Imagem do WhatsApp de 2025-10-02 à(s) 11 36 00_25f1f1e5](https://github.com/user-attachments/assets/d54270c4-7dcb-4745-b4ea-14625ebfb50c)
+<img width="1299" height="602" alt="image" src="https://github.com/user-attachments/assets/a5964c9a-1a2a-4082-8001-7a17a25a4d01" />
 
 #### Avaliação da Experiência
-![Imagem do WhatsApp de 2025-10-02 à(s) 11 37 35_fa54d303](https://github.com/user-attachments/assets/957aecd6-7555-4d8e-b707-6de3a213038a)
+<img width="1295" height="601" alt="image" src="https://github.com/user-attachments/assets/1384be1e-4ac7-4ffa-bbbb-714eb91f384c" />
+
 
 #### Avaliação Concluída
-![Imagem do WhatsApp de 2025-10-01 à(s) 22 10 16_c063e48d](https://github.com/user-attachments/assets/b3e5c276-6edd-4226-a9a8-81d992319dbd)
+<img width="1295" height="605" alt="image" src="https://github.com/user-attachments/assets/6bad8d0c-d842-4cd7-aa0d-94c1cca3f2c9" />
