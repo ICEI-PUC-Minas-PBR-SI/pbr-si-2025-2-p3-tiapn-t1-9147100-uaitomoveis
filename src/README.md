@@ -2,7 +2,7 @@
 
 O código completo do projeto estava muito pesado para ser enviado ao GitHub, pois o arquivo ZIP ficou com aproximadamente **99 MB**, enquanto o GitHub aceita no máximo cerca de **25 MB** por upload direto.
 
-Por isso, todo o código do trabalho **UaiTomóveis** foi disponibilizado no Google Drive no link abaixo:
+Por isso, todo o código do trabalho **Uaitomóveis** foi disponibilizado no Google Drive no link abaixo:
 https://drive.google.com/drive/folders/1T6Bn54Rft1OocF1Ua9Bjatk16eBGReAd?usp=sharing
 
 
