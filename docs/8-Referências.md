@@ -17,9 +17,7 @@ http://portal.pucminas.br/imagedb/documento/DOC_DSC_NOME_ARQUI20160217102425.pdf
 **[1.5]** - _RUSSELL, Stuart J.; NORVIG, Peter. **Inteligência artificial**. Rio de Janeiro: Elsevier, c2013. xxi, 988 p. ISBN 9788535237016._
 
 
-**[WIT.AI (Inteligência Artificial / Chatbot)
 
-https://api.wit.ai/message?v=20251003&q=
 
 
 
