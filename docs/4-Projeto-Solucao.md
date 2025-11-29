@@ -366,17 +366,40 @@ CREATE TABLE pagamento (
 
 Este script deverá ser incluído em um arquivo .sql na pasta src\db.
 
-### 4.4. Tecnologias
+## 4.4. Tecnologias
 
-_Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas._
+A solução foi desenvolvida utilizando um conjunto de tecnologias que trabalham de forma integrada para permitir a interação do usuário, o processamento das requisições e o armazenamento das informações. A seguir, apresentam-se as tecnologias utilizadas, organizadas pelas principais dimensões do sistema.
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+O **SGBD** adotado foi o **MySQL**, modelado e gerenciado por meio do **MySQL Workbench**, permitindo a criação das tabelas, consultas e relacionamentos necessários para o funcionamento da aplicação.
 
+No **front-end**, foram utilizadas as tecnologias **HTML**, **CSS** e **JavaScript**, responsáveis pela composição da interface gráfica, estilização dos componentes e implementação das funcionalidades de interação do usuário com o sistema.
 
-| **Dimensão**   | **Tecnologia**  |
-| ---            | ---             |
-| SGBD           | MySQL           |
-| Front end      | HTML+CSS+JS     |
-| Back end       | Java SpringBoot |
-| Deploy         | Github Pages    |
+O **back-end** foi desenvolvido em **Node.js**, empregando principalmente o framework **Express**, juntamente com as bibliotecas **JSON** e **Path**, responsáveis pelo roteamento, manipulação de dados e organização dos recursos. Além disso, foi integrada a API **Wit.ai**, que fornece interpretação de linguagem natural e contribui para funcionalidades inteligentes dentro do sistema.
 
+Como ambiente de desenvolvimento, utilizou-se o **Visual Studio Code (VS Code)**, escolhido por sua praticidade, suporte a extensões e facilidade de organização do projeto.
+
+### Tabela de Tecnologias
+
+| **Dimensão**   | **Tecnologia**                     |
+|----------------|------------------------------------|
+| SGBD           | MySQL + MySQL Workbench            |
+| Front end      | HTML + CSS + JavaScript            |
+| Back end       | Node.js (Express, JSON, Path)      |
+| API Externa    | Wit.ai                             |
+| IDE            | Visual Studio Code                 |
+
+---
+
+## Figura – Fluxo de interação do usuário com o sistema
+
+A figura a seguir ilustra como ocorre a interação entre o usuário e as tecnologias que compõem o sistema:
+
+1. O usuário acessa a interface desenvolvida em **HTML, CSS e JavaScript**.  
+2. O front-end envia solicitações ao **back-end em Node.js (Express)**.  
+3. O servidor processa os dados, utilizando **JSON** e recursos do **Path** para organizar arquivos e rotas.  
+4. Quando necessário, o servidor consulta o **MySQL** para buscar ou armazenar informações.  
+5. Caso a funcionalidade exija interpretação de linguagem natural, o back-end se comunica com a API **Wit.ai**.  
+6. O back-end retorna a resposta ao front-end em formato JSON.  
+7. A interface atualiza as informações exibidas ao usuário.
+
+### Representação esquemática (figura textual)
