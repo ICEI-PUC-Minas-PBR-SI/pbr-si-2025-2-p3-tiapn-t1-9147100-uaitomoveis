@@ -21,9 +21,7 @@ O projeto consiste no desenvolvimento de um sistema web para automação de proc
 
 * Cleia Marcia Gomes Amaral
 
-## Instruções de utilização
-
-#  Como Executar o Projeto
+# Instruções de utilização
 
 ##  Pré-requisitos
 Antes de iniciar, certifique-se de ter instalado em sua máquina:
