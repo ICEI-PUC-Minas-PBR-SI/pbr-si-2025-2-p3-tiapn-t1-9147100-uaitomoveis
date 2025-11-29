@@ -435,4 +435,8 @@ A figura a seguir ilustra como ocorre a interação entre o usuário e as tecnol
 6. O back-end retorna a resposta ao front-end em formato JSON.  
 7. A interface atualiza as informações exibidas ao usuário.
 
-### Representação esquemática (figura textual)
+### Representação esquemática 
+
+
+<img width="634" height="329" alt="image" src="https://github.com/user-attachments/assets/f9a4dfab-e650-4504-9865-5afe813570aa" />
+
