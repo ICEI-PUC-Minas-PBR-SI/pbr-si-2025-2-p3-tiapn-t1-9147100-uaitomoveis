@@ -144,6 +144,394 @@ O Gerenciamento de Reservas permite criar, editar e excluir reservas com formul�
 
 
 
+## 6.6.3. Telas do Gerenciamento de Veículos
+
+Descrição do Gerenciamento de Veículos
+
+O Gerenciamento de Veículos oferece controle completo da frota, com tabelas de veículos, modais de adição/edição e exclusão, preenchimento automático de formulários e controle de permissões por cargo. A interface é moderna, limpa e responsiva, com animações suaves e inputs estilizados.
+
+
+<img width="1290" height="603" alt="image" src="https://github.com/user-attachments/assets/93c431bb-cd1a-4061-a4bf-9abc43e6c841" />
+
+
+
+
+## 6.6.4. Telas do Página de Relatórios
+
+Descrição da Página de Relatórios
+
+A Página de Relatórios é o núcleo analítico do sistema administrativo da Uaitomoveis, oferecendo uma visão completa e detalhada do desempenho da locadora. Ela foi projetada para transformar dados brutos em informações estratégicas, permitindo que os gestores tomem decisões rápidas e embasadas.
+
+Indicadores e Cards de Resumo
+
+No topo da página, cards de resumo fornecem informações imediatas sobre o negócio, como:
+
+Faturamento total do período selecionado, permitindo monitoramento financeiro em tempo real.
+
+Reservas realizadas, com atualização dinâmica, mostrando rapidamente o fluxo de clientes.
+
+Clientes ativos, para acompanhar engajamento e fidelidade.
+
+Carros disponíveis, oferecendo controle sobre a frota em operação.
+
+Indicadores de qualidade do site, incluindo a média geral das avaliações, número total de comentários e média das últimas semanas, permitindo avaliar a satisfação do usuário de forma prática.
+
+Esses cards são interativos, com animações suaves que destacam alterações e atualizações de dados, garantindo que o usuário perceba rapidamente mudanças importantes.
+
+Gráficos Analíticos
+
+A página utiliza Chart.js para gerar gráficos interativos, oferecendo visualizações intuitivas e dinâmicas:
+
+Faturamento Mensal (Line Chart): Mostra a evolução financeira ao longo dos meses, permitindo identificar tendências, sazonalidade e oportunidades de crescimento.
+
+Status da Frota (Doughnut Chart): Exibe a proporção de veículos disponíveis, em manutenção, alugados ou reservados, com cores diferenciadas para cada status, facilitando a leitura rápida.
+
+Tendência da Qualidade do Site (Line Chart): Acompanha a evolução das avaliações dos clientes, incluindo lógica para exibir meses sem dados, garantindo consistência nas análises.
+
+Média Geral dos Veículos (Bar Chart): Demonstra o desempenho médio dos carros, permitindo identificar veículos que necessitam de manutenção ou ajustes estratégicos.
+
+Top 5 Carros Mais Alugados (Bar Chart): Destaca os veículos mais populares, auxiliando em decisões de aquisição, marketing e manutenção da frota.
+
+Todos os gráficos são interativos, com tooltips, zoom e cores intuitivas, oferecendo clareza visual e permitindo análises detalhadas sem sobrecarregar o usuário.
+
+Cards de Avaliações dos Veículos
+
+A página exibe cards destacados para avaliações da frota, incluindo:
+
+Carro com melhor média, sinalizando veículos que agradam mais aos clientes.
+
+Carro com pior média, permitindo identificar problemas ou veículos que precisam de manutenção ou reposicionamento.
+
+Carro mais avaliado, evidenciando os veículos mais utilizados e comentados pelos clientes.
+
+Cada card possui um botão que abre comentários individuais do veículo, carregados dinamicamente via fetch para garantir que os dados estejam sempre atualizados. Os comentários apresentam scrollbars personalizadas e animações de entrada e saída, oferecendo uma experiência visual agradável.
+
+Alertas e Indicadores Globais
+
+A seção de alertas informa problemas ou situações críticas detectadas no sistema, como veículos atrasados, reservas em conflito ou quedas na qualidade do site. Se não houver alertas, a página comunica “Nenhum alerta global detectado”, mantendo a clareza e evitando poluição visual.
+
+Tabela de Desempenho Mensal
+
+A página apresenta uma tabela detalhada por mês, com indicadores essenciais:
+
+Mês
+
+Reservas realizadas
+
+Faturamento
+
+Taxa de ocupação da frota
+
+Média das notas de avaliação
+
+Essa tabela permite análises históricas rápidas e oferece fallbacks inteligentes caso algum endpoint do backend não retorne dados, garantindo consistência e confiabilidade.
+
+Funcionalidades Dinâmicas em JavaScript
+
+A página é totalmente dinâmica e interativa:
+
+carregarCardsQualidade(): Atualiza os cards de avaliação de forma automatizada.
+
+toggleComments(idCarro): Alterna a exibição de comentários de veículos, sem recarregar a página.
+
+carregarNotasSite(): Gera gráficos de qualidade, incluindo meses sem dados.
+
+carregarMediasCarros(): Monta gráficos de desempenho médio da frota.
+
+carregarRelatorios(): Função central que atualiza todos os cards, gráficos, alertas e tabela mensal em tempo real.
+
+Além disso, existem helpers de formatação de datas e meses, ordenação de dados e fallbacks para diferentes formatos de resposta do backend, garantindo robustez e confiabilidade.
+
+Experiência do Usuário (UX)
+
+A interface da Página de Relatórios foi projetada para ser intuitiva, moderna e responsiva:
+
+Animações suaves nos cards, gráficos e modais aumentam a percepção de interatividade.
+
+Scrollbars personalizadas nos comentários melhoram a experiência de leitura.
+
+Sidebar e cards adaptáveis permitem uso eficiente em diferentes tamanhos de tela, inclusive dispositivos móveis.
+
+Uso de cores e ícones estratégicos para facilitar identificação de alertas, status e tendências.
+
+Valor Estratégico
+
+Essa página transforma dados brutos em informações estratégicas, permitindo aos gestores da Uaitomoveis:
+
+Monitorar o desempenho da frota e da empresa em tempo real.
+
+Detectar rapidamente problemas operacionais ou quedas de qualidade.
+
+Planejar decisões de manutenção, marketing e aquisição com base em dados confiáveis.
+
+Acompanhar tendências de satisfação dos clientes e ajustar serviços conforme necessário.
+
+Em resumo, a Página de Relatórios é o painel de inteligência do sistema, fornecendo análises detalhadas, interatividade e visualização clara, tornando a gestão da locadora mais eficiente e profissional.
+
+<img width="1290" height="603" alt="image" src="https://github.com/user-attachments/assets/93c431bb-cd1a-4061-a4bf-9abc43e6c841" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
