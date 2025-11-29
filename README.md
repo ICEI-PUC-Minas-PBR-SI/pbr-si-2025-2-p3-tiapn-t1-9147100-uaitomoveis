@@ -23,7 +23,7 @@ O projeto consiste no desenvolvimento de um sistema web para automação de proc
 
 ## Instruções de utilização
 
-* COMO EXECUTAR O PROJETO 
+**COMO EXECUTAR O PROJETO:**
 
  * Pré-Requisitos 
   
