@@ -1,7 +1,5 @@
 ## 4. Projeto da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Modelagem-Processos-Negócio.md"> Modelagem do Processo de Negocio</a></span>
-
 ### 4.1. Arquitetura da Solução
 
 A arquitetura da solução foi planejada para garantir organização, escalabilidade e uma separação clara entre as responsabilidades do sistema. O modelo adotado segue a estrutura clássica em três camadas: **Apresentação (Front-end)**, **Lógica de Negócio (Back-end)** e **Persistência (Banco de Dados)**. Essa abordagem facilita a manutenção, a evolução futura e a compreensão do fluxo completo da aplicação.
