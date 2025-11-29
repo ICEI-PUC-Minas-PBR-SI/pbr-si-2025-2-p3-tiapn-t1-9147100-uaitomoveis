@@ -1,8 +1,8 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: Uaitomóveis
 authors:
-- family-names: Duarte Costa
+  - family-names: Duarte Costa
     given-names: Caio Gabriel 
   - family-names: Caçuci Ladislau
     given-names: Guilherme
@@ -14,17 +14,22 @@ authors:
     given-names: Paulo Gabriel
   - family-names: Xavier Lopes
     given-names: Paulo Henrique
+
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Gomes Amaral
+    given-names: Cleia Marcia
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
-    keywords:
-    - 
-repository-code: 
+    family-names: Albergaria Amaral
+    given-names: Gleisson
+
+keywords:
+    - Carro
+    - Veículo
+    - Locadora
+    - Aluguel
+repository-code: https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2025-2-p3-tiapn-t1-9147100-uaitomoveis
 license: CC-BY-4.0
 version: 1.0.0
-date-released:
+date-released: 28/11/2025
