@@ -100,12 +100,47 @@ O usuário acessa informações sobre a empresa, incluindo histórico, serviços
 
 
 
+## 6.6. Extra do Projeto: Painel Administrativo Uaitomoveis
+
+Como complemento ao projeto principal da Uaitomoveis, desenvolvemos um painel administrativo completo, pensado para oferecer total controle e visibilidade sobre a operação da locadora. Este extra transforma o sistema em uma ferramenta profissional de gestão, agregando valor estratégico à aplicação.
+
+## Principais Diferenciais:
+
+Dashboard Inteligente: Visualização rápida de reservas, veículos disponíveis, faturamento e clientes ativos, com cards e listas interativas que facilitam a tomada de decisão diária.
+
+Gerenciamento de Reservas e Veículos: CRUD completo para reservas e frota, com formulários intuitivos, modais interativos e validações automáticas, garantindo agilidade e segurança nos processos.
+
+Relatórios e Indicadores Avançados: Gráficos dinâmicos (linha, barra e doughnut) com análises de faturamento, status da frota, qualidade do site e top veículos, permitindo monitoramento detalhado do desempenho do negócio.
+
+Avaliações e Feedbacks: Cards destacados mostram carros com melhor/pior desempenho e o mais avaliado, com comentários carregados dinamicamente, apoiando decisões estratégicas sobre a frota.
+
+Experiência Moderna e Responsiva: Interface limpa, animada e adaptável a diferentes tamanhos de tela, com scrollbars personalizadas, animações de cards e modais centralizados.
+
+Integração Dinâmica: Toda a página se comunica com o backend via fetch, atualizando dados em tempo real e garantindo que os gestores tenham sempre informações atualizadas.
+
+Valor Adicional para o Projeto
+
+Este painel administrativo não é apenas funcional: ele eleva o projeto, transformando a aplicação em uma solução completa para gestão de locadora. Além de mostrar domínio técnico em front-end, back-end e integração com APIs, ele demonstra capacidade de criar interfaces intuitivas, analíticas e responsivas, aproximando a experiência do usuário corporativo de padrões profissionais de mercado.
 
 
 
+## 6.6.1. Telas do Dashboard Administrativo
+
+Descrição do Dashboard Administrativo
+
+O Dashboard Administrativo apresenta cards de resumo com reservas do dia, veículos disponíveis, faturamento e clientes ativos, além de listar as últimas reservas realizadas. Possui modal interativo para visualização de retiradas do dia e botão para simular o acesso do cliente. Todos os dados são carregados dinamicamente via fetch, garantindo atualização em tempo real, com logout seguro e tratamento de informações do funcionário.
+
+<img width="1305" height="601" alt="image" src="https://github.com/user-attachments/assets/e965537c-06e9-42f2-94b7-cdbc1aff8ebc" />
 
 
+## 6.6.2. Telas do Gerenciamento de Reservas
 
+Descrição do Gerenciamento de Reservas
+
+O Gerenciamento de Reservas permite criar, editar e excluir reservas com formulários completos, modais interativos e tabelas detalhadas. Todas as operações são sincronizadas com o backend via endpoints REST, com confirmações visuais e segurança na manipulação de dados.
+
+
+<img width="1300" height="602" alt="image" src="https://github.com/user-attachments/assets/5ba5d843-3e5a-476e-871b-25d5bde07116" />
 
 
 
