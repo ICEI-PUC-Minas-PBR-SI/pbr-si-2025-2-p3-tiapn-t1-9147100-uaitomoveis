@@ -30,6 +30,7 @@ O usuário vê dois vídeos de fundo, o logo da locadora, campos para preencher 
 
 <img width="1308" height="605" alt="image" src="https://github.com/user-attachments/assets/170665e7-5f19-4425-a220-627f30393043" />
 
+<img width="1294" height="603" alt="image" src="https://github.com/user-attachments/assets/bd198f6f-0c13-44a5-94ba-d458b56c0758" />
 
 
 ## 6.3. Telas do processo 2
