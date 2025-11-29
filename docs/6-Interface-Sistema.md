@@ -79,6 +79,8 @@ O usuário vê informações completas do aluguel selecionado, incluindo dados d
 
 <img width="1295" height="607" alt="image" src="https://github.com/user-attachments/assets/c037ace1-91fc-4f0e-89a6-35628884935e" />
 
+<img width="1299" height="602" alt="image" src="https://github.com/user-attachments/assets/ad2afba1-84ed-4024-85d1-d463efa97b1d" />
+
 <img width="1295" height="601" alt="image" src="https://github.com/user-attachments/assets/f77b9bb4-7c28-4319-af84-313ca2135c79" />
 
 <img width="1295" height="605" alt="image" src="https://github.com/user-attachments/assets/c57adf02-4a3b-405b-bc10-2165abd649f7" />
