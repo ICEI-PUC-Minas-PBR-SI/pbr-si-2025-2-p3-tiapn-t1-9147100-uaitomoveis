@@ -23,17 +23,17 @@ O projeto consiste no desenvolvimento de um sistema web para automação de proc
 
 ## Instruções de utilização
 
-## COMO EXECUTAR O PROJETO ##
+* COMO EXECUTAR O PROJETO 
 
-# Pré-Requisitos 
+ * Pré-Requisitos 
   
-certifique-se de ter instalado em sua máquina:
+*certifique-se de ter instalado em sua máquina:
 
 * A extensão do Java Script
 * o MySQL Server
 * Todos os arquivos de código imagem e vídeo que estão no Github
 
-# Passo a passo
+* Passo a passo
 
 * passo 1
 * importe o banco do GitHub
