@@ -23,7 +23,27 @@ O projeto consiste no desenvolvimento de um sistema web para automação de proc
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+## COMO EXECUTAR O PROJETO ##
+
+# Pré-Requisitos 
+  
+certifique-se de ter instalado em sua máquina:
+
+. A extensão do Java Script
+. o MySQL Server
+. Todos os arquivos de código imagem e vídeo que estão no Github
+
+# Passo a passo
+
+passo 1
+importe o banco do GitHub
+passo 2
+Altere as linhas 30 e 31 para suas informar sua credenciais de acesso ao banco de dados de sua maquina
+passo 3
+abra um terminal e inicie a conexão com o banco utilizando do código Node server.js
+passo 4
+ Acesse a aplicação no navegador através do endereço: http://localhost:3000.
+
 
 # Documentação
 
