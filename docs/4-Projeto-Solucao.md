@@ -68,6 +68,8 @@ A seguir são apresentados os protótipos de tela que representam as principais 
 
 O objetivo é garantir que os requisitos funcionais e não funcionais sejam atendidos, bem como as histórias de usuário relacionadas à plataforma de serviços de locação de veículos.  
 
+---
+
 #### Processo 1 – Login e Cadastro de Usuários
 
 As telas propostas contemplam a navegação do usuário desde a homepage até a tela de cadastro, caso ele ainda não possua login.
@@ -94,6 +96,7 @@ Tela destinada a novos usuários, que devem preencher informações obrigatória
 <img width="1294" height="603" alt="image" src="https://github.com/user-attachments/assets/bfc6693d-7ac2-4721-9ed1-c3fbec71ece1" />
 
 Após realizar o cadastro, o usuário deve aceitar os Termos de Uso e a Política de Privacidade, confirmando que está ciente das regras da plataforma, das condições de uso e de como seus dados serão tratados. Essa etapa garante segurança, transparência e conformidade legal antes de acessar os serviços do site.
+
 ---
 
 #### Processo 2 – Reserva de Veículos  
