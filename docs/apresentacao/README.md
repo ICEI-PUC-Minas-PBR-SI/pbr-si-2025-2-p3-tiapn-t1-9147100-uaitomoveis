@@ -3,7 +3,7 @@
 
 ## Documentação
 
-[Documentação Uaitomóveis](docs/apresentacao/TrabalhoInterdisciplinar_Uaitomoveis.pdf)
+[Documentação Uaitomóveis](TrabalhoInterdisciplinar_Uaitomoveis.pdf)
 
 ## Slides
 
