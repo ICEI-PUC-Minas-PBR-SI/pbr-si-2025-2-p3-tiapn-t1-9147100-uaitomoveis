@@ -60,6 +60,7 @@ Essa arquitetura modular permite expansão futura, como novos módulos de reserv
 
 A solução apresentada oferece equilíbrio entre simplicidade, robustez e escalabilidade — ideal tanto para fins acadêmicos quanto para aplicações reais.
 
+---
 
 ### 4.2. Protótipos de Telas
 
@@ -93,6 +94,7 @@ Tela destinada a novos usuários, que devem preencher informações obrigatória
 <img width="1294" height="603" alt="image" src="https://github.com/user-attachments/assets/bfc6693d-7ac2-4721-9ed1-c3fbec71ece1" />
 
 Após realizar o cadastro, o usuário deve aceitar os Termos de Uso e a Política de Privacidade, confirmando que está ciente das regras da plataforma, das condições de uso e de como seus dados serão tratados. Essa etapa garante segurança, transparência e conformidade legal antes de acessar os serviços do site.
+---
 
 #### Processo 2 – Reserva de Veículos  
 
@@ -137,6 +139,7 @@ No caso do PIX, será exibido um QR Code ou a chave PIX.
 
 Antes de concluir, o sistema exibe o resumo da reserva, contendo: veículo selecionado, datas de retirada e devolução, valor total e forma de pagamento escolhida.
 Após a confirmação, é gerado o comprovante digital da reserva.
+---
 
 #### Processo 3 – Minhas Reservas
 
@@ -173,6 +176,8 @@ Após o envio, o sistema exibe a confirmação da **avaliação concluída**.
 Na tela, ficam visíveis as **estrelas atribuídas**, o **comentário realizado** e as informações da reserva correspondente.  
 Dessa forma, o cliente tem a segurança de que seu feedback foi registrado com sucesso e poderá ser utilizado pela locadora para futuras melhorias no atendimento e no serviço prestado.
 
+---
+
 #### Processo 4 – Contato da Empresa  
 
 As telas apresentadas contemplam o fluxo de comunicação do cliente com a empresa, desde o acesso à seção de contato até a interação com o assistente virtual. O objetivo é oferecer um canal direto, dinâmico e eficiente para dúvidas, sugestões e solicitações.  
@@ -189,10 +194,12 @@ Nela, encontra informações sobre a Uaitomoveis, seus serviços, canais de comu
 Ao clicar no ícone, abre-se a janela do **assistente virtual**, onde o cliente pode esclarecer dúvidas, verificar unidades disponíveis, solicitar ajuda para reservas ou, se necessário, ser direcionado a um atendente humano.  
 O chatbot torna a comunicação mais ágil, fornecendo respostas instantâneas e orientações automáticas, enquanto organiza os contatos para otimizar o suporte prestado.  
 
+
 ##### Avaliação do site
 <img width="1302" height="608" alt="image" src="https://github.com/user-attachments/assets/d54654d4-6e49-4e4d-8e01-3add69270e5c" />
 
 A seção apresenta um sistema de avaliação onde o usuário pode dar uma nota em estrelas para o site da Uaitomóveis e, opcionalmente, deixar um comentário. Após escolher a quantidade de estrelas e escrever o feedback, basta clicar no botão “Enviar Avaliação” para registrar a opinião. É uma área simples e direta, voltada para coletar a satisfação dos visitantes.
+
 
 #### Diagrama de Classes
 
@@ -200,17 +207,23 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 <img width="1149" height="808" alt="diagrama_classes_uaitomoveis drawio" src="https://github.com/user-attachments/assets/faf15e79-f448-4c8c-9665-81d4c2958212" />
 
+---
+
 #### Modelo ER
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
 <img width="1004" height="1154" alt="diagrama_ER_do_BD_uaitomoveis" src="https://github.com/user-attachments/assets/c58ad60e-f8f5-48c9-8ff0-1fb1ef36a6f6" />
 
+---
+
 ### 4.3. Modelo de dados
 
 O desenvolvimento da solução proposta requer a existência de bases de dados que permitam efetuar os cadastros de dados e controles associados aos processos identificados, assim como recuperações.
 Utilizando a notação do DER (Diagrama Entidade e Relacionamento), elaborem um modelo, na ferramenta visual indicada na disciplina, que contemple todas as entidades e atributos associados às atividades dos processos identificados. Deve ser gerado um único DER que suporte todos os processos escolhidos, visando, assim, uma base de dados integrada. O modelo deve contemplar, também, o controle de acesso de usuários (partes interessadas dos processos) de acordo com os papéis definidos nos modelos do processo de negócio.
 _Apresente o modelo de dados por meio de um modelo relacional que contemple todos os conceitos e atributos apresentados na modelagem dos processos._
+
+---
 
 #### 4.3.1 Modelo ER
 
@@ -219,11 +232,15 @@ Cada retângulo corresponde a uma entidade (um conjunto de dados relevantes do s
 
 <img width="712" height="692" alt="uaitomoveisER drawio" src="https://github.com/user-attachments/assets/7db73e54-0801-4a90-86b1-e7274044b493" />
 
+---
+
 #### 4.3.2 Esquema Relacional
 
 O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
 
 <img width="1004" height="1154" alt="diagrama_ER_do_BD_uaitomoveis" src="https://github.com/user-attachments/assets/c58ad60e-f8f5-48c9-8ff0-1fb1ef36a6f6" />
+
+---
 
 #### 4.3.3 Modelo Físico
 
@@ -396,6 +413,8 @@ CREATE TABLE pagamento (
 </code>
 
 Este script deverá ser incluído em um arquivo .sql na pasta src\db.
+
+---
 
 ## 4.4. Tecnologias
 
