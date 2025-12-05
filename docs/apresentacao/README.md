@@ -3,7 +3,7 @@
 
 ## Slides
 
-Coloque aqui os slides da apresentação
+[Slide do Uaitomóveis.](docs/apresentacao/Slides.pdf)
 
 ## Vídeo
 
