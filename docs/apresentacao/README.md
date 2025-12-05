@@ -3,11 +3,11 @@
 
 ## Documentação
 
-<li><a href="docs/apresentacao/TrabalhoInterdisciplinar_Uaitomoveis.pdf"> Documentação Uaitomóveisdocs</a></li>
+* [Documentação Uaitomóveis](docs/apresentacao/TrabalhoInterdisciplinar_Uaitomoveis.pdf)
 
 ## Slides
 
-<li><a href="docs/apresentacao/Slides.pdf"> Slide Uaitomóveisdocs</a></li>
+* [Slide Uaitomóveis](docs/apresentacao/Slides.pdf)
 
 ## Vídeo
 
