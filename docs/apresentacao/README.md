@@ -7,7 +7,7 @@
 
 ## Slides
 
-[Slide Uaitomóveis](docs/apresentacao/Slides.pdf)
+[Slide Uaitomóveis](Slides.pdf)
 
 ## Vídeo
 
