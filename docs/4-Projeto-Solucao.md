@@ -142,6 +142,7 @@ No caso do PIX, será exibido um QR Code ou a chave PIX.
 
 Antes de concluir, o sistema exibe o resumo da reserva, contendo: veículo selecionado, datas de retirada e devolução, valor total e forma de pagamento escolhida.
 Após a confirmação, é gerado o comprovante digital da reserva.
+
 ---
 
 #### Processo 3 – Minhas Reservas
