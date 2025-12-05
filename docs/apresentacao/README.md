@@ -3,7 +3,8 @@
 
 ## Slides
 
-[Slide do Uaitomóveis.](docs/apresentacao/Slides.pdf)
+[Slide do Uaitomóveis.](pbr-si-2025-2-p3-tiapn-t1-9147100-uaitomoveis/docs/apresentacao
+/Slides.pdf)
 
 ## Vídeo
 
