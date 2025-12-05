@@ -211,8 +211,6 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 <img width="1149" height="808" alt="diagrama_classes_uaitomoveis drawio" src="https://github.com/user-attachments/assets/faf15e79-f448-4c8c-9665-81d4c2958212" />
 
----
-
 #### Modelo ER
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
@@ -442,7 +440,6 @@ Como ambiente de desenvolvimento, utilizou-se o **Visual Studio Code (VS Code)**
 | API Externa    | Wit.ai                             |
 | IDE            | Visual Studio Code                 |
 
----
 
 ### Figura – Fluxo de interação do usuário com o sistema
 
