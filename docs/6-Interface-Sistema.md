@@ -118,7 +118,7 @@ Experiência Moderna e Responsiva: Interface limpa, animada e adaptável a difer
 
 Integração Dinâmica: Toda a página se comunica com o backend via fetch, atualizando dados em tempo real e garantindo que os gestores tenham sempre informações atualizadas.
 
-Valor Adicional para o Projeto
+### Valor Adicional para o Projeto
 
 Este painel administrativo não é apenas funcional: ele eleva o projeto, transformando a aplicação em uma solução completa para gestão de locadora. Além de mostrar domínio técnico em front-end, back-end e integração com APIs, ele demonstra capacidade de criar interfaces intuitivas, analíticas e responsivas, aproximando a experiência do usuário corporativo de padrões profissionais de mercado.
 
@@ -162,7 +162,7 @@ Descrição da Página de Relatórios
 
 A Página de Relatórios é o núcleo analítico do sistema administrativo da Uaitomoveis, oferecendo uma visão completa e detalhada do desempenho da locadora. Ela foi projetada para transformar dados brutos em informações estratégicas, permitindo que os gestores tomem decisões rápidas e embasadas.
 
-Indicadores e Cards de Resumo
+### Indicadores e Cards de Resumo
 
 No topo da página, cards de resumo fornecem informações imediatas sobre o negócio, como:
 
@@ -178,7 +178,11 @@ Indicadores de qualidade do site, incluindo a média geral das avaliações, nú
 
 Esses cards são interativos, com animações suaves que destacam alterações e atualizações de dados, garantindo que o usuário perceba rapidamente mudanças importantes.
 
-Gráficos Analíticos
+### Alertas e Indicadores Globais
+
+A seção de alertas informa problemas ou situações críticas detectadas no sistema, como veículos atrasados, reservas em conflito ou quedas na qualidade do site. Se não houver alertas, a página comunica “Nenhum alerta global detectado”, mantendo a clareza e evitando poluição visual.
+
+### Gráficos Analíticos
 
 A página utiliza Chart.js para gerar gráficos interativos, oferecendo visualizações intuitivas e dinâmicas:
 
@@ -194,7 +198,9 @@ Top 5 Carros Mais Alugados (Bar Chart): Destaca os veículos mais populares, aux
 
 Todos os gráficos são interativos, com tooltips, zoom e cores intuitivas, oferecendo clareza visual e permitindo análises detalhadas sem sobrecarregar o usuário.
 
-Cards de Avaliações dos Veículos
+<img width="1293" height="605" alt="image" src="https://github.com/user-attachments/assets/9d38625c-a6ad-4976-97d3-dc9bc9e163db" />
+
+### Cards de Avaliações dos Veículos
 
 A página exibe cards destacados para avaliações da frota, incluindo:
 
@@ -206,23 +212,13 @@ Carro mais avaliado, evidenciando os veículos mais utilizados e comentados pelo
 
 Cada card possui um botão que abre comentários individuais do veículo, carregados dinamicamente via fetch para garantir que os dados estejam sempre atualizados. Os comentários apresentam scrollbars personalizadas e animações de entrada e saída, oferecendo uma experiência visual agradável.
 
-Alertas e Indicadores Globais
+<img width="1295" height="607" alt="image" src="https://github.com/user-attachments/assets/238b2401-7c27-4d97-bf14-517fcebb4721" />
 
-A seção de alertas informa problemas ou situações críticas detectadas no sistema, como veículos atrasados, reservas em conflito ou quedas na qualidade do site. Se não houver alertas, a página comunica “Nenhum alerta global detectado”, mantendo a clareza e evitando poluição visual.
-
-Tabela de Desempenho Mensal
+###Tabela de Desempenho Mensal
 
 A página apresenta uma tabela detalhada por mês, com indicadores essenciais:
 
-Mês
-
-Reservas realizadas
-
-Faturamento
-
-Taxa de ocupação da frota
-
-Média das notas de avaliação
+Mês, Reservas realizadas, Faturamento, Taxa de ocupação da frota, Média das notas de avaliação
 
 Essa tabela permite análises históricas rápidas e oferece fallbacks inteligentes caso algum endpoint do backend não retorne dados, garantindo consistência e confiabilidade.
 
