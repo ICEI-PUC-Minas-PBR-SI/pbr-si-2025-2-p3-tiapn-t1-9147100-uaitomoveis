@@ -153,9 +153,6 @@ O Gerenciamento de Veículos oferece controle completo da frota, com tabelas de 
 
 <img width="1290" height="603" alt="image" src="https://github.com/user-attachments/assets/93c431bb-cd1a-4061-a4bf-9abc43e6c841" />
 
-
-
-
 ## 6.6.4. Telas do Página de Relatórios
 
 Descrição da Página de Relatórios
@@ -212,9 +209,9 @@ Carro mais avaliado, evidenciando os veículos mais utilizados e comentados pelo
 
 Cada card possui um botão que abre comentários individuais do veículo, carregados dinamicamente via fetch para garantir que os dados estejam sempre atualizados. Os comentários apresentam scrollbars personalizadas e animações de entrada e saída, oferecendo uma experiência visual agradável.
 
-<img width="1295" height="607" alt="image" src="https://github.com/user-attachments/assets/238b2401-7c27-4d97-bf14-517fcebb4721" />
+<img width="1286" height="602" alt="image" src="https://github.com/user-attachments/assets/0f16c12f-1160-40bb-8dc0-a4d5fa5cb10c" />
 
-###Tabela de Desempenho Mensal
+### Tabela de Desempenho Mensal
 
 A página apresenta uma tabela detalhada por mês, com indicadores essenciais:
 
@@ -222,7 +219,9 @@ Mês, Reservas realizadas, Faturamento, Taxa de ocupação da frota, Média das 
 
 Essa tabela permite análises históricas rápidas e oferece fallbacks inteligentes caso algum endpoint do backend não retorne dados, garantindo consistência e confiabilidade.
 
-Funcionalidades Dinâmicas em JavaScript
+<img width="1295" height="607" alt="image" src="https://github.com/user-attachments/assets/238b2401-7c27-4d97-bf14-517fcebb4721" />
+
+## Funcionalidades Dinâmicas em JavaScript
 
 A página é totalmente dinâmica e interativa:
 
@@ -238,7 +237,7 @@ carregarRelatorios(): Função central que atualiza todos os cards, gráficos, a
 
 Além disso, existem helpers de formatação de datas e meses, ordenação de dados e fallbacks para diferentes formatos de resposta do backend, garantindo robustez e confiabilidade.
 
-Experiência do Usuário (UX)
+## Experiência do Usuário (UX)
 
 A interface da Página de Relatórios foi projetada para ser intuitiva, moderna e responsiva:
 
@@ -250,7 +249,7 @@ Sidebar e cards adaptáveis permitem uso eficiente em diferentes tamanhos de tel
 
 Uso de cores e ícones estratégicos para facilitar identificação de alertas, status e tendências.
 
-Valor Estratégico
+## Valor Estratégico
 
 Essa página transforma dados brutos em informações estratégicas, permitindo aos gestores da Uaitomoveis:
 
@@ -263,16 +262,6 @@ Planejar decisões de manutenção, marketing e aquisição com base em dados co
 Acompanhar tendências de satisfação dos clientes e ajustar serviços conforme necessário.
 
 Em resumo, a Página de Relatórios é o painel de inteligência do sistema, fornecendo análises detalhadas, interatividade e visualização clara, tornando a gestão da locadora mais eficiente e profissional.
-
-<img width="1293" height="605" alt="image" src="https://github.com/user-attachments/assets/9d38625c-a6ad-4976-97d3-dc9bc9e163db" />
-
-
-
-<img width="1286" height="602" alt="image" src="https://github.com/user-attachments/assets/0f16c12f-1160-40bb-8dc0-a4d5fa5cb10c" />
-
-
-<img width="1295" height="607" alt="image" src="https://github.com/user-attachments/assets/238b2401-7c27-4d97-bf14-517fcebb4721" />
-
 
 
 
