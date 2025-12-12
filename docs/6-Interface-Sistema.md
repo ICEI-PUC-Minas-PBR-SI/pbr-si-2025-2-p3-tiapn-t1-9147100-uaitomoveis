@@ -12,7 +12,6 @@ O usuário vê o menu superior, o vídeo de fundo com título e botão, os veíc
 <img width="1296" height="607" alt="image" src="https://github.com/user-attachments/assets/fa3a3831-efc7-470d-bb7c-8cdf082cecc4" />
 
 
-
 ## 6.2. Telas do processo 1
 
 Descrição do sistema — Página Login
@@ -122,8 +121,6 @@ Integração Dinâmica: Toda a página se comunica com o backend via fetch, atua
 
 Este painel administrativo não é apenas funcional: ele eleva o projeto, transformando a aplicação em uma solução completa para gestão de locadora. Além de mostrar domínio técnico em front-end, back-end e integração com APIs, ele demonstra capacidade de criar interfaces intuitivas, analíticas e responsivas, aproximando a experiência do usuário corporativo de padrões profissionais de mercado.
 
-
-
 ## 6.6.1. Telas do Dashboard Administrativo
 
 Descrição do Dashboard Administrativo
@@ -150,7 +147,53 @@ O Gerenciamento de Reservas permite criar, editar e excluir reservas com formul�
 
 <img width="1287" height="607" alt="image" src="https://github.com/user-attachments/assets/15687b28-b48a-49ab-b707-db84257b6fe7" />
 
-## 6.6.4. Telas do Página de Relatórios
+## 6.6.4. Tela de Lista Negra
+
+Esta tela permite o cadastro de um incidente e a inclusão de um cliente na lista restrita.
+
+Busca e Identificação: O cliente é localizado via CPF/CNPJ** ou Nome. Os dados básicos (Nome, Email, CNH, Telefone, etc.) são exibidos para confirmação.
+Classificação do Incidente: É obrigatório selecionar o Nível de Gravidade e Consequência** (ex.: LEVE, MÉDIO, GRAVE).
+Detalhes do Ocorrido:** Campo de texto para a descrição exata do motivo da restrição e eventuais evidências.
+Ação: O botão "Confirmar Inclusão" efetiva o registro e insere o cliente na Lista Negra.
+
+<img width="1299" height="604" alt="image" src="https://github.com/user-attachments/assets/66a2e73f-7d06-4539-aedd-8f0d4d644823" />
+
+A lista centraliza o histórico de restrições para consulta e ação gerencial.
+
+  Cliente / CPF/CNPJ: Identificação do indivíduo.
+  Gravidade: Nível de seriedade do incidente.
+  Motivo: Resumo da ocorrência.
+  Data: Data do registro da restrição.
+  Status: Indica a situação atual: ATIVO (restrição vigente) ou RESOLVIDO (pendência sanada).
+  Ações: Botão "Reabilitar" para alterar o Status de ATIVO para RESOLVIDO, permitindo novas locações.
+
+> Observação: O campo Status permite o controle de clientes que regularizaram sua situação, não bloqueando-os permanentemente após a resolução do problema.
+
+<img width="1289" height="606" alt="image" src="https://github.com/user-attachments/assets/280041e5-2eff-404b-b5b2-c7fc8455e5a3" />
+
+## 6.6.5. Tela de Monitoramento de veículos
+
+### Indicadores de Status (Dashboard Superior)
+No topo da tela, um painel de resumo apresenta os números consolidados da frota monitorada:
+
+* **Veículos Monitorados:** Contagem total da frota equipada com sistema de rastreamento.
+* **Em Trânsito:** Quantidade de veículos atualmente em deslocamento ou atividade.
+* **Bloqueados:** Número de veículos que se encontram com bloqueio remoto ativado (geralmente por motivos de segurança ou inadimplência).
+* **Conexão:** Indicador "Satélite Online" que confirma o funcionamento ativo da rede de comunicação com os rastreadores.
+
+### Mapa Interativo e Cobertura
+A área principal exibe um mapa dinâmico para visualização da distribuição da frota.
+
+Visualização Geográfica: O mapa abrange todo o território nacional e países vizinhos, conforme indicado no rodapé ("Monitoramento cobrindo Brasil e países vizinhos").
+Marcadores de Veículos:
+    Ícones Azuis: Indicam veículos com ignição ligada ou em movimento recente.
+    Ícones Cinzas: Indicam veículos parados, desligados ou em status de espera.
+Controles de Navegação: Ferramentas de zoom (+/-) permitem aproximar a visão para localizar um veículo em uma rua específica ou afastar para ver a dispersão da frota pelo país.
+
+
+<img width="1296" height="604" alt="image" src="https://github.com/user-attachments/assets/3e142e30-c3e8-4b6f-a766-143925589496" />
+
+## 6.6.6. Telas do Página de Relatórios
 
 Descrição da Página de Relatórios
 
@@ -260,7 +303,6 @@ Acompanhar tendências de satisfação dos clientes e ajustar serviços conforme
 
 Em resumo, a Página de Relatórios é o painel de inteligência do sistema, fornecendo análises detalhadas, interatividade e visualização clara, tornando a gestão da locadora mais eficiente e profissional.
 
-## 6.6.4. Tela de Lista Negra
 
 
 
