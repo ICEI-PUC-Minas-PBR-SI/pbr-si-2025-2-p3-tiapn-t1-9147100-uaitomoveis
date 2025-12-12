@@ -139,7 +139,8 @@ Descrição do Gerenciamento de Veículos
 O Gerenciamento de Veículos oferece controle completo da frota, com tabelas de veículos, modais de adição/edição e exclusão, preenchimento automático de formulários e controle de permissões por cargo. A interface é moderna, limpa e responsiva, com animações suaves e inputs estilizados.
 
 
-<img width="1290" height="603" alt="image" src="https://github.com/user-attachments/assets/93c431bb-cd1a-4061-a4bf-9abc43e6c841" />
+<img width="1300" height="602" alt="image" src="https://github.com/user-attachments/assets/b938e968-4b57-485f-96cb-0bd9ca2d5eb5" />
+
 
 ## 6.6.3. Telas do Gerenciamento de Reservas
 
