@@ -127,7 +127,7 @@ Descrição do Dashboard Administrativo
 
 O Dashboard Administrativo apresenta cards de resumo com reservas do dia, veículos disponíveis, faturamento e clientes ativos, além de listar as últimas reservas realizadas. Possui modal interativo para visualização de retiradas do dia e botão para simular o acesso do cliente. Todos os dados são carregados dinamicamente via fetch, garantindo atualização em tempo real, com logout seguro e tratamento de informações do funcionário.
 
-<img width="1305" height="601" alt="image" src="https://github.com/user-attachments/assets/e965537c-06e9-42f2-94b7-cdbc1aff8ebc" />
+<img width="1307" height="607" alt="image" src="https://github.com/user-attachments/assets/7e2b25a2-34ce-41e5-a756-58183d218410" />
 
 ## 6.6.2. Telas do Gerenciamento de Veículos
 
@@ -135,9 +135,7 @@ Descrição do Gerenciamento de Veículos
 
 O Gerenciamento de Veículos oferece controle completo da frota, com tabelas de veículos, modais de adição/edição e exclusão, preenchimento automático de formulários e controle de permissões por cargo. A interface é moderna, limpa e responsiva, com animações suaves e inputs estilizados.
 
-
-<img width="1300" height="602" alt="image" src="https://github.com/user-attachments/assets/b938e968-4b57-485f-96cb-0bd9ca2d5eb5" />
-
+<img width="1294" height="609" alt="image" src="https://github.com/user-attachments/assets/0c6d8741-2951-4dc9-aa23-8db9e4a0d439" />
 
 ## 6.6.3. Telas do Gerenciamento de Reservas
 
@@ -151,9 +149,9 @@ O Gerenciamento de Reservas permite criar, editar e excluir reservas com formul�
 
 Esta tela permite o cadastro de um incidente e a inclusão de um cliente na lista restrita.
 
-Busca e Identificação: O cliente é localizado via CPF/CNPJ** ou Nome. Os dados básicos (Nome, Email, CNH, Telefone, etc.) são exibidos para confirmação.
-Classificação do Incidente: É obrigatório selecionar o Nível de Gravidade e Consequência** (ex.: LEVE, MÉDIO, GRAVE).
-Detalhes do Ocorrido:** Campo de texto para a descrição exata do motivo da restrição e eventuais evidências.
+Busca e Identificação: O cliente é localizado via CPF/CNPJ ou Nome. Os dados básicos (Nome, Email, CNH, Telefone, etc.) são exibidos para confirmação.
+Classificação do Incidente: É obrigatório selecionar o Nível de Gravidade e Consequência (ex.: LEVE, MÉDIO, GRAVE).
+Detalhes do Ocorrido: Campo de texto para a descrição exata do motivo da restrição e eventuais evidências.
 Ação: O botão "Confirmar Inclusão" efetiva o registro e insere o cliente na Lista Negra.
 
 <img width="1299" height="604" alt="image" src="https://github.com/user-attachments/assets/66a2e73f-7d06-4539-aedd-8f0d4d644823" />
@@ -176,10 +174,10 @@ A lista centraliza o histórico de restrições para consulta e ação gerencial
 ### Indicadores de Status (Dashboard Superior)
 No topo da tela, um painel de resumo apresenta os números consolidados da frota monitorada:
 
-* **Veículos Monitorados:** Contagem total da frota equipada com sistema de rastreamento.
-* **Em Trânsito:** Quantidade de veículos atualmente em deslocamento ou atividade.
-* **Bloqueados:** Número de veículos que se encontram com bloqueio remoto ativado (geralmente por motivos de segurança ou inadimplência).
-* **Conexão:** Indicador "Satélite Online" que confirma o funcionamento ativo da rede de comunicação com os rastreadores.
+Veículos Monitorados: Contagem total da frota equipada com sistema de rastreamento.
+Em Trânsito: Quantidade de veículos atualmente em deslocamento ou atividade.
+Bloqueados: Número de veículos que se encontram com bloqueio remoto ativado (geralmente por motivos de segurança ou inadimplência).
+Conexão: Indicador "Satélite Online" que confirma o funcionamento ativo da rede de comunicação com os rastreadores.
 
 ### Mapa Interativo e Cobertura
 A área principal exibe um mapa dinâmico para visualização da distribuição da frota.
@@ -235,21 +233,7 @@ Top 5 Carros Mais Alugados (Bar Chart): Destaca os veículos mais populares, aux
 
 Todos os gráficos são interativos, com tooltips, zoom e cores intuitivas, oferecendo clareza visual e permitindo análises detalhadas sem sobrecarregar o usuário.
 
-<img width="1293" height="605" alt="image" src="https://github.com/user-attachments/assets/9d38625c-a6ad-4976-97d3-dc9bc9e163db" />
-
-### Cards de Avaliações dos Veículos
-
-A página exibe cards destacados para avaliações da frota, incluindo:
-
-Carro com melhor média, sinalizando veículos que agradam mais aos clientes.
-
-Carro com pior média, permitindo identificar problemas ou veículos que precisam de manutenção ou reposicionamento.
-
-Carro mais avaliado, evidenciando os veículos mais utilizados e comentados pelos clientes.
-
-Cada card possui um botão que abre comentários individuais do veículo, carregados dinamicamente via fetch para garantir que os dados estejam sempre atualizados. Os comentários apresentam scrollbars personalizadas e animações de entrada e saída, oferecendo uma experiência visual agradável.
-
-<img width="1286" height="602" alt="image" src="https://github.com/user-attachments/assets/0f16c12f-1160-40bb-8dc0-a4d5fa5cb10c" />
+<img width="1297" height="606" alt="image" src="https://github.com/user-attachments/assets/78cba0fd-3186-417b-a768-6bb8360cac77" />
 
 ### Tabela de Desempenho Mensal
 
@@ -259,7 +243,8 @@ Mês, Reservas realizadas, Faturamento, Taxa de ocupação da frota, Média das 
 
 Essa tabela permite análises históricas rápidas e oferece fallbacks inteligentes caso algum endpoint do backend não retorne dados, garantindo consistência e confiabilidade.
 
-<img width="1295" height="607" alt="image" src="https://github.com/user-attachments/assets/238b2401-7c27-4d97-bf14-517fcebb4721" />
+<img width="1297" height="606" alt="image" src="https://github.com/user-attachments/assets/9b53dfb6-c56d-4149-a238-34953343fbcd" />
+
 
 ## Funcionalidades Dinâmicas em JavaScript
 
