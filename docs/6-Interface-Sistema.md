@@ -132,19 +132,7 @@ O Dashboard Administrativo apresenta cards de resumo com reservas do dia, veícu
 
 <img width="1305" height="601" alt="image" src="https://github.com/user-attachments/assets/e965537c-06e9-42f2-94b7-cdbc1aff8ebc" />
 
-
-## 6.6.2. Telas do Gerenciamento de Reservas
-
-Descrição do Gerenciamento de Reservas
-
-O Gerenciamento de Reservas permite criar, editar e excluir reservas com formulários completos, modais interativos e tabelas detalhadas. Todas as operações são sincronizadas com o backend via endpoints REST, com confirmações visuais e segurança na manipulação de dados.
-
-
-<img width="1300" height="602" alt="image" src="https://github.com/user-attachments/assets/5ba5d843-3e5a-476e-871b-25d5bde07116" />
-
-
-
-## 6.6.3. Telas do Gerenciamento de Veículos
+## 6.6.2. Telas do Gerenciamento de Veículos
 
 Descrição do Gerenciamento de Veículos
 
@@ -152,6 +140,14 @@ O Gerenciamento de Veículos oferece controle completo da frota, com tabelas de 
 
 
 <img width="1290" height="603" alt="image" src="https://github.com/user-attachments/assets/93c431bb-cd1a-4061-a4bf-9abc43e6c841" />
+
+## 6.6.3. Telas do Gerenciamento de Reservas
+
+Descrição do Gerenciamento de Reservas
+
+O Gerenciamento de Reservas permite criar, editar e excluir reservas com formulários completos, modais interativos e tabelas detalhadas. Todas as operações são sincronizadas com o backend via endpoints REST, com confirmações visuais e segurança na manipulação de dados.
+
+<img width="1287" height="607" alt="image" src="https://github.com/user-attachments/assets/15687b28-b48a-49ab-b707-db84257b6fe7" />
 
 ## 6.6.4. Telas do Página de Relatórios
 
@@ -263,6 +259,7 @@ Acompanhar tendências de satisfação dos clientes e ajustar serviços conforme
 
 Em resumo, a Página de Relatórios é o painel de inteligência do sistema, fornecendo análises detalhadas, interatividade e visualização clara, tornando a gestão da locadora mais eficiente e profissional.
 
+## 6.6.4. Tela de Lista Negra
 
 
 
